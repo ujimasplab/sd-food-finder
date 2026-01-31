@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>San Diego Food Distribution Finder - Advanced</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: #f5f7fa;
+            color: #333;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 1.5rem 1rem;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .header h1 {
+            font-size: 1.75rem;
+            margin-bottom: 0.3rem;
+        }
+
+        .header p {
+            font-size: 1rem;
+            opacity: 0.9;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+
+        .view-toggle {
+            display: flex;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+            background: white;
+            padding: 0.75rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .view-toggle button {
+            flex: 1;
+            padding: 0.75rem;
+            border: 2px solid #667eea;
+            background: white;
+            color: #667eea;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .view-toggle button.active {
+            background: #667eea;
+            color: white;
+        }
+
+        .filters {
+            background: white;
+            padding: 1.25rem;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            margin-bottom: 1rem;
+        }
+
+        .filters h2 {
+            margin-bottom: 1rem;
+            color: #667eea;
+            font-size: 1.2rem;
+        }
+
+        .filter-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        @media (max-width: 768px) {
+            .filter-row {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .filter-group {
+            margin-bottom: 1rem;
+        }
+
+        .filter-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+            color: #555;
+            font-size: 0.9rem;
+        }
+
+        .day-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.4rem;
+        }
+
+        .day-btn {
+            padding: 0.6rem 1rem;
+            border: 2px solid #667eea;
+            background: white;
+            color: #667eea;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            font-size: 0.85rem;
+        }
+
+        .day-btn:hover {
+            background: #f0f4ff;
+        }
+
+        .day-btn.active {
+            background: #667eea;
+            color: white;
+        }
+
+        .search-box {
+            width: 100%;
+            padding: 0.75rem;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 0.95rem;
+            transition: border-color 0.3s ease;
+        }
+
+        .search-box:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        .quick-filters {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+
+        .quick-filter-btn {
+            padding: 0.5rem 1rem;
+            background: #f0f4ff;
+            color: #667eea;
+            border: 1px solid #667eea;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.85rem;
+            transition: all 0.3s ease;
+        }
+
+        .quick-filter-btn:hover {
+            background: #667eea;
+            color: white;
+        }
+
+        .results-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+            padding: 0.75rem;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .results-count {
+            font-size: 1rem;
+            color: #666;
+            font-weight: 600;
+        }
+
+        .controls {
+            display: flex;
+            gap: 0.5rem;
+            align-items: center;
+        }
+
+        .sort-select {
+            padding: 0.5rem;
+            border: 2px solid #e0e0e0;
+            border-radius: 6px;
+            font-size: 0.85rem;
+        }
+
+        .export-btn {
+            padding: 0.5rem 1rem;
+            background: #667eea;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+
+        .export-btn:hover {
+            background: #5568d3;
+        }
+
+        #mapView {
+            display: none;
+            height: 600px;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        #listView {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 1rem;
+        }
+
+        .location-card {
+            background: white;
+            border-radius: 10px;
+            padding: 1.25rem;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            position: relative;
+        }
+
+        .location-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+
+        .location-name {
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: #333;
+            margin-bottom: 0.75rem;
+            padding-right: 2rem;
+        }
+
+        .open-now-badge {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            background: #10b981;
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            font-size: 0.7rem;
+            font-weight: 700;
+        }
+
+        .location-detail {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 0.5rem;
+            font-size: 0.9rem;
+        }
+
+        .location-detail-icon {
+            margin-right: 0.5rem;
+            color: #667eea;
+            font-weight: bold;
+            min-width: 18px;
+        }
+
+        .location-days {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.3rem;
+            margin-top: 0.75rem;
+            padding-top: 0.75rem;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .day-badge {
+            padding: 0.25rem 0.5rem;
+            background: #e8f0fe;
+            color: #1967d2;
+            border-radius: 4px;
+            font-size: 0.7rem;
+            font-weight: 600;
+        }
+
+        .day-badge.active-day {
+            background: #667eea;
+            color: white;
+        }
+
+        .no-results {
+            grid-column: 1 / -1;
+            text-align: center;
+            padding: 3rem;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .no-results h3 {
+            color: #666;
+            margin-bottom: 0.5rem;
+        }
+
+        .reset-btn {
+            margin-top: 1rem;
+            padding: 0.75rem 1.5rem;
+            background: #667eea;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 600;
+        }
+
+        .reset-btn:hover {
+            background: #5568d3;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 2rem 1rem;
+            color: #666;
+            font-size: 0.85rem;
+        }
+
+        .footer a {
+            color: #667eea;
+            text-decoration: none;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 3rem;
+            font-size: 1.1rem;
+            color: #666;
+        }
+
+        .leaflet-popup-content {
+            font-size: 0.9rem;
+        }
+
+        .popup-name {
+            font-weight: 700;
+            font-size: 1rem;
+            margin-bottom: 0.5rem;
+            color: #667eea;
+        }
+
+        .popup-detail {
+            margin-bottom: 0.25rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🍎 San Diego Food Distribution Finder</h1>
+        <p>Find free food distributions near you, filter by day and location</p>
+    </div>
+
+    <div class="container">
+        <div class="view-toggle">
+            <button id="listViewBtn" class="active">📋 List View</button>
+            <button id="mapViewBtn">🗺️ Map View</button>
+        </div>
+
+        <div class="filters">
+            <h2>📅 Filter by Day & Location</h2>
+            
+            <div class="filter-group">
+                <label>Quick Filters:</label>
+                <div class="quick-filters">
+                    <button class="quick-filter-btn" onclick="selectWeekdays()">Weekdays Only</button>
+                    <button class="quick-filter-btn" onclick="selectWeekends()">Weekends Only</button>
+                    <button class="quick-filter-btn" onclick="selectToday()">Open Today</button>
+                    <button class="quick-filter-btn" onclick="resetFilters()">Clear All</button>
+                </div>
+            </div>
+
+            <div class="filter-group">
+                <label>Select Specific Day(s):</label>
+                <div class="day-buttons" id="dayButtons">
+                    <button class="day-btn" data-day="monday">Mon</button>
+                    <button class="day-btn" data-day="tuesday">Tue</button>
+                    <button class="day-btn" data-day="wednesday">Wed</button>
+                    <button class="day-btn" data-day="thursday">Thu</button>
+                    <button class="day-btn" data-day="friday">Fri</button>
+                    <button class="day-btn" data-day="saturday">Sat</button>
+                    <button class="day-btn" data-day="sunday">Sun</button>
+                </div>
+            </div>
+
+            <div class="filter-row">
+                <div class="filter-group">
+                    <label>Search by Name or Location:</label>
+                    <input type="text" class="search-box" id="searchBox" placeholder="Enter name, address, or zip code...">
+                </div>
+            </div>
+        </div>
+
+        <div class="results-header">
+            <div class="results-count" id="resultsCount">Loading locations...</div>
+            <div class="controls">
+                <select class="sort-select" id="sortSelect">
+                    <option value="name">Sort by Name</option>
+                    <option value="location">Sort by Location</option>
+                </select>
+                <button class="export-btn" onclick="exportToCSV()">Export CSV</button>
+            </div>
+        </div>
+
+        <div id="listView">
+            <div class="loading">Loading food distribution locations...</div>
+        </div>
+
+        <div id="mapView"></div>
+    </div>
+
+    <div class="footer">
+        <p>Community resource page for finding food assistance in San Diego County</p>
+        <p>Data from Feeding San Diego | For official information, visit <a href="https://feedingsandiego.org" target="_blank">feedingsandiego.org</a></p>
+        <p style="margin-top: 1rem; font-size: 0.8rem;">Last updated: <span id="lastUpdated">-</span></p>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script>
+        let locations = [];
+        let selectedDays = new Set();
+        let searchQuery = '';
+        let map = null;
+        let markers = [];
+        let currentView = 'list';
+
+        const dayNames = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday'];
+        const today = dayNames[new Date().getDay()];
+
+        async function loadLocations() {
+            try {
+                const response = await fetch('feeding_sd_locations.json');
+                if (response.ok) {
+                    const data = await response.json();
+                    if (data && data.length > 0) {
+                        locations = data;
+                        document.getElementById('lastUpdated').textContent = new Date().toLocaleDateString();
+                    }
+                }
+            } catch (error) {
+                console.log('Could not load locations.json, using sample data');
+                // Sample data for demo
+                locations = generateSampleData();
+            }
+            renderLocations();
+        }
+
+        function generateSampleData() {
+            return [
+                {
+                    name: "North County Food Distribution",
+                    location: "Vista, CA 92084",
+                    schedule: "Monday, Wednesday, Friday 9:00 AM - 12:00 PM",
+                    type: "Weekly Distribution",
+                    eligibility: "Open to all residents",
+                    monday: true, wednesday: true, friday: true,
+                    lat: 33.2000, lng: -117.2425
+                },
+                {
+                    name: "Central San Diego Food Pantry",
+                    location: "San Diego, CA 92101",
+                    schedule: "Tuesday, Thursday 2:00 PM - 5:00 PM",
+                    type: "Food Pantry",
+                    eligibility: "Income-based eligibility",
+                    tuesday: true, thursday: true,
+                    lat: 32.7157, lng: -117.1611
+                },
+                {
+                    name: "South Bay Weekend Distribution",
+                    location: "Chula Vista, CA 91910",
+                    schedule: "Saturday 10:00 AM - 1:00 PM",
+                    type: "Weekend Distribution",
+                    eligibility: "Families with children priority",
+                    saturday: true,
+                    lat: 32.6401, lng: -117.0842
+                },
+                {
+                    name: "East County Community Center",
+                    location: "El Cajon, CA 92020",
+                    schedule: "Monday-Friday 8:00 AM - 3:00 PM",
+                    type: "Daily Distribution",
+                    eligibility: "Open to all",
+                    monday: true, tuesday: true, wednesday: true, thursday: true, friday: true,
+                    lat: 32.7948, lng: -116.9625
+                }
+            ];
+        }
+
+        function renderLocations() {
+            const filteredLocations = filterLocations();
+            
+            document.getElementById('resultsCount').textContent = 
+                `Showing ${filteredLocations.length} location${filteredLocations.length !== 1 ? 's' : ''}`;
+
+            if (currentView === 'list') {
+                renderListView(filteredLocations);
+            } else {
+                renderMapView(filteredLocations);
+            }
+        }
+
+        function renderListView(filteredLocations) {
+            const grid = document.getElementById('listView');
+
+            if (filteredLocations.length === 0) {
+                grid.innerHTML = `
+                    <div class="no-results">
+                        <h3>No locations found</h3>
+                        <p>Try adjusting your filters or search terms</p>
+                        <button class="reset-btn" onclick="resetFilters()">Reset Filters</button>
+                    </div>
+                `;
+                return;
+            }
+
+            grid.innerHTML = filteredLocations.map(loc => {
+                const isOpenToday = loc[today];
+                return `
+                    <div class="location-card">
+                        ${isOpenToday ? '<div class="open-now-badge">OPEN TODAY</div>' : ''}
+                        <div class="location-name">${loc.name || 'Unknown Location'}</div>
+                        
+                        ${loc.location ? `
+                            <div class="location-detail">
+                                <span class="location-detail-icon">📍</span>
+                                <span>${loc.location}</span>
+                            </div>
+                        ` : ''}
+                        
+                        ${loc.schedule ? `
+                            <div class="location-detail">
+                                <span class="location-detail-icon">🕒</span>
+                                <span>${loc.schedule}</span>
+                            </div>
+                        ` : ''}
+                        
+                        ${loc.type ? `
+                            <div class="location-detail">
+                                <span class="location-detail-icon">🏪</span>
+                                <span>${loc.type}</span>
+                            </div>
+                        ` : ''}
+                        
+                        ${loc.eligibility ? `
+                            <div class="location-detail">
+                                <span class="location-detail-icon">ℹ️</span>
+                                <span>${loc.eligibility}</span>
+                            </div>
+                        ` : ''}
+                        
+                        ${loc.phone ? `
+                            <div class="location-detail">
+                                <span class="location-detail-icon">📞</span>
+                                <span>${loc.phone}</span>
+                            </div>
+                        ` : ''}
+                        
+                        <div class="location-days">
+                            ${dayNames.map(day => {
+                                if (loc[day]) {
+                                    const isSelected = selectedDays.has(day);
+                                    return `<span class="day-badge ${isSelected ? 'active-day' : ''}">${day.slice(0, 3).toUpperCase()}</span>`;
+                                }
+                                return '';
+                            }).join('')}
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function renderMapView(filteredLocations) {
+            if (!map) {
+                map = L.map('mapView').setView([32.7157, -117.1611], 10);
+                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                    attribution: '© OpenStreetMap contributors'
+                }).addTo(map);
+            }
+
+            // Clear existing markers
+            markers.forEach(marker => map.removeLayer(marker));
+            markers = [];
+
+            // Add new markers
+            filteredLocations.forEach(loc => {
+                if (loc.lat && loc.lng) {
+                    const marker = L.marker([loc.lat, loc.lng]).addTo(map);
+                    
+                    const popupContent = `
+                        <div class="popup-name">${loc.name}</div>
+                        ${loc.location ? `<div class="popup-detail">📍 ${loc.location}</div>` : ''}
+                        ${loc.schedule ? `<div class="popup-detail">🕒 ${loc.schedule}</div>` : ''}
+                        ${loc.type ? `<div class="popup-detail">🏪 ${loc.type}</div>` : ''}
+                    `;
+                    
+                    marker.bindPopup(popupContent);
+                    markers.push(marker);
+                }
+            });
+
+            // Fit bounds to show all markers
+            if (markers.length > 0) {
+                const group = L.featureGroup(markers);
+                map.fitBounds(group.getBounds().pad(0.1));
+            }
+        }
+
+        function filterLocations() {
+            return locations.filter(loc => {
+                if (selectedDays.size > 0) {
+                    const hasSelectedDay = Array.from(selectedDays).some(day => loc[day]);
+                    if (!hasSelectedDay) return false;
+                }
+
+                if (searchQuery) {
+                    const searchLower = searchQuery.toLowerCase();
+                    const matchesSearch = 
+                        (loc.name && loc.name.toLowerCase().includes(searchLower)) ||
+                        (loc.location && loc.location.toLowerCase().includes(searchLower)) ||
+                        (loc.address && loc.address.toLowerCase().includes(searchLower)) ||
+                        (loc.zip && loc.zip.includes(searchQuery));
+                    if (!matchesSearch) return false;
+                }
+
+                return true;
+            });
+        }
+
+        function resetFilters() {
+            selectedDays.clear();
+            searchQuery = '';
+            document.getElementById('searchBox').value = '';
+            document.querySelectorAll('.day-btn').forEach(btn => btn.classList.remove('active'));
+            renderLocations();
+        }
+
+        function selectWeekdays() {
+            resetFilters();
+            ['monday', 'tuesday', 'wednesday', 'thursday', 'friday'].forEach(day => {
+                selectedDays.add(day);
+                document.querySelector(`[data-day="${day}"]`).classList.add('active');
+            });
+            renderLocations();
+        }
+
+        function selectWeekends() {
+            resetFilters();
+            ['saturday', 'sunday'].forEach(day => {
+                selectedDays.add(day);
+                document.querySelector(`[data-day="${day}"]`).classList.add('active');
+            });
+            renderLocations();
+        }
+
+        function selectToday() {
+            resetFilters();
+            selectedDays.add(today);
+            document.querySelector(`[data-day="${today}"]`).classList.add('active');
+            renderLocations();
+        }
+
+        function sortLocations(sortBy) {
+            locations.sort((a, b) => {
+                const aVal = a[sortBy] || '';
+                const bVal = b[sortBy] || '';
+                return aVal.localeCompare(bVal);
+            });
+            renderLocations();
+        }
+
+        function exportToCSV() {
+            const filteredLocations = filterLocations();
+            const headers = ['Name', 'Location', 'Schedule', 'Type', 'Eligibility', 'Phone', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
+            
+            const csvContent = [
+                headers.join(','),
+                ...filteredLocations.map(loc => [
+                    `"${loc.name || ''}"`,
+                    `"${loc.location || ''}"`,
+                    `"${loc.schedule || ''}"`,
+                    `"${loc.type || ''}"`,
+                    `"${loc.eligibility || ''}"`,
+                    `"${loc.phone || ''}"`,
+                    loc.monday ? 'Y' : 'N',
+                    loc.tuesday ? 'Y' : 'N',
+                    loc.wednesday ? 'Y' : 'N',
+                    loc.thursday ? 'Y' : 'N',
+                    loc.friday ? 'Y' : 'N',
+                    loc.saturday ? 'Y' : 'N',
+                    loc.sunday ? 'Y' : 'N'
+                ].join(','))
+            ].join('\n');
+
+            const blob = new Blob([csvContent], { type: 'text/csv' });
+            const url = window.URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `food_distributions_${new Date().toISOString().split('T')[0]}.csv`;
+            a.click();
+        }
+
+        // Event listeners
+        document.querySelectorAll('.day-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                const day = this.dataset.day;
+                
+                if (selectedDays.has(day)) {
+                    selectedDays.delete(day);
+                    this.classList.remove('active');
+                } else {
+                    selectedDays.add(day);
+                    this.classList.add('active');
+                }
+                
+                renderLocations();
+            });
+        });
+
+        document.getElementById('searchBox').addEventListener('input', function(e) {
+            searchQuery = e.target.value;
+            renderLocations();
+        });
+
+        document.getElementById('sortSelect').addEventListener('change', function(e) {
+            sortLocations(e.target.value);
+        });
+
+        document.getElementById('listViewBtn').addEventListener('click', function() {
+            currentView = 'list';
+            document.getElementById('listView').style.display = 'grid';
+            document.getElementById('mapView').style.display = 'none';
+            this.classList.add('active');
+            document.getElementById('mapViewBtn').classList.remove('active');
+            renderLocations();
+        });
+
+        document.getElementById('mapViewBtn').addEventListener('click', function() {
+            currentView = 'map';
+            document.getElementById('listView').style.display = 'none';
+            document.getElementById('mapView').style.display = 'block';
+            this.classList.add('active');
+            document.getElementById('listViewBtn').classList.remove('active');
+            renderLocations();
+            if (map) {
+                setTimeout(() => map.invalidateSize(), 100);
+            }
+        });
+
+        // Initialize
+        loadLocations();
+    </script>
+</body>
+</html>
