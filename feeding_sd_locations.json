@@ -2547,8 +2547,8 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "9:00 AM - 11:00 AM",
-      "wednesday": "",
+      "tuesday": "",
+      "wednesday": "9:00 AM - 11:00 AM",
       "thursday": "",
       "friday": "",
       "saturday": "",
@@ -2690,11 +2690,11 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "9:00 AM - 12:00 PM",
+      "monday": "",
       "tuesday": "9:00 AM - 12:00 PM",
       "wednesday": "9:00 AM - 12:00 PM",
       "thursday": "9:00 AM - 12:00 PM",
-      "friday": "",
+      "friday": "9:00 AM - 12:00 PM",
       "saturday": "",
       "sunday": ""
     }
@@ -2712,25 +2712,25 @@
     "monday": false,
     "tuesday": false,
     "wednesday": false,
-    "thursday": true,
-    "friday": false,
+    "thursday": false,
+    "friday": true,
     "saturday": false,
     "sunday": false,
     "frequency": {
       "monday": "",
       "tuesday": "",
       "wednesday": "",
-      "thursday": "Last",
-      "friday": "",
+      "thursday": "",
+      "friday": "Last",
       "saturday": "",
       "sunday": ""
     },
     "hours": {
-      "monday": "9:00 AM - until food is gone",
+      "monday": "",
       "tuesday": "",
       "wednesday": "",
       "thursday": "",
-      "friday": "",
+      "friday": "9:00 AM - until food is gone",
       "saturday": "",
       "sunday": ""
     }
@@ -2783,25 +2783,25 @@
     "notes": "Residents recommended; cart & reusable bags required",
     "monday": false,
     "tuesday": false,
-    "wednesday": true,
-    "thursday": false,
+    "wednesday": false,
+    "thursday": true,
     "friday": false,
     "saturday": false,
     "sunday": false,
     "frequency": {
       "monday": "",
       "tuesday": "",
-      "wednesday": "2nd",
-      "thursday": "",
+      "wednesday": "",
+      "thursday": "2nd",
       "friday": "",
       "saturday": "",
       "sunday": ""
     },
     "hours": {
-      "monday": "1:30 PM - 3:00 PM",
+      "monday": "",
       "tuesday": "",
       "wednesday": "",
-      "thursday": "",
+      "thursday": "1:30 PM - 3:00 PM",
       "friday": "",
       "saturday": "",
       "sunday": ""
@@ -2819,25 +2819,25 @@
     "notes": "Produce distribution; Food Bank ID cards available",
     "monday": false,
     "tuesday": false,
-    "wednesday": true,
-    "thursday": false,
+    "wednesday": false,
+    "thursday": true,
     "friday": false,
     "saturday": false,
     "sunday": false,
     "frequency": {
       "monday": "",
       "tuesday": "",
-      "wednesday": "4th",
-      "thursday": "",
+      "wednesday": "",
+      "thursday": "4th",
       "friday": "",
       "saturday": "",
       "sunday": ""
     },
     "hours": {
-      "monday": "12:00 PM - until food is gone",
+      "monday": "",
       "tuesday": "",
       "wednesday": "",
-      "thursday": "",
+      "thursday": "12:00 PM - until food is gone",
       "friday": "",
       "saturday": "",
       "sunday": ""
@@ -2859,7 +2859,7 @@
     "thursday": true,
     "friday": false,
     "saturday": false,
-    "sunday": true,
+    "sunday": false,
     "frequency": {
       "monday": "Weekly",
       "tuesday": "Weekly",
@@ -2867,13 +2867,13 @@
       "thursday": "Weekly",
       "friday": "",
       "saturday": "",
-      "sunday": "7:00 AM - 9:30 AM"
+      "sunday": ""
     },
     "hours": {
       "monday": "7:00 AM - 9:30 AM",
       "tuesday": "7:00 AM - 9:30 AM",
       "wednesday": "7:00 AM - 9:30 AM",
-      "thursday": "",
+      "thursday": "7:00 AM - 9:30 AM",
       "friday": "",
       "saturday": "",
       "sunday": ""
@@ -2943,8 +2943,8 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "1:30 PM - 2:30 PM",
-      "wednesday": "",
+      "tuesday": "",
+      "wednesday": "1:30 PM - 2:30 PM",
       "thursday": "",
       "friday": "",
       "saturday": "",
@@ -2964,25 +2964,25 @@
     "monday": false,
     "tuesday": false,
     "wednesday": false,
-    "thursday": true,
-    "friday": false,
+    "thursday": false,
+    "friday": true,
     "saturday": false,
-    "sunday": true,
+    "sunday": false,
     "frequency": {
       "monday": "",
       "tuesday": "",
       "wednesday": "",
-      "thursday": "2nd",
-      "friday": "",
+      "thursday": "",
+      "friday": "2nd",
       "saturday": "",
-      "sunday": "9:00 AM - until food is gone"
+      "sunday": ""
     },
     "hours": {
       "monday": "",
       "tuesday": "",
       "wednesday": "",
       "thursday": "",
-      "friday": "",
+      "friday": "9:00 AM - until food is gone",
       "saturday": "",
       "sunday": ""
     }
@@ -3015,8 +3015,8 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "9:00 AM - 10:30 AM",
-      "wednesday": "",
+      "tuesday": "",
+      "wednesday": "9:00 AM - 10:30 AM",
       "thursday": "",
       "friday": "",
       "saturday": "",
@@ -3035,25 +3035,25 @@
     "notes": "Rescheduled Jan 8; Food Bank ID cards available",
     "monday": false,
     "tuesday": false,
-    "wednesday": true,
-    "thursday": false,
+    "wednesday": false,
+    "thursday": true,
     "friday": false,
     "saturday": false,
     "sunday": false,
     "frequency": {
       "monday": "",
       "tuesday": "",
-      "wednesday": "1st",
-      "thursday": "",
+      "wednesday": "",
+      "thursday": "1st",
       "friday": "",
       "saturday": "",
       "sunday": ""
     },
     "hours": {
-      "monday": "11:00 AM - 12:30 PM",
+      "monday": "",
       "tuesday": "",
       "wednesday": "",
-      "thursday": "",
+      "thursday": "11:00 AM - 12:30 PM",
       "friday": "",
       "saturday": "",
       "sunday": ""
@@ -3158,12 +3158,12 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "9:00 AM - 10:00 AM",
+      "monday": "",
       "tuesday": "",
       "wednesday": "",
       "thursday": "",
       "friday": "",
-      "saturday": "",
+      "saturday": "9:00 AM - 10:00 AM",
       "sunday": ""
     }
   },
@@ -3215,25 +3215,25 @@
     "notes": "Produce distribution; multiple reschedules/cancellations listed",
     "monday": false,
     "tuesday": false,
-    "wednesday": true,
-    "thursday": false,
+    "wednesday": false,
+    "thursday": true,
     "friday": false,
     "saturday": false,
     "sunday": false,
     "frequency": {
       "monday": "",
       "tuesday": "",
-      "wednesday": "1st & 3rd",
-      "thursday": "",
+      "wednesday": "",
+      "thursday": "1st & 3rd",
       "friday": "",
       "saturday": "",
       "sunday": ""
     },
     "hours": {
-      "monday": "10:00 AM - until food runs out",
+      "monday": "",
       "tuesday": "",
       "wednesday": "",
-      "thursday": "",
+      "thursday": "10:00 AM - until food runs out",
       "friday": "",
       "saturday": "",
       "sunday": ""
@@ -3251,25 +3251,25 @@
     "notes": "",
     "monday": false,
     "tuesday": false,
-    "wednesday": true,
-    "thursday": false,
+    "wednesday": false,
+    "thursday": true,
     "friday": false,
     "saturday": false,
     "sunday": false,
     "frequency": {
       "monday": "",
       "tuesday": "",
-      "wednesday": "2nd",
-      "thursday": "",
+      "wednesday": "",
+      "thursday": "2nd",
       "friday": "",
       "saturday": "",
       "sunday": ""
     },
     "hours": {
-      "monday": "9:00 AM - 11:00 AM",
+      "monday": "",
       "tuesday": "",
       "wednesday": "",
-      "thursday": "",
+      "thursday": "9:00 AM - 11:00 AM",
       "friday": "",
       "saturday": "",
       "sunday": ""
@@ -3303,8 +3303,8 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "1:00 PM - 3:00 PM",
-      "wednesday": "",
+      "tuesday": "",
+      "wednesday": "1:00 PM - 3:00 PM",
       "thursday": "",
       "friday": "",
       "saturday": "",
@@ -3339,8 +3339,8 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "11:00 AM - 5:00 PM",
-      "wednesday": "",
+      "tuesday": "",
+      "wednesday": "11:00 AM - 5:00 PM",
       "thursday": "",
       "friday": "",
       "saturday": "",
@@ -3374,12 +3374,12 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "10:00 AM - 12:00 PM",
+      "monday": "",
       "tuesday": "",
       "wednesday": "",
       "thursday": "",
       "friday": "",
-      "saturday": "",
+      "saturday": "10:00 AM - 12:00 PM",
       "sunday": ""
     }
   },
@@ -3411,8 +3411,8 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "9:00 AM - 12:00 PM",
-      "wednesday": "",
+      "tuesday": "",
+      "wednesday": "9:00 AM - 12:00 PM",
       "thursday": "",
       "friday": "",
       "saturday": "",
@@ -3432,25 +3432,25 @@
     "monday": false,
     "tuesday": false,
     "wednesday": false,
-    "thursday": true,
-    "friday": false,
+    "thursday": false,
+    "friday": true,
     "saturday": false,
-    "sunday": true,
+    "sunday": false,
     "frequency": {
       "monday": "",
       "tuesday": "",
       "wednesday": "",
-      "thursday": "1st",
-      "friday": "",
+      "thursday": "",
+      "friday": "1st",
       "saturday": "",
-      "sunday": "9:00 AM - 11:00 AM"
+      "sunday": ""
     },
     "hours": {
       "monday": "",
       "tuesday": "",
       "wednesday": "",
       "thursday": "",
-      "friday": "",
+      "friday": "9:00 AM - 11:00 AM",
       "saturday": "",
       "sunday": ""
     }
@@ -3468,25 +3468,25 @@
     "monday": false,
     "tuesday": false,
     "wednesday": false,
-    "thursday": true,
-    "friday": false,
+    "thursday": false,
+    "friday": true,
     "saturday": false,
-    "sunday": true,
+    "sunday": false,
     "frequency": {
       "monday": "",
       "tuesday": "",
       "wednesday": "",
-      "thursday": "2nd",
-      "friday": "",
+      "thursday": "",
+      "friday": "2nd",
       "saturday": "",
-      "sunday": "1:00 PM - 3:00 PM"
+      "sunday": ""
     },
     "hours": {
       "monday": "",
       "tuesday": "",
       "wednesday": "",
       "thursday": "",
-      "friday": "",
+      "friday": "1:00 PM - 3:00 PM",
       "saturday": "",
       "sunday": ""
     }
@@ -3539,25 +3539,25 @@
     "notes": "",
     "monday": false,
     "tuesday": false,
-    "wednesday": true,
-    "thursday": false,
+    "wednesday": false,
+    "thursday": true,
     "friday": false,
     "saturday": false,
     "sunday": false,
     "frequency": {
       "monday": "",
       "tuesday": "",
-      "wednesday": "2nd",
-      "thursday": "",
+      "wednesday": "",
+      "thursday": "2nd",
       "friday": "",
       "saturday": "",
       "sunday": ""
     },
     "hours": {
-      "monday": "9:30 AM - 12:00 PM",
+      "monday": "",
       "tuesday": "",
       "wednesday": "",
-      "thursday": "",
+      "thursday": "9:30 AM - 12:00 PM",
       "friday": "",
       "saturday": "",
       "sunday": ""
@@ -3575,25 +3575,25 @@
     "notes": "Rescheduled Jan 8",
     "monday": false,
     "tuesday": false,
-    "wednesday": true,
-    "thursday": false,
+    "wednesday": false,
+    "thursday": true,
     "friday": false,
     "saturday": false,
     "sunday": false,
     "frequency": {
       "monday": "",
       "tuesday": "",
-      "wednesday": "1st",
-      "thursday": "",
+      "wednesday": "",
+      "thursday": "1st",
       "friday": "",
       "saturday": "",
       "sunday": ""
     },
     "hours": {
-      "monday": "9:00 AM - 11:00 AM",
+      "monday": "",
       "tuesday": "",
       "wednesday": "",
-      "thursday": "",
+      "thursday": "9:00 AM - 11:00 AM",
       "friday": "",
       "saturday": "",
       "sunday": ""
@@ -3609,16 +3609,16 @@
     "schedule": "9:00 AM",
     "eligibility": "Seniors 60+ only",
     "notes": "Senior Food Program box",
-    "monday": true,
-    "tuesday": false,
+    "monday": false,
+    "tuesday": true,
     "wednesday": false,
     "thursday": false,
     "friday": false,
     "saturday": false,
     "sunday": false,
     "frequency": {
-      "monday": "1st",
-      "tuesday": "",
+      "monday": "",
+      "tuesday": "1st",
       "wednesday": "",
       "thursday": "",
       "friday": "",
@@ -3626,8 +3626,8 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "9:00 AM - 11:00 AM",
-      "tuesday": "",
+      "monday": "",
+      "tuesday": "9:00 AM - 11:00 AM",
       "wednesday": "",
       "thursday": "",
       "friday": "",
@@ -3682,7 +3682,7 @@
     "eligibility": "Seniors 60+ only",
     "notes": "",
     "monday": false,
-    "tuesday": true,
+    "tuesday": false,
     "wednesday": true,
     "thursday": false,
     "friday": false,
@@ -3698,9 +3698,9 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "1:30 PM - 3:00 PM",
+      "monday": "",
       "tuesday": "",
-      "wednesday": "",
+      "wednesday": "1:30 PM - 3:00 PM",
       "thursday": "",
       "friday": "",
       "saturday": "",
@@ -3737,9 +3737,9 @@
       "monday": "",
       "tuesday": "",
       "wednesday": "",
-      "thursday": "9:00 AM - 11:00 AM",
+      "thursday": "",
       "friday": "",
-      "saturday": "",
+      "saturday": "9:00 AM - 11:00 AM",
       "sunday": ""
     }
   },
@@ -3864,25 +3864,25 @@
     "monday": false,
     "tuesday": false,
     "wednesday": false,
-    "thursday": true,
-    "friday": false,
+    "thursday": false,
+    "friday": true,
     "saturday": false,
     "sunday": false,
     "frequency": {
       "monday": "",
       "tuesday": "",
       "wednesday": "",
-      "thursday": "1st",
-      "friday": "",
+      "thursday": "",
+      "friday": "1st",
       "saturday": "",
       "sunday": ""
     },
     "hours": {
       "monday": "",
       "tuesday": "",
-      "wednesday": "8:30 AM - 10:30 AM",
+      "wednesday": "",
       "thursday": "",
-      "friday": "",
+      "friday": "8:30 AM - 10:30 AM",
       "saturday": "",
       "sunday": ""
     }
@@ -3972,25 +3972,25 @@
     "monday": false,
     "tuesday": false,
     "wednesday": false,
-    "thursday": true,
-    "friday": false,
+    "thursday": false,
+    "friday": true,
     "saturday": false,
     "sunday": false,
     "frequency": {
       "monday": "",
       "tuesday": "",
       "wednesday": "",
-      "thursday": "2nd",
-      "friday": "",
+      "thursday": "",
+      "friday": "2nd",
       "saturday": "",
       "sunday": ""
     },
     "hours": {
       "monday": "",
       "tuesday": "",
-      "wednesday": "9:00 AM - until gone",
+      "wednesday": "",
       "thursday": "",
-      "friday": "",
+      "friday": "9:00 AM - until gone",
       "saturday": "",
       "sunday": ""
     }
@@ -4024,8 +4024,8 @@
     "hours": {
       "monday": "",
       "tuesday": "",
-      "wednesday": "8:00 AM - 11:00 AM",
-      "thursday": "",
+      "wednesday": "",
+      "thursday": "8:00 AM - 11:00 AM",
       "friday": "",
       "saturday": "",
       "sunday": ""
@@ -4060,8 +4060,8 @@
     "hours": {
       "monday": "",
       "tuesday": "",
-      "wednesday": "10:00 AM - 12:00 PM",
-      "thursday": "",
+      "wednesday": "",
+      "thursday": "10:00 AM - 12:00 PM",
       "friday": "",
       "saturday": "",
       "sunday": ""
@@ -4080,25 +4080,25 @@
     "monday": false,
     "tuesday": false,
     "wednesday": false,
-    "thursday": true,
-    "friday": false,
+    "thursday": false,
+    "friday": true,
     "saturday": false,
     "sunday": false,
     "frequency": {
       "monday": "",
       "tuesday": "",
       "wednesday": "",
-      "thursday": "Weekly",
-      "friday": "",
+      "thursday": "",
+      "friday": "Weekly",
       "saturday": "",
       "sunday": ""
     },
     "hours": {
       "monday": "",
       "tuesday": "",
-      "wednesday": "12:00 PM - 2:00 PM",
+      "wednesday": "",
       "thursday": "",
-      "friday": "",
+      "friday": "12:00 PM - 2:00 PM",
       "saturday": "",
       "sunday": ""
     }
@@ -4116,25 +4116,25 @@
     "monday": false,
     "tuesday": false,
     "wednesday": false,
-    "thursday": true,
-    "friday": false,
+    "thursday": false,
+    "friday": true,
     "saturday": false,
     "sunday": false,
     "frequency": {
       "monday": "",
       "tuesday": "",
       "wednesday": "",
-      "thursday": "1st",
-      "friday": "",
+      "thursday": "",
+      "friday": "1st",
       "saturday": "",
       "sunday": ""
     },
     "hours": {
       "monday": "",
       "tuesday": "",
-      "wednesday": "9:00 AM - until gone",
+      "wednesday": "",
       "thursday": "",
-      "friday": "",
+      "friday": "9:00 AM - until gone",
       "saturday": "",
       "sunday": ""
     }
@@ -4202,11 +4202,11 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "9:00 AM - 11:00 AM",
+      "monday": "",
       "tuesday": "",
       "wednesday": "",
       "thursday": "",
-      "friday": "",
+      "friday": "9:00 AM - 11:00 AM",
       "saturday": "",
       "sunday": ""
     }
@@ -4238,9 +4238,9 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "1:30 PM - 2:30 PM",
+      "monday": "",
       "tuesday": "",
-      "wednesday": "",
+      "wednesday": "1:30 PM - 2:30 PM",
       "thursday": "",
       "friday": "",
       "saturday": "",
@@ -4274,8 +4274,8 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "9:00 AM - 10:00 AM",
-      "tuesday": "",
+      "monday": "",
+      "tuesday": "9:00 AM - 10:00 AM",
       "wednesday": "",
       "thursday": "",
       "friday": "",
@@ -4311,9 +4311,9 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "12:00 PM - 2:00 PM; 3:30 PM - 5:30 PM",
+      "tuesday": "",
       "wednesday": "",
-      "thursday": "",
+      "thursday": "12:00 PM - 2:00 PM; 3:30 PM - 5:30 PM",
       "friday": "",
       "saturday": "",
       "sunday": ""
@@ -4346,9 +4346,9 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "10:00 AM - 12:00 PM",
+      "monday": "",
       "tuesday": "",
-      "wednesday": "",
+      "wednesday": "10:00 AM - 12:00 PM",
       "thursday": "",
       "friday": "",
       "saturday": "",
@@ -4371,7 +4371,7 @@
     "thursday": false,
     "friday": false,
     "saturday": false,
-    "sunday": true,
+    "sunday": false,
     "frequency": {
       "monday": "4th",
       "tuesday": "",
@@ -4379,10 +4379,10 @@
       "thursday": "",
       "friday": "",
       "saturday": "",
-      "sunday": "10:30 AM - 11:30 AM"
+      "sunday": ""
     },
     "hours": {
-      "monday": "",
+      "monday": "10:30 AM - 11:30 AM",
       "tuesday": "",
       "wednesday": "",
       "thursday": "",
@@ -4454,12 +4454,12 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "2:30 PM - 4:30 PM",
+      "monday": "",
       "tuesday": "",
       "wednesday": "",
       "thursday": "",
       "friday": "",
-      "saturday": "",
+      "saturday": "2:30 PM - 4:30 PM",
       "sunday": ""
     }
   },
@@ -4491,9 +4491,9 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "9:00 AM - 12:00 PM",
+      "tuesday": "",
       "wednesday": "",
-      "thursday": "",
+      "thursday": "9:00 AM - 12:00 PM",
       "friday": "",
       "saturday": "",
       "sunday": ""
@@ -4526,9 +4526,9 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "9:00 AM - 11:00 AM",
+      "monday": "",
       "tuesday": "",
-      "wednesday": "",
+      "wednesday": "9:00 AM - 11:00 AM",
       "thursday": "",
       "friday": "",
       "saturday": "",
@@ -4563,9 +4563,9 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "9:00 AM - 11:00 AM",
+      "tuesday": "",
       "wednesday": "",
-      "thursday": "",
+      "thursday": "9:00 AM - 11:00 AM",
       "friday": "",
       "saturday": "",
       "sunday": ""
@@ -4634,8 +4634,8 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "1:00 PM - 3:00 PM",
-      "tuesday": "",
+      "monday": "",
+      "tuesday": "1:00 PM - 3:00 PM",
       "wednesday": "",
       "thursday": "",
       "friday": "",
@@ -4670,8 +4670,8 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "8:00 AM - 10:00 AM",
-      "tuesday": "",
+      "monday": "",
+      "tuesday": "8:00 AM - 10:00 AM",
       "wednesday": "",
       "thursday": "",
       "friday": "",
@@ -4707,9 +4707,9 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "8:30 AM - 10:30 AM",
+      "tuesday": "",
       "wednesday": "",
-      "thursday": "",
+      "thursday": "8:30 AM - 10:30 AM",
       "friday": "",
       "saturday": "",
       "sunday": ""
@@ -4742,11 +4742,11 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "9:00 AM - 3:00 PM",
+      "monday": "",
       "tuesday": "",
       "wednesday": "",
       "thursday": "",
-      "friday": "",
+      "friday": "9:00 AM - 3:00 PM",
       "saturday": "",
       "sunday": ""
     }
@@ -4779,9 +4779,9 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "8:00 AM - 8:30 AM",
+      "tuesday": "",
       "wednesday": "",
-      "thursday": "",
+      "thursday": "8:00 AM - 8:30 AM",
       "friday": "",
       "saturday": "",
       "sunday": ""
@@ -4851,9 +4851,9 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "10:00 AM - 12:00 PM",
+      "tuesday": "",
       "wednesday": "",
-      "thursday": "",
+      "thursday": "10:00 AM - 12:00 PM",
       "friday": "",
       "saturday": "",
       "sunday": ""
@@ -4886,9 +4886,9 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "9:00 AM - 1:00 PM",
+      "monday": "",
       "tuesday": "",
-      "wednesday": "",
+      "wednesday": "9:00 AM - 1:00 PM",
       "thursday": "",
       "friday": "",
       "saturday": "",
@@ -4922,8 +4922,8 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "8:00 AM - 11:00 AM",
-      "tuesday": "",
+      "monday": "",
+      "tuesday": "8:00 AM - 11:00 AM",
       "wednesday": "",
       "thursday": "",
       "friday": "",
@@ -4958,8 +4958,8 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "9:00 AM - 11:30 AM",
-      "tuesday": "",
+      "monday": "",
+      "tuesday": "9:00 AM - 11:30 AM",
       "wednesday": "",
       "thursday": "",
       "friday": "",
@@ -4994,11 +4994,11 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "9:00 AM - 11:00 AM",
+      "monday": "",
       "tuesday": "",
       "wednesday": "",
       "thursday": "",
-      "friday": "",
+      "friday": "9:00 AM - 11:00 AM",
       "saturday": "",
       "sunday": ""
     }
@@ -5019,7 +5019,7 @@
     "thursday": false,
     "friday": false,
     "saturday": false,
-    "sunday": true,
+    "sunday": false,
     "frequency": {
       "monday": "4th",
       "tuesday": "",
@@ -5027,10 +5027,10 @@
       "thursday": "",
       "friday": "",
       "saturday": "",
-      "sunday": "9:00 AM - 10:00 AM"
+      "sunday": ""
     },
     "hours": {
-      "monday": "",
+      "monday": "9:00 AM - 10:00 AM",
       "tuesday": "",
       "wednesday": "",
       "thursday": "",
@@ -5138,8 +5138,8 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "9:00 AM - until gone",
-      "tuesday": "",
+      "monday": "",
+      "tuesday": "9:00 AM - until gone",
       "wednesday": "",
       "thursday": "",
       "friday": "",
@@ -5175,12 +5175,12 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "4:00 PM - 5:30 PM",
+      "tuesday": "",
       "wednesday": "",
       "thursday": "",
       "friday": "",
       "saturday": "",
-      "sunday": ""
+      "sunday": "4:00 PM - 5:30 PM"
     }
   },
   {
@@ -5210,9 +5210,9 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "10:00 AM - 12:00 PM",
+      "monday": "",
       "tuesday": "",
-      "wednesday": "",
+      "wednesday": "10:00 AM - 12:00 PM",
       "thursday": "",
       "friday": "",
       "saturday": "",
@@ -5246,8 +5246,8 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "8:30 AM - 10:30 AM",
-      "tuesday": "",
+      "monday": "",
+      "tuesday": "8:30 AM - 10:30 AM",
       "wednesday": "",
       "thursday": "",
       "friday": "",
@@ -5282,11 +5282,11 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "8:00 AM - 10:00 AM",
+      "monday": "",
       "tuesday": "",
       "wednesday": "",
       "thursday": "",
-      "friday": "",
+      "friday": "8:00 AM - 10:00 AM",
       "saturday": "",
       "sunday": ""
     }
@@ -5318,12 +5318,12 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "9:00 AM - 11:00 AM",
+      "monday": "",
       "tuesday": "",
       "wednesday": "",
       "thursday": "",
       "friday": "",
-      "saturday": "",
+      "saturday": "9:00 AM - 11:00 AM",
       "sunday": ""
     }
   },
@@ -5354,8 +5354,8 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "8:00 AM - until gone",
-      "tuesday": "",
+      "monday": "",
+      "tuesday": "8:00 AM - until gone",
       "wednesday": "",
       "thursday": "",
       "friday": "",
@@ -5379,7 +5379,7 @@
     "thursday": false,
     "friday": false,
     "saturday": false,
-    "sunday": true,
+    "sunday": false,
     "frequency": {
       "monday": "3rd",
       "tuesday": "",
@@ -5387,10 +5387,10 @@
       "thursday": "",
       "friday": "",
       "saturday": "",
-      "sunday": "10:00 AM - 1:30 PM"
+      "sunday": ""
     },
     "hours": {
-      "monday": "",
+      "monday": "10:00 AM - 1:30 PM",
       "tuesday": "",
       "wednesday": "",
       "thursday": "",
@@ -5426,9 +5426,9 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "9:00 AM - 3:00 PM",
+      "monday": "",
       "tuesday": "",
-      "wednesday": "",
+      "wednesday": "9:00 AM - 3:00 PM",
       "thursday": "",
       "friday": "",
       "saturday": "",
@@ -5463,9 +5463,9 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "9:00 AM - 10:30 AM",
+      "tuesday": "",
       "wednesday": "",
-      "thursday": "",
+      "thursday": "9:00 AM - 10:30 AM",
       "friday": "",
       "saturday": "",
       "sunday": ""
@@ -5499,10 +5499,10 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "9:00 AM - 12:00 PM",
+      "tuesday": "",
       "wednesday": "",
       "thursday": "",
-      "friday": "",
+      "friday": "9:00 AM - 12:00 PM",
       "saturday": "",
       "sunday": ""
     }
@@ -5534,9 +5534,9 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "9:00 AM - 11:30 AM",
+      "monday": "",
       "tuesday": "",
-      "wednesday": "",
+      "wednesday": "9:00 AM - 11:30 AM",
       "thursday": "",
       "friday": "",
       "saturday": "",
@@ -5570,10 +5570,10 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "10:00 AM - 12:00 PM",
+      "monday": "",
       "tuesday": "",
       "wednesday": "",
-      "thursday": "",
+      "thursday": "10:00 AM - 12:00 PM",
       "friday": "",
       "saturday": "",
       "sunday": ""
@@ -5606,12 +5606,12 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "",
+      "monday": "8:00 AM - 12:00 PM",
       "tuesday": "8:00 AM - 12:00 PM",
       "wednesday": "8:00 AM - 12:00 PM",
       "thursday": "8:00 AM - 12:00 PM",
       "friday": "8:00 AM - 12:00 PM",
-      "saturday": "8:00 AM - 12:00 PM",
+      "saturday": "",
       "sunday": ""
     }
   },
@@ -5631,7 +5631,7 @@
     "thursday": false,
     "friday": false,
     "saturday": false,
-    "sunday": true,
+    "sunday": false,
     "frequency": {
       "monday": "",
       "tuesday": "2nd & 4th",
@@ -5639,11 +5639,11 @@
       "thursday": "",
       "friday": "",
       "saturday": "",
-      "sunday": "9:00 AM - 11:00 AM"
+      "sunday": ""
     },
     "hours": {
       "monday": "",
-      "tuesday": "",
+      "tuesday": "9:00 AM - 11:00 AM",
       "wednesday": "",
       "thursday": "",
       "friday": "",
@@ -5678,9 +5678,9 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "10:00 AM - 12:00 PM",
+      "monday": "",
       "tuesday": "",
-      "wednesday": "",
+      "wednesday": "10:00 AM - 12:00 PM",
       "thursday": "",
       "friday": "",
       "saturday": "",
@@ -5714,10 +5714,10 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "8:30 AM - 11:00 AM",
+      "monday": "",
       "tuesday": "",
       "wednesday": "",
-      "thursday": "",
+      "thursday": "8:30 AM - 11:00 AM",
       "friday": "",
       "saturday": "",
       "sunday": ""
@@ -5750,11 +5750,11 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "9:00 AM - 12:00 PM",
+      "monday": "",
       "tuesday": "",
       "wednesday": "",
       "thursday": "",
-      "friday": "",
+      "friday": "9:00 AM - 12:00 PM",
       "saturday": "",
       "sunday": ""
     }
@@ -5786,12 +5786,12 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "9:00 AM - 12:00 PM",
+      "monday": "",
       "tuesday": "",
       "wednesday": "",
       "thursday": "",
       "friday": "",
-      "saturday": "",
+      "saturday": "9:00 AM - 12:00 PM",
       "sunday": ""
     }
   },
@@ -5822,9 +5822,9 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "10:00 AM - 12:00 PM",
+      "monday": "",
       "tuesday": "",
-      "wednesday": "",
+      "wednesday": "10:00 AM - 12:00 PM",
       "thursday": "",
       "friday": "",
       "saturday": "",
@@ -5843,25 +5843,25 @@
     "notes": "Holiday closures; donations accepted",
     "monday": false,
     "tuesday": false,
-    "wednesday": true,
-    "thursday": false,
+    "wednesday": false,
+    "thursday": true,
     "friday": false,
     "saturday": false,
     "sunday": false,
     "frequency": {
       "monday": "",
       "tuesday": "",
-      "wednesday": "weekly",
-      "thursday": "",
+      "wednesday": "",
+      "thursday": "weekly",
       "friday": "",
       "saturday": "",
       "sunday": ""
     },
     "hours": {
-      "monday": "9:00 AM - 11:30 AM",
+      "monday": "",
       "tuesday": "",
       "wednesday": "",
-      "thursday": "",
+      "thursday": "9:00 AM - 11:30 AM",
       "friday": "",
       "saturday": "",
       "sunday": ""
@@ -5883,7 +5883,7 @@
     "thursday": false,
     "friday": false,
     "saturday": false,
-    "sunday": true,
+    "sunday": false,
     "frequency": {
       "monday": "",
       "tuesday": "1st",
@@ -5891,11 +5891,11 @@
       "thursday": "",
       "friday": "",
       "saturday": "",
-      "sunday": "10:00 AM - 12:00 PM"
+      "sunday": ""
     },
     "hours": {
       "monday": "",
-      "tuesday": "",
+      "tuesday": "10:00 AM - 12:00 PM",
       "wednesday": "",
       "thursday": "",
       "friday": "",
@@ -5915,25 +5915,25 @@
     "notes": "Holiday closures",
     "monday": false,
     "tuesday": false,
-    "wednesday": true,
-    "thursday": false,
+    "wednesday": false,
+    "thursday": true,
     "friday": false,
     "saturday": false,
     "sunday": false,
     "frequency": {
       "monday": "",
       "tuesday": "",
-      "wednesday": "3rd",
-      "thursday": "",
+      "wednesday": "",
+      "thursday": "3rd",
       "friday": "",
       "saturday": "",
       "sunday": ""
     },
     "hours": {
-      "monday": "9:00 AM - 11:00 AM",
+      "monday": "",
       "tuesday": "",
       "wednesday": "",
-      "thursday": "",
+      "thursday": "9:00 AM - 11:00 AM",
       "friday": "",
       "saturday": "",
       "sunday": ""
@@ -5954,7 +5954,7 @@
     "wednesday": false,
     "thursday": false,
     "friday": false,
-    "saturday": true,
+    "saturday": false,
     "sunday": false,
     "frequency": {
       "monday": "1st & 3rd",
@@ -5962,11 +5962,11 @@
       "wednesday": "",
       "thursday": "",
       "friday": "",
-      "saturday": "9:00 AM - 11:30 AM",
+      "saturday": "",
       "sunday": ""
     },
     "hours": {
-      "monday": "",
+      "monday": "9:00 AM - 11:30 AM",
       "tuesday": "",
       "wednesday": "",
       "thursday": "",
@@ -5991,7 +5991,7 @@
     "thursday": false,
     "friday": false,
     "saturday": false,
-    "sunday": true,
+    "sunday": false,
     "frequency": {
       "monday": "",
       "tuesday": "2nd",
@@ -5999,11 +5999,11 @@
       "thursday": "",
       "friday": "",
       "saturday": "",
-      "sunday": "9:00 AM - 11:00 AM"
+      "sunday": ""
     },
     "hours": {
       "monday": "",
-      "tuesday": "",
+      "tuesday": "9:00 AM - 11:00 AM",
       "wednesday": "",
       "thursday": "",
       "friday": "",
@@ -6023,16 +6023,16 @@
     "notes": "Holiday closures",
     "monday": false,
     "tuesday": false,
-    "wednesday": true,
-    "thursday": false,
+    "wednesday": false,
+    "thursday": true,
     "friday": false,
     "saturday": false,
     "sunday": false,
     "frequency": {
       "monday": "",
       "tuesday": "",
-      "wednesday": "weekly",
-      "thursday": "",
+      "wednesday": "",
+      "thursday": "weekly",
       "friday": "",
       "saturday": "",
       "sunday": ""
