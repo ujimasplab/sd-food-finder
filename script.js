@@ -108,7 +108,7 @@
                         ${loc.location ? `
                             <div class="location-detail">
                                 <span class="location-detail-icon">📍</span>
-                                <span>${loc.location}</span>
+                                <span>${loc.location}, ${loc.city}, ${loc.state}, ${loc.zip}</span>
                             </div>
                         ` : ''}
                         
