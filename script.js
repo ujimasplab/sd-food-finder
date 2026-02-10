@@ -193,7 +193,7 @@
                     
                     const popupContent = `
                         <div class="popup-name">${loc.name}</div>
-                        ${loc.location ? `<div class="popup-detail">📍 ${loc.location}, ${loc.city}, ${loc.state}, ${loc.zip}</div>` : ''}
+                        ${loc.location ? `<div class="popup-detail">📍 ${loc.location}, ${loc.city}, CA, ${loc.zip}</div>` : ''}
                         ${hoursHTML}
                         ${loc.type ? `<div class="popup-detail">🏪 ${loc.type}</div>` : ''}
                     `;
