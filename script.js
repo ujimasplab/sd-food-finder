@@ -46,9 +46,9 @@
             // Check if 'last' and it is the last occurrence
             if (frequency.toLowerCase().includes('last') && isLast) return true;
             
-            // Split comma-separated values (e.g., "1st,3rd")
-            const patterns = frequency.split(',').map(p => p.trim().toLowerCase());
-            
+            // Split on commas, 'and', or '&' (e.g. "2nd and 4th", "1st & 3rd", "1st,3rd")
+            const patterns = frequency.split(/,|\band\b|&/).map(p => p.trim().toLowerCase()).filter(Boolean);
+
             // Check if current occurrence matches
             const occurrenceStr = ['', '1st', '2nd', '3rd', '4th', '5th'][occurrence];
             if (patterns.includes(occurrenceStr)) return true;
@@ -73,7 +73,7 @@
 
             if (frequency.toLowerCase().includes('last') && isLast) return true;
 
-            const patterns = frequency.split(',').map(p => p.trim().toLowerCase());
+            const patterns = frequency.split(/,|\band\b|&/).map(p => p.trim().toLowerCase()).filter(Boolean);
             const occurrenceStr = ['', '1st', '2nd', '3rd', '4th', '5th'][occurrence];
             if (patterns.includes(occurrenceStr)) return true;
             if (patterns.includes(occurrence.toString())) return true;
@@ -106,7 +106,7 @@
 
                 if (frequency.toLowerCase().includes('last') && isLast) return true;
 
-                const patterns = frequency.split(',').map(p => p.trim().toLowerCase());
+                const patterns = frequency.split(/,|\band\b|&/).map(p => p.trim().toLowerCase()).filter(Boolean);
                 const occurrenceStr = ['', '1st', '2nd', '3rd', '4th', '5th'][occurrence];
                 if (patterns.includes(occurrenceStr)) return true;
                 if (patterns.includes(occurrence.toString())) return true;
@@ -126,8 +126,14 @@
                     }
                 }
             } catch (error) {
-                console.log('Could not load locations.json');
-            }
+                console.error('Could not load feeding_sd_locations.json:', error);
+                document.getElementById('listView').innerHTML = `
+                    <div class="no-results" style="grid-column: 1/-1;">
+                        <h3>⚠️ Could not load locations</h3>
+                        <p>Make sure <strong>feeding_sd_locations.json</strong> is in the same folder as this page and the site is being served over HTTP (not opened as a local file).</p>
+                    </div>`;
+                document.getElementById('resultsCount').textContent = 'Error loading data';
+                return;
             renderLocations();
         }
 
