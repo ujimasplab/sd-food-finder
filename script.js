@@ -315,11 +315,6 @@ function filterLocations() {
     });
 }
 
-function setActiveQuickFilter(btn) {
-    document.querySelectorAll('.quick-filter-btn').forEach(b => b.classList.remove('active'));
-    if (btn) btn.classList.add('active');
-}
-
 function resetFilters() {
     selectedDays.clear();
     searchQuery = '';
@@ -338,7 +333,7 @@ function selectWeekdays() {
         selectedDays.add(day);
         document.querySelector(`[data-day="${day}"]`).classList.add('active');
     });
-    setActiveQuickFilter(document.querySelector('.quick-filter-btn[onclick="selectWeekdays()"]'));
+    document.querySelector('.quick-filter-btn[onclick="selectWeekdays()"]').classList.add('active');
     renderLocations();
 }
 
@@ -348,28 +343,28 @@ function selectWeekends() {
         selectedDays.add(day);
         document.querySelector(`[data-day="${day}"]`).classList.add('active');
     });
-    setActiveQuickFilter(document.querySelector('.quick-filter-btn[onclick="selectWeekends()"]'));
+    document.querySelector('.quick-filter-btn[onclick="selectWeekends()"]').classList.add('active');
     renderLocations();
 }
 
 function selectToday() {
     resetFilters();
     todayFilterActive = true;
-    setActiveQuickFilter(document.querySelector('.quick-filter-btn[onclick="selectToday()"]'));
+    document.querySelector('.quick-filter-btn[onclick="selectToday()"]').classList.add('active');
     renderLocations();
 }
 
 function selectTomorrow() {
     resetFilters();
     tomorrowFilterActive = true;
-    setActiveQuickFilter(document.querySelector('.quick-filter-btn[onclick="selectTomorrow()"]'));
+    document.querySelector('.quick-filter-btn[onclick="selectTomorrow()"]').classList.add('active');
     renderLocations();
 }
 
 function selectThisWeek() {
     resetFilters();
     thisWeekFilterActive = true;
-    setActiveQuickFilter(document.querySelector('.quick-filter-btn[onclick="selectThisWeek()"]'));
+    document.querySelector('.quick-filter-btn[onclick="selectThisWeek()"]').classList.add('active');
     renderLocations();
 }
 
