@@ -315,6 +315,11 @@ function filterLocations() {
     });
 }
 
+function setActiveQuickFilter(btn) {
+    document.querySelectorAll('.quick-filter-btn').forEach(b => b.classList.remove('active'));
+    if (btn) btn.classList.add('active');
+}
+
 function resetFilters() {
     selectedDays.clear();
     searchQuery = '';
@@ -323,6 +328,7 @@ function resetFilters() {
     thisWeekFilterActive = false;
     document.getElementById('searchBox').value = '';
     document.querySelectorAll('.day-btn').forEach(btn => btn.classList.remove('active'));
+    document.querySelectorAll('.quick-filter-btn').forEach(btn => btn.classList.remove('active'));
     renderLocations();
 }
 
@@ -332,6 +338,7 @@ function selectWeekdays() {
         selectedDays.add(day);
         document.querySelector(`[data-day="${day}"]`).classList.add('active');
     });
+    setActiveQuickFilter(document.querySelector('.quick-filter-btn[onclick="selectWeekdays()"]'));
     renderLocations();
 }
 
@@ -341,24 +348,28 @@ function selectWeekends() {
         selectedDays.add(day);
         document.querySelector(`[data-day="${day}"]`).classList.add('active');
     });
+    setActiveQuickFilter(document.querySelector('.quick-filter-btn[onclick="selectWeekends()"]'));
     renderLocations();
 }
 
 function selectToday() {
     resetFilters();
     todayFilterActive = true;
+    setActiveQuickFilter(document.querySelector('.quick-filter-btn[onclick="selectToday()"]'));
     renderLocations();
 }
 
 function selectTomorrow() {
     resetFilters();
     tomorrowFilterActive = true;
+    setActiveQuickFilter(document.querySelector('.quick-filter-btn[onclick="selectTomorrow()"]'));
     renderLocations();
 }
 
 function selectThisWeek() {
     resetFilters();
     thisWeekFilterActive = true;
+    setActiveQuickFilter(document.querySelector('.quick-filter-btn[onclick="selectThisWeek()"]'));
     renderLocations();
 }
 
