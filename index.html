@@ -12,59 +12,114 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="header">
-        <h1>🍎 San Diego Food Distribution Finder</h1>
+
+    <!-- WCAG 2.4.1: Skip navigation link -->
+    <a href="#mainContent" class="skip-link">Skip to main content</a>
+
+    <header class="header" role="banner">
+        <!-- WCAG 1.1.1: aria-hidden on decorative emoji -->
+        <h1><span aria-hidden="true">🍎</span> San Diego Food Distribution Finder</h1>
         <p>Find free food distributions near you, filter by day and location</p>
         <p>This is maintained by a group of volunteers and not the official website. Send inquiries to designstudyresearchers@gmail.com</p>
-        <a href="https://forms.gle/d1TJ16WVW3A3PTbG9" target="_blank" rel="noopener noreferrer" class="feedback-btn">📝 Give Feedback</a>
-    </div>
+        <!-- WCAG 1.1.1: aria-label describes purpose, hides emoji from screen reader -->
+        <a href="https://forms.gle/d1TJ16WVW3A3PTbG9"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="feedback-btn"
+           aria-label="Give Feedback (opens in new tab)">
+            <span aria-hidden="true">📝</span> Give Feedback
+        </a>
+    </header>
 
-    <div class="container">
+    <main id="mainContent" class="container">
 
-        <div class="filters">
-            <h2>📅 Filter by Day & Location</h2>
+        <!-- WCAG 1.3.1: nav landmark for filters -->
+        <nav aria-label="Filter controls">
+            <div class="filters">
+                <!-- WCAG 1.1.1: aria-hidden on decorative emoji -->
+                <h2><span aria-hidden="true">📅</span> Filter by Day &amp; Location</h2>
 
-            <div class="filter-group">
-                <label>Quick Filters:</label>
-                <div class="quick-filters">
-                    <button class="quick-filter-btn" onclick="selectWeekdays()">Weekdays Only</button>
-                    <button class="quick-filter-btn" onclick="selectWeekends()">Weekends Only</button>
-                    <button class="quick-filter-btn" onclick="selectToday()">Open Today</button>
-                    <button class="quick-filter-btn" onclick="selectTomorrow()">Open Tomorrow</button>
-                    <button class="quick-filter-btn" onclick="selectThisWeek()">Open This Week</button>
-                    <button class="quick-filter-btn" onclick="resetFilters()">Clear All</button>
-                </div>
-            </div>
-
-            <div class="filter-group">
-                <label>Select Specific Day(s):</label>
-                <div class="day-buttons" id="dayButtons">
-                    <button class="day-btn" data-day="monday">Mon</button>
-                    <button class="day-btn" data-day="tuesday">Tue</button>
-                    <button class="day-btn" data-day="wednesday">Wed</button>
-                    <button class="day-btn" data-day="thursday">Thu</button>
-                    <button class="day-btn" data-day="friday">Fri</button>
-                    <button class="day-btn" data-day="saturday">Sat</button>
-                    <button class="day-btn" data-day="sunday">Sun</button>
-                </div>
-            </div>
-
-            <div class="filter-row">
+                <!-- WCAG 1.3.1: role=group with aria-labelledby groups related buttons -->
                 <div class="filter-group">
-                    <label>Search by Name or Location:</label>
-                    <input type="text" class="search-box" id="searchBox" placeholder="Enter name, address, or zip code...">
+                    <span id="quickFiltersLabel" class="filter-label">Quick Filters:</span>
+                    <div class="quick-filters"
+                         role="group"
+                         aria-labelledby="quickFiltersLabel">
+                        <button class="quick-filter-btn"
+                                onclick="selectWeekdays()"
+                                aria-pressed="false">Weekdays Only</button>
+                        <button class="quick-filter-btn"
+                                onclick="selectWeekends()"
+                                aria-pressed="false">Weekends Only</button>
+                        <button class="quick-filter-btn"
+                                onclick="selectToday()"
+                                aria-pressed="false">Open Today</button>
+                        <button class="quick-filter-btn"
+                                onclick="selectTomorrow()"
+                                aria-pressed="false">Open Tomorrow</button>
+                        <button class="quick-filter-btn"
+                                onclick="selectThisWeek()"
+                                aria-pressed="false">Open This Week</button>
+                        <button class="quick-filter-btn"
+                                onclick="resetFilters()">Clear All</button>
+                    </div>
+                </div>
+
+                <div class="filter-group">
+                    <span id="dayFiltersLabel" class="filter-label">Select Specific Day(s):</span>
+                    <div class="day-buttons"
+                         id="dayButtons"
+                         role="group"
+                         aria-labelledby="dayFiltersLabel">
+                        <button class="day-btn" data-day="monday"    aria-pressed="false">Mon<span class="sr-only">day</span></button>
+                        <button class="day-btn" data-day="tuesday"   aria-pressed="false">Tue<span class="sr-only">sday</span></button>
+                        <button class="day-btn" data-day="wednesday" aria-pressed="false">Wed<span class="sr-only">nesday</span></button>
+                        <button class="day-btn" data-day="thursday"  aria-pressed="false">Thu<span class="sr-only">rsday</span></button>
+                        <button class="day-btn" data-day="friday"    aria-pressed="false">Fri<span class="sr-only">day</span></button>
+                        <button class="day-btn" data-day="saturday"  aria-pressed="false">Sat<span class="sr-only">urday</span></button>
+                        <button class="day-btn" data-day="sunday"    aria-pressed="false">Sun<span class="sr-only">day</span></button>
+                    </div>
+                </div>
+
+                <div class="filter-row">
+                    <div class="filter-group">
+                        <!-- WCAG 3.3.2: label linked to input via for/id, WCAG 1.3.5: autocomplete -->
+                        <label for="searchBox">Search by Name or Location:</label>
+                        <input type="text"
+                               class="search-box"
+                               id="searchBox"
+                               autocomplete="off"
+                               placeholder="Enter name, address, or zip code..."
+                               aria-describedby="searchHint">
+                        <span id="searchHint" class="sr-only">Filter results by typing a name, address, or zip code</span>
+                    </div>
                 </div>
             </div>
-        </div>
+        </nav>
 
-        <div class="view-toggle">
-            <button id="listViewBtn" class="active">📋 List View</button>
-            <button id="mapViewBtn">🗺️ Map View</button>
+        <div class="view-toggle" role="group" aria-label="View mode">
+            <!-- WCAG 4.1.2: aria-pressed for toggle state, aria-hidden on emoji -->
+            <button id="listViewBtn"
+                    aria-pressed="true"
+                    onclick="switchToList()">
+                <span aria-hidden="true">📋</span> List View
+            </button>
+            <button id="mapViewBtn"
+                    aria-pressed="false"
+                    onclick="switchToMap()">
+                <span aria-hidden="true">🗺️</span> Map View
+            </button>
         </div>
 
         <div class="results-header">
-            <div class="results-count" id="resultsCount">Loading locations...</div>
+            <!-- WCAG 4.1.3: aria-live announces dynamic result count to screen readers -->
+            <div class="results-count"
+                 id="resultsCount"
+                 aria-live="polite"
+                 aria-atomic="true">Loading locations...</div>
             <div class="controls">
+                <!-- WCAG 2.4.6: label associated with sort select -->
+                <label for="sortSelect" class="sr-only">Sort results by</label>
                 <select class="sort-select" id="sortSelect">
                     <option value="name">Sort by Name</option>
                     <option value="location">Sort by Location</option>
@@ -72,18 +127,26 @@
             </div>
         </div>
 
-        <div id="listView">
+        <!-- WCAG 4.1.3: aria-live region for dynamic location card updates -->
+        <div id="listView" aria-live="polite" aria-label="Location results">
             <div class="loading">Loading food distribution locations...</div>
         </div>
 
-        <div id="mapView"></div>
-    </div>
+        <div id="mapView"
+             role="application"
+             aria-label="Interactive map of food distribution locations">
+        </div>
 
-    <div class="footer">
+    </main>
+
+    <footer class="footer" role="contentinfo">
         <p>Community resource page for finding food assistance in San Diego County</p>
-        <p>Data from Feeding San Diego & San Diego Food Bank | For official information, visit <a href="https://feedingsandiego.org" target="_blank">feedingsandiego.org</a> and <a href="https://sandiegofoodbank.org" target="_blank">sandiegofoodbank.org</a></p>
+        <p>Data from Feeding San Diego &amp; San Diego Food Bank | For official information, visit
+            <a href="https://feedingsandiego.org" target="_blank" aria-label="Feeding San Diego (opens in new tab)">feedingsandiego.org</a> and
+            <a href="https://sandiegofoodbank.org" target="_blank" aria-label="San Diego Food Bank (opens in new tab)">sandiegofoodbank.org</a>
+        </p>
         <p style="margin-top: 1rem; font-size: 0.8rem;">Last updated: <span id="lastUpdated">-</span></p>
-    </div>
+    </footer>
 
     <!-- Leaflet JS -->
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>

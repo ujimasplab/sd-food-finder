@@ -168,41 +168,41 @@ function renderListView(filteredLocations) {
     grid.innerHTML = filteredLocations.map(loc => {
         const isActuallyOpenToday = isOpenToday(loc);
         return `
-            <div class="location-card">
-                ${isActuallyOpenToday ? '<div class="open-now-badge">OPEN TODAY</div>' : ''}
+            <article class="location-card" aria-label="${loc.name || 'Food distribution location'}">
+                ${isActuallyOpenToday ? '<div class="open-now-badge" aria-label="Open today">OPEN TODAY</div>' : ''}
                 <div class="location-name">${loc.name || 'Unknown Location'}</div>
                 
                 ${loc.location ? `
                     <div class="location-detail">
-                        <span class="location-detail-icon">📍</span>
+                        <span class="location-detail-icon" aria-hidden="true">📍</span>
                         <span>${loc.location}, ${loc.city}, CA, ${loc.zip}</span>
                     </div>
                 ` : ''}
                 
                 ${loc.schedule ? `
                     <div class="location-detail">
-                        <span class="location-detail-icon">🕒</span>
+                        <span class="location-detail-icon" aria-hidden="true">🕒</span>
                         <span>${loc.schedule}</span>
                     </div>
                 ` : ''}
                 
                 ${loc.type ? `
                     <div class="location-detail">
-                        <span class="location-detail-icon">🏪</span>
+                        <span class="location-detail-icon" aria-hidden="true">🏪</span>
                         <span>${loc.type}</span>
                     </div>
                 ` : ''}
                 
                 ${loc.eligibility ? `
                     <div class="location-detail">
-                        <span class="location-detail-icon">ℹ️</span>
+                        <span class="location-detail-icon" aria-hidden="true">ℹ️</span>
                         <span>${loc.eligibility}</span>
                     </div>
                 ` : ''}
                 
                 ${loc.phone ? `
                     <div class="location-detail">
-                        <span class="location-detail-icon">📞</span>
+                        <span class="location-detail-icon" aria-hidden="true">📞</span>
                         <span>${loc.phone}</span>
                     </div>
                 ` : ''}
@@ -215,13 +215,14 @@ function renderListView(filteredLocations) {
                             const isSelected = selectedDays.has(day);
                             const hours = loc.hours && loc.hours[day] ? loc.hours[day] : '';
                             const displayText = hours ? `${day.slice(0, 3).toUpperCase()}: ${hours}` : day.slice(0, 3).toUpperCase();
-                            return `<span class="day-badge ${isSelected ? 'active-day' : ''}" title="${day.charAt(0).toUpperCase() + day.slice(1)}${hours ? ': ' + hours : ''}">${displayText}</span>`;
+                            const fullLabel = `${day.charAt(0).toUpperCase() + day.slice(1)}${hours ? ': ' + hours : ''}`;
+                            return `<span class="day-badge ${isSelected ? 'active-day' : ''}" aria-label="${fullLabel}">${displayText}</span>`;
                         }
                         return '';
                     }).join('')}
                     </div>
                 </div>
-            </div>
+            </article>
         `;
     }).join('');
 }
@@ -322,8 +323,14 @@ function resetFilters() {
     tomorrowFilterActive = false;
     thisWeekFilterActive = false;
     document.getElementById('searchBox').value = '';
-    document.querySelectorAll('.day-btn').forEach(btn => btn.classList.remove('active'));
-    document.querySelectorAll('.quick-filter-btn').forEach(btn => btn.classList.remove('active'));
+    document.querySelectorAll('.day-btn').forEach(btn => {
+        btn.classList.remove('active');
+        btn.setAttribute('aria-pressed', 'false');
+    });
+    document.querySelectorAll('.quick-filter-btn').forEach(btn => {
+        btn.classList.remove('active');
+        btn.setAttribute('aria-pressed', 'false');
+    });
     renderLocations();
 }
 
@@ -331,9 +338,13 @@ function selectWeekdays() {
     resetFilters();
     ['monday', 'tuesday', 'wednesday', 'thursday', 'friday'].forEach(day => {
         selectedDays.add(day);
-        document.querySelector(`[data-day="${day}"]`).classList.add('active');
+        const btn = document.querySelector(`[data-day="${day}"]`);
+        btn.classList.add('active');
+        btn.setAttribute('aria-pressed', 'true');
     });
-    document.querySelector('.quick-filter-btn[onclick="selectWeekdays()"]').classList.add('active');
+    const qBtn = document.querySelector('.quick-filter-btn[onclick="selectWeekdays()"]');
+    qBtn.classList.add('active');
+    qBtn.setAttribute('aria-pressed', 'true');
     renderLocations();
 }
 
@@ -341,30 +352,40 @@ function selectWeekends() {
     resetFilters();
     ['saturday', 'sunday'].forEach(day => {
         selectedDays.add(day);
-        document.querySelector(`[data-day="${day}"]`).classList.add('active');
+        const btn = document.querySelector(`[data-day="${day}"]`);
+        btn.classList.add('active');
+        btn.setAttribute('aria-pressed', 'true');
     });
-    document.querySelector('.quick-filter-btn[onclick="selectWeekends()"]').classList.add('active');
+    const qBtn = document.querySelector('.quick-filter-btn[onclick="selectWeekends()"]');
+    qBtn.classList.add('active');
+    qBtn.setAttribute('aria-pressed', 'true');
     renderLocations();
 }
 
 function selectToday() {
     resetFilters();
     todayFilterActive = true;
-    document.querySelector('.quick-filter-btn[onclick="selectToday()"]').classList.add('active');
+    const btn = document.querySelector('.quick-filter-btn[onclick="selectToday()"]');
+    btn.classList.add('active');
+    btn.setAttribute('aria-pressed', 'true');
     renderLocations();
 }
 
 function selectTomorrow() {
     resetFilters();
     tomorrowFilterActive = true;
-    document.querySelector('.quick-filter-btn[onclick="selectTomorrow()"]').classList.add('active');
+    const btn = document.querySelector('.quick-filter-btn[onclick="selectTomorrow()"]');
+    btn.classList.add('active');
+    btn.setAttribute('aria-pressed', 'true');
     renderLocations();
 }
 
 function selectThisWeek() {
     resetFilters();
     thisWeekFilterActive = true;
-    document.querySelector('.quick-filter-btn[onclick="selectThisWeek()"]').classList.add('active');
+    const btn = document.querySelector('.quick-filter-btn[onclick="selectThisWeek()"]');
+    btn.classList.add('active');
+    btn.setAttribute('aria-pressed', 'true');
     renderLocations();
 }
 
@@ -419,15 +440,15 @@ function exportToCSV() {
 document.querySelectorAll('.day-btn').forEach(btn => {
     btn.addEventListener('click', function() {
         const day = this.dataset.day;
-        
         if (selectedDays.has(day)) {
             selectedDays.delete(day);
             this.classList.remove('active');
+            this.setAttribute('aria-pressed', 'false');
         } else {
             selectedDays.add(day);
             this.classList.add('active');
+            this.setAttribute('aria-pressed', 'true');
         }
-        
         renderLocations();
     });
 });
@@ -441,12 +462,15 @@ document.getElementById('sortSelect').addEventListener('change', function(e) {
     sortLocations(e.target.value);
 });
 
+// WCAG 4.1.2: view toggle buttons update aria-pressed to reflect state
 document.getElementById('listViewBtn').addEventListener('click', function() {
     currentView = 'list';
     document.getElementById('listView').style.display = 'grid';
     document.getElementById('mapView').style.display = 'none';
     this.classList.add('active');
+    this.setAttribute('aria-pressed', 'true');
     document.getElementById('mapViewBtn').classList.remove('active');
+    document.getElementById('mapViewBtn').setAttribute('aria-pressed', 'false');
     renderLocations();
 });
 
@@ -455,7 +479,9 @@ document.getElementById('mapViewBtn').addEventListener('click', function() {
     document.getElementById('listView').style.display = 'none';
     document.getElementById('mapView').style.display = 'block';
     this.classList.add('active');
+    this.setAttribute('aria-pressed', 'true');
     document.getElementById('listViewBtn').classList.remove('active');
+    document.getElementById('listViewBtn').setAttribute('aria-pressed', 'false');
     renderLocations();
     if (map) {
         setTimeout(() => map.invalidateSize(), 100);
