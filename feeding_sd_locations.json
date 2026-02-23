@@ -4,8 +4,8 @@
     "location": "2007 Main St. Ste B",
     "city": "Julian",
     "zip": "92036",
-    "lat": 33.078597,
-    "lng": -116.6023154,
+    "lat": null,
+    "lng": null,
     "phone": "619-826-5886",
     "type": "Walk-up",
     "schedule": "weekly",
@@ -46,7 +46,7 @@
     "lng": -117.116388,
     "phone": "",
     "type": "Walk-up",
-    "schedule": "2nd and 4th Monday of the month from 7:30 - 8:30 AM",
+    "schedule": "2nd and 4th Monday of the month from 7:30 - 8:30 a.m.",
     "eligibility": "",
     "notes": "",
     "monday": true,
@@ -66,7 +66,7 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "7:30 - 8:30 AM",
+      "monday": "7:30 - 8:30 a.m.",
       "tuesday": "",
       "wednesday": "",
       "thursday": "",
@@ -80,8 +80,8 @@
     "location": "6126 Pastor Timothy J. Winters St.",
     "city": "San Diego",
     "zip": "92114",
-    "lat": null,
-    "lng": null,
+    "lat": 32.7073892,
+    "lng": -117.0536726,
     "phone": "619-262-8384",
     "type": "",
     "schedule": "weekly",
@@ -118,11 +118,11 @@
     "location": "2001 Rimbey Ave.",
     "city": "San Diego",
     "zip": "92154",
-    "lat": 32.5752745,
-    "lng": -117.0545038,
+    "lat": null,
+    "lng": null,
     "phone": "619-628-3500",
     "type": "Walk-up",
-    "schedule": "1st and 3rd Mondays of the month from 8:00 - 9:00 AM",
+    "schedule": "1st and 3rd Mondays of the month from 8:00 - 9:00 a.m.",
     "eligibility": "",
     "notes": "",
     "monday": true,
@@ -142,7 +142,7 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "8:00 - 9:00 AM",
+      "monday": "8:00 - 9:00 a.m.",
       "tuesday": "",
       "wednesday": "",
       "thursday": "",
@@ -160,7 +160,7 @@
     "lng": -117.225884,
     "phone": "",
     "type": "Drive-through",
-    "schedule": "2nd and 4th Friday of the month from 10:00 - 11:00 AM",
+    "schedule": "2nd and 4th Friday of the month from 10:00 - 11:00 a.m.",
     "eligibility": "",
     "notes": "",
     "monday": false,
@@ -175,8 +175,8 @@
       "tuesday": "",
       "wednesday": "",
       "thursday": "",
-      "friday": "",
-      "saturday": "2nd and 4th",
+      "friday": "2nd and 4th",
+      "saturday": "",
       "sunday": ""
     },
     "hours": {
@@ -184,7 +184,7 @@
       "tuesday": "",
       "wednesday": "",
       "thursday": "",
-      "friday": "10:00 - 11:00 AM",
+      "friday": "10:00 - 11:00 a.m.",
       "saturday": "",
       "sunday": ""
     }
@@ -198,7 +198,7 @@
     "lng": -116.378268,
     "phone": "",
     "type": "Walk-up",
-    "schedule": "1st and 3rd Tuesdays of the month from 11:30 AM - 4:00 PM",
+    "schedule": "1st and 3rd Tuesdays of the month from 11:30 a.m. - 4:00 p.m.",
     "eligibility": "",
     "notes": "",
     "monday": false,
@@ -219,7 +219,7 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "11:30 AM - 4:00 PM",
+      "tuesday": "11:30 a.m. - 4:00 p.m.",
       "wednesday": "",
       "thursday": "",
       "friday": "",
@@ -236,7 +236,7 @@
     "lng": -116.273629,
     "phone": "",
     "type": "Walk-up",
-    "schedule": "1st and 3rd Mondays of the month from 9:00 - 10:00 AM",
+    "schedule": "1st and 3rd Mondays of the month from 9:00 - 10:00 a.m.",
     "eligibility": "",
     "notes": "Closed 2/16 - Rescheduled to 2/23 | Closed 9/7 - Rescheduled to 9/14",
     "monday": true,
@@ -256,7 +256,7 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "9:00 - 10:00 AM",
+      "monday": "9:00 - 10:00 a.m.",
       "tuesday": "",
       "wednesday": "",
       "thursday": "",
@@ -289,8 +289,8 @@
       "tuesday": "",
       "wednesday": "",
       "thursday": "",
-      "friday": "",
-      "saturday": "weekly",
+      "friday": "weekly",
+      "saturday": "",
       "sunday": ""
     },
     "hours": {
@@ -308,8 +308,8 @@
     "location": "3260 Production Avenue",
     "city": "Oceanside",
     "zip": "92058",
-    "lat": 33.2259886,
-    "lng": -117.34832,
+    "lat": 33.2259835,
+    "lng": -117.3483268,
     "phone": "760-439-1244",
     "type": "Walk-up",
     "schedule": "weekly",
@@ -350,7 +350,7 @@
     "lng": 9.0054983,
     "phone": "",
     "type": "Drive-through",
-    "schedule": "1st, 2nd, 3rd, 4th Mondays from 12:00 - 1:00 PM",
+    "schedule": "1st, 2nd, 3rd, 4th Mondays from 12:00 - 1:00 p.m.",
     "eligibility": "",
     "notes": "1st/3rd: Produce only | 2nd/4th: Mobile Pantry (produce + dry goods)",
     "monday": true,
@@ -370,7 +370,7 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "12:00 - 1:00 PM",
+      "monday": "12:00 - 1:00 p.m.",
       "tuesday": "",
       "wednesday": "",
       "thursday": "",
@@ -388,7 +388,7 @@
     "lng": -117.3288708,
     "phone": "858-283-8998",
     "type": "Walk-up",
-    "schedule": "4th Wednesday of the month from 10:00 - 11:00 AM",
+    "schedule": "4th Wednesday of the month from 10:00 - 11:00 a.m.",
     "eligibility": "",
     "notes": "Lot F: Northernmost parking lot; directly north of the Carlsbad Pickleball building",
     "monday": false,
@@ -408,9 +408,9 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "10:00 - 11:00 AM",
+      "monday": "",
       "tuesday": "",
-      "wednesday": "",
+      "wednesday": "10:00 - 11:00 a.m.",
       "thursday": "",
       "friday": "",
       "saturday": "",
@@ -422,11 +422,11 @@
     "location": "160 Quintard St",
     "city": "Chula Vista",
     "zip": "91911",
-    "lat": 32.6103821,
-    "lng": -117.0489796,
+    "lat": 32.6103815,
+    "lng": -117.0489816,
     "phone": "619-361-5684",
     "type": "Walk-up",
-    "schedule": "2nd Wednesday of the month from 3:30 PM - 5:30 PM",
+    "schedule": "2nd Wednesday of the month from 3:30 p.m. - 5:30 p.m.",
     "eligibility": "",
     "notes": "",
     "monday": false,
@@ -446,9 +446,9 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "3:30 PM - 5:30 PM",
+      "monday": "",
       "tuesday": "",
-      "wednesday": "",
+      "wednesday": "3:30 p.m. - 5:30 p.m.",
       "thursday": "",
       "friday": "",
       "saturday": "",
@@ -464,7 +464,7 @@
     "lng": -117.1465058,
     "phone": "858-549-2479",
     "type": "Drive-through",
-    "schedule": "4th Saturday of the month from 2:00 - 3:00 PM",
+    "schedule": "4th Saturday of the month from 2:00 - 3:00 p.m.",
     "eligibility": "",
     "notes": "",
     "monday": false,
@@ -480,16 +480,16 @@
       "wednesday": "",
       "thursday": "",
       "friday": "",
-      "saturday": "",
-      "sunday": "4th"
+      "saturday": "4th",
+      "sunday": ""
     },
     "hours": {
       "monday": "",
       "tuesday": "",
       "wednesday": "",
-      "thursday": "2:00 - 3:00 PM",
+      "thursday": "",
       "friday": "",
-      "saturday": "",
+      "saturday": "2:00 - 3:00 p.m.",
       "sunday": ""
     }
   },
@@ -502,7 +502,7 @@
     "lng": -117.1465058,
     "phone": "858-549-2479",
     "type": "Drive-through",
-    "schedule": "1st Thursday of the month from 5:30 - 6:30 PM",
+    "schedule": "1st Thursday of the month from 5:30 - 6:30 p.m.",
     "eligibility": "",
     "notes": "",
     "monday": false,
@@ -523,9 +523,9 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "5:30 - 6:30 PM",
+      "tuesday": "",
       "wednesday": "",
-      "thursday": "",
+      "thursday": "5:30 - 6:30 p.m.",
       "friday": "",
       "saturday": "",
       "sunday": ""
@@ -540,7 +540,7 @@
     "lng": -117.0314172,
     "phone": "619-465-1888",
     "type": "Walk-up; Drive-through",
-    "schedule": "2nd and 4th Tuesday of the month from 3:00 - 5:00 PM",
+    "schedule": "2nd and 4th Tuesday of the month from 3:00 - 5:00 p.m.",
     "eligibility": "",
     "notes": "",
     "monday": false,
@@ -561,7 +561,7 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "3:00 - 5:00 PM",
+      "tuesday": "3:00 - 5:00 p.m.",
       "wednesday": "",
       "thursday": "",
       "friday": "",
@@ -594,8 +594,8 @@
       "wednesday": "",
       "thursday": "",
       "friday": "",
-      "saturday": "",
-      "sunday": "weekly"
+      "saturday": "weekly",
+      "sunday": ""
     },
     "hours": {
       "monday": "",
@@ -603,8 +603,8 @@
       "wednesday": "",
       "thursday": "",
       "friday": "",
-      "saturday": "",
-      "sunday": "9:00 AM - 10:00 AM"
+      "saturday": "9:00 AM - 10:00 AM",
+      "sunday": ""
     }
   },
   {
@@ -654,7 +654,7 @@
     "lng": -117.095528,
     "phone": "619-280-9622",
     "type": "Walk-up; Drive-through",
-    "schedule": "3rd Tuesday of the month from 3:00 PM until supplies run out",
+    "schedule": "3rd Tuesday of the month from 3:00 p.m. until supplies run out",
     "eligibility": "",
     "notes": "",
     "monday": false,
@@ -675,7 +675,7 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "3:00 PM until supplies run out",
+      "tuesday": "3:00 p.m. until supplies run out",
       "wednesday": "",
       "thursday": "",
       "friday": "",
@@ -688,11 +688,11 @@
     "location": "151 YMCA Way",
     "city": "San Diego",
     "zip": "92102",
-    "lat": 32.7153435,
-    "lng": -117.119144,
+    "lat": null,
+    "lng": null,
     "phone": "619-633-7977",
     "type": "Walk-up",
-    "schedule": "1st Wednesday of the month from 10:00 AM - 3:00 PM",
+    "schedule": "1st Wednesday of the month from 10:00 a.m. - 3:00 p.m.",
     "eligibility": "",
     "notes": "",
     "monday": false,
@@ -712,9 +712,9 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "10:00 AM - 3:00 PM",
+      "monday": "",
       "tuesday": "",
-      "wednesday": "",
+      "wednesday": "10:00 a.m. - 3:00 p.m.",
       "thursday": "",
       "friday": "",
       "saturday": "",
@@ -730,7 +730,7 @@
     "lng": -116.273629,
     "phone": "",
     "type": "Walk-up",
-    "schedule": "1st and 3rd Mondays of the month from 2:15 - 3:15 PM",
+    "schedule": "1st and 3rd Mondays of the month from 2:15 - 3:15 p.m.",
     "eligibility": "",
     "notes": "Closed on 2/16 - Rescheduled to 2/20",
     "monday": true,
@@ -750,7 +750,7 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "2:15 - 3:15 PM",
+      "monday": "2:15 - 3:15 p.m.",
       "tuesday": "",
       "wednesday": "",
       "thursday": "",
@@ -844,7 +844,7 @@
     "lng": -117.1392085,
     "phone": "877-698-7838",
     "type": "Drive-through",
-    "schedule": "2nd and 4th Saturday of the month from 9:00 - 11:00 AM",
+    "schedule": "2nd and 4th Saturday of the month from 9:00 - 11:00 a.m.",
     "eligibility": "Call first; Military card required",
     "notes": "",
     "monday": false,
@@ -860,16 +860,16 @@
       "wednesday": "",
       "thursday": "",
       "friday": "",
-      "saturday": "",
-      "sunday": "2nd and 4th"
+      "saturday": "2nd and 4th",
+      "sunday": ""
     },
     "hours": {
       "monday": "",
       "tuesday": "",
       "wednesday": "",
-      "thursday": "9:00 - 11:00 AM",
+      "thursday": "",
       "friday": "",
-      "saturday": "",
+      "saturday": "9:00 - 11:00 a.m.",
       "sunday": ""
     }
   },
@@ -884,7 +884,7 @@
     "type": "Walk-up; Drive-through",
     "schedule": "weekly",
     "eligibility": "ID Required",
-    "notes": "Arrive no later than 9:00 AM Emergency food distribution is also available. Bring your own bags.",
+    "notes": "Arrive no later than 9:00 a.m. Emergency food distribution is also available. Bring your own bags.",
     "monday": false,
     "tuesday": true,
     "wednesday": false,
@@ -920,7 +920,7 @@
     "lng": -117.3787411,
     "phone": "858-283-8998",
     "type": "Walk-up",
-    "schedule": "2nd and 4th Friday of the month from 1:00 - 2:00 PM",
+    "schedule": "2nd and 4th Friday of the month from 1:00 - 2:00 p.m.",
     "eligibility": "",
     "notes": "",
     "monday": false,
@@ -935,8 +935,8 @@
       "tuesday": "",
       "wednesday": "",
       "thursday": "",
-      "friday": "",
-      "saturday": "2nd and 4th",
+      "friday": "2nd and 4th",
+      "saturday": "",
       "sunday": ""
     },
     "hours": {
@@ -944,7 +944,7 @@
       "tuesday": "",
       "wednesday": "",
       "thursday": "",
-      "friday": "1:00 - 2:00 PM",
+      "friday": "1:00 - 2:00 p.m.",
       "saturday": "",
       "sunday": ""
     }
@@ -958,7 +958,7 @@
     "lng": -116.6158525,
     "phone": "",
     "type": "Walk-up",
-    "schedule": "1st and 3rd Thursdays of the month from 8:30 - 9:30 AM",
+    "schedule": "1st and 3rd Thursdays of the month from 8:30 - 9:30 a.m.",
     "eligibility": "",
     "notes": "Descanso Branch Library",
     "monday": false,
@@ -979,9 +979,9 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "8:30 - 9:30 AM",
+      "tuesday": "",
       "wednesday": "",
-      "thursday": "",
+      "thursday": "8:30 - 9:30 a.m.",
       "friday": "",
       "saturday": "",
       "sunday": ""
@@ -996,7 +996,7 @@
     "lng": -117.2511466,
     "phone": "",
     "type": "Walk-up",
-    "schedule": "1st and 3rd Tuesdays of the month from 3:00 - 4:00 PM",
+    "schedule": "1st and 3rd Tuesdays of the month from 3:00 - 4:00 p.m.",
     "eligibility": "",
     "notes": "",
     "monday": false,
@@ -1017,7 +1017,7 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "3:00 - 4:00 PM",
+      "tuesday": "3:00 - 4:00 p.m.",
       "wednesday": "",
       "thursday": "",
       "friday": "",
@@ -1034,7 +1034,7 @@
     "lng": -116.97607,
     "phone": "",
     "type": "Walk-up",
-    "schedule": "4th Friday of the month from 10:00 - 11:00 AM",
+    "schedule": "4th Friday of the month from 10:00 - 11:00 a.m.",
     "eligibility": "",
     "notes": "Lot 7",
     "monday": false,
@@ -1049,8 +1049,8 @@
       "tuesday": "",
       "wednesday": "",
       "thursday": "",
-      "friday": "",
-      "saturday": "4th",
+      "friday": "4th",
+      "saturday": "",
       "sunday": ""
     },
     "hours": {
@@ -1058,7 +1058,7 @@
       "tuesday": "",
       "wednesday": "",
       "thursday": "",
-      "friday": "10:00 - 11:00 AM",
+      "friday": "10:00 - 11:00 a.m.",
       "saturday": "",
       "sunday": ""
     }
@@ -1092,9 +1092,9 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "7:30 AM - 8:00 AM",
+      "monday": "",
       "tuesday": "",
-      "wednesday": "",
+      "wednesday": "7:30 AM - 8:00 AM",
       "thursday": "",
       "friday": "",
       "saturday": "",
@@ -1110,7 +1110,7 @@
     "lng": -117.0814849,
     "phone": "858-283-8998",
     "type": "Walk-up",
-    "schedule": "1st and 3rd Tuesday of the month from 2:30 - 3:30 PM",
+    "schedule": "1st and 3rd Tuesday of the month from 2:30 - 3:30 p.m.",
     "eligibility": "",
     "notes": "",
     "monday": false,
@@ -1131,7 +1131,7 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "2:30 - 3:30 PM",
+      "tuesday": "2:30 - 3:30 p.m.",
       "wednesday": "",
       "thursday": "",
       "friday": "",
@@ -1148,7 +1148,7 @@
     "lng": -117.0689696,
     "phone": "858-283-8998",
     "type": "Walk-up",
-    "schedule": "2nd Friday of the month from 9:00 - 11:00 AM",
+    "schedule": "2nd Friday of the month from 9:00 - 11:00 a.m.",
     "eligibility": "",
     "notes": "",
     "monday": false,
@@ -1163,8 +1163,8 @@
       "tuesday": "",
       "wednesday": "",
       "thursday": "",
-      "friday": "",
-      "saturday": "2nd",
+      "friday": "2nd",
+      "saturday": "",
       "sunday": ""
     },
     "hours": {
@@ -1172,7 +1172,7 @@
       "tuesday": "",
       "wednesday": "",
       "thursday": "",
-      "friday": "9:00 - 11:00 AM",
+      "friday": "9:00 - 11:00 a.m.",
       "saturday": "",
       "sunday": ""
     }
@@ -1186,7 +1186,7 @@
     "lng": -117.2219927,
     "phone": "760-724-7700",
     "type": "Drive-through",
-    "schedule": "2nd and 4th Monday of the month from 4:00 - 5:00 PM",
+    "schedule": "2nd and 4th Monday of the month from 4:00 - 5:00 p.m.",
     "eligibility": "",
     "notes": "Enter through the large gate on Anza",
     "monday": true,
@@ -1226,7 +1226,7 @@
     "type": "Walk-up",
     "schedule": "weekly",
     "eligibility": "",
-    "notes": "Walk-ups from 3:30 - 4:20 PM & Drive-through from 4:30 - 6:00 p.m",
+    "notes": "Walk-ups from 3:30 - 4:20 p.m. & Drive-through from 4:30 - 6:00 p.m",
     "monday": true,
     "tuesday": false,
     "wednesday": false,
@@ -1262,7 +1262,7 @@
     "lng": -117.220156,
     "phone": "760-731-4656",
     "type": "",
-    "schedule": "1st and 3rd Tuesday of the month at 3:00 PM",
+    "schedule": "1st and 3rd Tuesday of the month at 3:00 p.m.",
     "eligibility": "Call first",
     "notes": "",
     "monday": false,
@@ -1283,7 +1283,7 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "3:00 PM",
+      "tuesday": "3:00 p.m.",
       "wednesday": "",
       "thursday": "",
       "friday": "",
@@ -1338,7 +1338,7 @@
     "lng": -117.2511466,
     "phone": "",
     "type": "Drive-through",
-    "schedule": "1st Friday of the month from 10:00 - 11:00 AM",
+    "schedule": "1st Friday of the month from 10:00 - 11:00 a.m.",
     "eligibility": "",
     "notes": "",
     "monday": false,
@@ -1353,8 +1353,8 @@
       "tuesday": "",
       "wednesday": "",
       "thursday": "",
-      "friday": "",
-      "saturday": "1st",
+      "friday": "1st",
+      "saturday": "",
       "sunday": ""
     },
     "hours": {
@@ -1362,7 +1362,7 @@
       "tuesday": "",
       "wednesday": "",
       "thursday": "",
-      "friday": "10:00 - 11:00 AM",
+      "friday": "10:00 - 11:00 a.m.",
       "saturday": "",
       "sunday": ""
     }
@@ -1376,7 +1376,7 @@
     "lng": -117.2511466,
     "phone": "360-525-3230",
     "type": "Walk-up",
-    "schedule": "1st, 3rd, and 5th Monday of the month from 11:00 AM - 12:00 PM",
+    "schedule": "1st, 3rd, and 5th Monday of the month from 11:00 a.m. - 12:00 p.m.",
     "eligibility": "",
     "notes": "",
     "monday": true,
@@ -1396,7 +1396,7 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "11:00 AM - 12:00 PM",
+      "monday": "11:00 a.m. - 12:00 p.m.",
       "tuesday": "",
       "wednesday": "",
       "thursday": "",
@@ -1414,7 +1414,7 @@
     "lng": -117.0371437,
     "phone": "619-422-8397",
     "type": "Walk-up",
-    "schedule": "3rd Wednesday of the month from 10:00 - 11:00 AM",
+    "schedule": "3rd Wednesday of the month from 10:00 - 11:00 a.m.",
     "eligibility": "",
     "notes": "",
     "monday": false,
@@ -1434,9 +1434,9 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "10:00 - 11:00 AM",
+      "monday": "",
       "tuesday": "",
-      "wednesday": "",
+      "wednesday": "10:00 - 11:00 a.m.",
       "thursday": "",
       "friday": "",
       "saturday": "",
@@ -1490,7 +1490,7 @@
     "lng": -117.1917704,
     "phone": "",
     "type": "Walk-up",
-    "schedule": "2nd and 4th Saturday of the month from 10:00 - 11:00 AM",
+    "schedule": "2nd and 4th Saturday of the month from 10:00 - 11:00 a.m.",
     "eligibility": "",
     "notes": "",
     "monday": false,
@@ -1506,16 +1506,16 @@
       "wednesday": "",
       "thursday": "",
       "friday": "",
-      "saturday": "",
-      "sunday": "2nd and 4th"
+      "saturday": "2nd and 4th",
+      "sunday": ""
     },
     "hours": {
       "monday": "",
       "tuesday": "",
       "wednesday": "",
-      "thursday": "10:00 - 11:00 AM",
+      "thursday": "",
       "friday": "",
-      "saturday": "",
+      "saturday": "10:00 - 11:00 a.m.",
       "sunday": ""
     }
   },
@@ -1528,7 +1528,7 @@
     "lng": -116.8680821,
     "phone": "760-214-2878",
     "type": "Walk-up",
-    "schedule": "2nd Friday of the month from 12:30 - 2:00 PM",
+    "schedule": "2nd Friday of the month from 12:30 - 2:00 p.m.",
     "eligibility": "Call first",
     "notes": "",
     "monday": false,
@@ -1543,8 +1543,8 @@
       "tuesday": "",
       "wednesday": "",
       "thursday": "",
-      "friday": "",
-      "saturday": "2nd",
+      "friday": "2nd",
+      "saturday": "",
       "sunday": ""
     },
     "hours": {
@@ -1552,7 +1552,7 @@
       "tuesday": "",
       "wednesday": "",
       "thursday": "",
-      "friday": "12:30 - 2:00 PM",
+      "friday": "12:30 - 2:00 p.m.",
       "saturday": "",
       "sunday": ""
     }
@@ -1582,16 +1582,16 @@
       "wednesday": "",
       "thursday": "",
       "friday": "",
-      "saturday": "",
-      "sunday": "weekly"
+      "saturday": "weekly",
+      "sunday": ""
     },
     "hours": {
       "monday": "",
       "tuesday": "",
       "wednesday": "",
-      "thursday": "9:00 AM - 10:30 AM",
+      "thursday": "",
       "friday": "",
-      "saturday": "",
+      "saturday": "9:00 AM - 10:30 AM",
       "sunday": ""
     }
   },
@@ -1642,7 +1642,7 @@
     "lng": -117.0536726,
     "phone": "619-266-2066",
     "type": "Walk-up",
-    "schedule": "4th Thursday of the month at 11:30 AM",
+    "schedule": "4th Thursday of the month at 11:30 a.m.",
     "eligibility": "Call first",
     "notes": "First come; first served distribution for seniors",
     "monday": false,
@@ -1663,9 +1663,9 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "11:30 AM",
+      "tuesday": "",
       "wednesday": "",
-      "thursday": "",
+      "thursday": "11:30 a.m.",
       "friday": "",
       "saturday": "",
       "sunday": ""
@@ -1756,7 +1756,7 @@
     "lng": -117.1182335,
     "phone": "619-263-5556",
     "type": "Walk-up",
-    "schedule": "2nd and 4th Saturday of the month from 11:00 AM - 1:00 PM",
+    "schedule": "2nd and 4th Saturday of the month from 11:00 a.m. - 1:00 p.m.",
     "eligibility": "Must be 21+ years of age or older or accompanied by an adult to receive food",
     "notes": "",
     "monday": false,
@@ -1772,16 +1772,16 @@
       "wednesday": "",
       "thursday": "",
       "friday": "",
-      "saturday": "",
-      "sunday": "2nd and 4th"
+      "saturday": "2nd and 4th",
+      "sunday": ""
     },
     "hours": {
       "monday": "",
       "tuesday": "",
       "wednesday": "",
-      "thursday": "11:00 AM - 1:00 PM",
+      "thursday": "",
       "friday": "",
-      "saturday": "",
+      "saturday": "11:00 a.m. - 1:00 p.m.",
       "sunday": ""
     }
   },
@@ -1815,11 +1815,11 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "",
-      "wednesday": "8:00 AM - 9:00 AM",
+      "tuesday": "8:00 AM - 9:00 AM",
+      "wednesday": "",
       "thursday": "",
-      "friday": "",
-      "saturday": "8:00 AM - 9:00 AM",
+      "friday": "8:00 AM - 9:00 AM",
+      "saturday": "",
       "sunday": ""
     }
   },
@@ -1852,9 +1852,9 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "4PM-7PM",
+      "monday": "",
       "tuesday": "",
-      "wednesday": "",
+      "wednesday": "4PM-7PM",
       "thursday": "",
       "friday": "",
       "saturday": "",
@@ -1870,7 +1870,7 @@
     "lng": -116.5572403,
     "phone": "",
     "type": "Walk-up",
-    "schedule": "2nd and 4th Thursdays of the month from 8:30 - 9:30 AM",
+    "schedule": "2nd and 4th Thursdays of the month from 8:30 - 9:30 a.m.",
     "eligibility": "",
     "notes": "",
     "monday": false,
@@ -1891,9 +1891,9 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "8:30 - 9:30 AM",
+      "tuesday": "",
       "wednesday": "",
-      "thursday": "",
+      "thursday": "8:30 - 9:30 a.m.",
       "friday": "",
       "saturday": "",
       "sunday": ""
@@ -1908,7 +1908,7 @@
     "lng": -117.095528,
     "phone": "",
     "type": "Walk-up",
-    "schedule": "1st and 3rd Wednesday of the month from 11:15 AM - 12:15 PM",
+    "schedule": "1st and 3rd Wednesday of the month from 11:15 a.m. - 12:15 p.m.",
     "eligibility": "",
     "notes": "",
     "monday": false,
@@ -1928,9 +1928,9 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "11:15 AM - 12:15 PM",
+      "monday": "",
       "tuesday": "",
-      "wednesday": "",
+      "wednesday": "11:15 a.m. - 12:15 p.m.",
       "thursday": "",
       "friday": "",
       "saturday": "",
@@ -1967,11 +1967,11 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "",
+      "tuesday": "9:00 AM - 12:00 PM",
       "wednesday": "9:00 AM - 12:00 PM",
       "thursday": "9:00 AM - 12:00 PM",
       "friday": "9:00 AM - 12:00 PM",
-      "saturday": "9:00 AM - 12:00 PM",
+      "saturday": "",
       "sunday": ""
     }
   },
@@ -1984,7 +1984,7 @@
     "lng": -117.0699983,
     "phone": "619-431-0320",
     "type": "Walk-up",
-    "schedule": "1st and 3rd Tuesday of the month from 2:15 - 3:15 PM",
+    "schedule": "1st and 3rd Tuesday of the month from 2:15 - 3:15 p.m.",
     "eligibility": "",
     "notes": "",
     "monday": false,
@@ -2005,7 +2005,7 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "2:15 - 3:15 PM",
+      "tuesday": "2:15 - 3:15 p.m.",
       "wednesday": "",
       "thursday": "",
       "friday": "",
@@ -2060,7 +2060,7 @@
     "lng": -117.095528,
     "phone": "",
     "type": "Walk-up",
-    "schedule": "1st and 3rd Tuesday of the month from 11:30 AM - 12:30 PM",
+    "schedule": "1st and 3rd Tuesday of the month from 11:30 a.m. - 12:30 p.m.",
     "eligibility": "",
     "notes": "",
     "monday": false,
@@ -2081,7 +2081,7 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "11:30 AM - 12:30 PM",
+      "tuesday": "11:30 a.m. - 12:30 p.m.",
       "wednesday": "",
       "thursday": "",
       "friday": "",
@@ -2118,11 +2118,11 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "",
+      "monday": "9:00 AM - 12:00 PM",
       "tuesday": "9:00 AM - 12:00 PM",
       "wednesday": "9:00 AM - 12:00 PM",
       "thursday": "9:00 AM - 12:00 PM",
-      "friday": "9:00 AM - 12:00 PM",
+      "friday": "",
       "saturday": "",
       "sunday": ""
     }
@@ -2212,7 +2212,7 @@
     "lng": -116.189739,
     "phone": "",
     "type": "Drive-through",
-    "schedule": "1st, 2nd, 3rd, 4th Monday of the month from 9:00 - 10:00 AM",
+    "schedule": "1st, 2nd, 3rd, 4th Monday of the month from 9:00 - 10:00 a.m.",
     "eligibility": "",
     "notes": "1st/3rd: Produce only | 2nd/4th: Mobile Pantry (produce + dry goods)",
     "monday": true,
@@ -2232,7 +2232,7 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "9:00 - 10:00 AM",
+      "monday": "9:00 - 10:00 a.m.",
       "tuesday": "",
       "wednesday": "",
       "thursday": "",
@@ -2326,7 +2326,7 @@
     "lng": -117.0163635,
     "phone": "619-464-4544",
     "type": "Walk-up; Drive-through",
-    "schedule": "1st & 4th Thursday of the month at 7:00 PM; 2nd Friday of the month at 9:00 AM; 3rd Saturday of the month at 8:30 AM",
+    "schedule": "1st & 4th Thursday of the month at 7:00 p.m.; 2nd Friday of the month at 9:00 a.m.; 3rd Saturday of the month at 8:30 a.m.",
     "eligibility": "",
     "notes": "Open until food runs out",
     "monday": false,
@@ -2349,9 +2349,9 @@
       "monday": "",
       "tuesday": "",
       "wednesday": "",
-      "thursday": "7:00 PM",
-      "friday": "9:00 AM",
-      "saturday": "8:30 AM",
+      "thursday": "7:00 p.m.",
+      "friday": "9:00 a.m.",
+      "saturday": "8:30 a.m.",
       "sunday": ""
     }
   },
@@ -2364,7 +2364,7 @@
     "lng": -116.673076,
     "phone": "",
     "type": "Walk-up",
-    "schedule": "2nd and 4th Wednesdays of the month from 9:30 - 10:30 AM",
+    "schedule": "2nd and 4th Wednesdays of the month from 9:30 - 10:30 a.m.",
     "eligibility": "",
     "notes": "",
     "monday": false,
@@ -2384,9 +2384,9 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "9:30 - 10:30 AM",
+      "monday": "",
       "tuesday": "",
-      "wednesday": "",
+      "wednesday": "9:30 - 10:30 a.m.",
       "thursday": "",
       "friday": "",
       "saturday": "",
@@ -2402,7 +2402,7 @@
     "lng": -116.9814167,
     "phone": "",
     "type": "Drive-through",
-    "schedule": "1st and 3rd Tuesdays of the month from 12:30 - 2:30 PM",
+    "schedule": "1st and 3rd Tuesdays of the month from 12:30 - 2:30 p.m.",
     "eligibility": "",
     "notes": "La Jolla Tribe Elder's Building",
     "monday": false,
@@ -2423,7 +2423,7 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "12:30 - 2:30 PM",
+      "tuesday": "12:30 - 2:30 p.m.",
       "wednesday": "",
       "thursday": "",
       "friday": "",
@@ -2461,11 +2461,11 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "",
+      "tuesday": "9:00 AM - 2:00 PM",
       "wednesday": "9:00 AM - 2:00 PM",
-      "thursday": "9:00 AM - 2:00 PM",
-      "friday": "",
-      "saturday": "10:00 AM - 3:00 PM",
+      "thursday": "",
+      "friday": "10:00 AM - 3:00 PM",
+      "saturday": "",
       "sunday": ""
     }
   },
@@ -2498,11 +2498,11 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "",
+      "monday": "10:00 AM - 12:00 PM",
       "tuesday": "10:00 AM - 12:00 PM",
       "wednesday": "10:00 AM - 12:00 PM",
       "thursday": "10:00 AM - 12:00 PM",
-      "friday": "10:00 AM - 12:00 PM",
+      "friday": "",
       "saturday": "",
       "sunday": ""
     }
@@ -2516,7 +2516,7 @@
     "lng": -116.9222489,
     "phone": "",
     "type": "Drive-through",
-    "schedule": "First Tuesday of the month from 12:30 - 1:30 PM",
+    "schedule": "First Tuesday of the month from 12:30 - 1:30 p.m.",
     "eligibility": "",
     "notes": "",
     "monday": false,
@@ -2537,7 +2537,7 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "12:30 - 1:30 PM",
+      "tuesday": "12:30 - 1:30 p.m.",
       "wednesday": "",
       "thursday": "",
       "friday": "",
@@ -2554,7 +2554,7 @@
     "lng": -116.9222489,
     "phone": "",
     "type": "Walk-up",
-    "schedule": "2nd and 4th Wednesdays of the month from 11:30 AM - 1:30 PM",
+    "schedule": "2nd and 4th Wednesdays of the month from 11:30 a.m. - 1:30 p.m.",
     "eligibility": "",
     "notes": "Closed on 3/11",
     "monday": false,
@@ -2574,9 +2574,9 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "11:30 AM - 1:30 PM",
+      "monday": "",
       "tuesday": "",
-      "wednesday": "",
+      "wednesday": "11:30 a.m. - 1:30 p.m.",
       "thursday": "",
       "friday": "",
       "saturday": "",
@@ -2592,7 +2592,7 @@
     "lng": -116.962526,
     "phone": "",
     "type": "Walk-up",
-    "schedule": "1st and 3rd Friday of the month from 4:00 - 5:00 PM",
+    "schedule": "1st and 3rd Friday of the month from 4:00 - 5:00 p.m.",
     "eligibility": "",
     "notes": "",
     "monday": false,
@@ -2607,8 +2607,8 @@
       "tuesday": "",
       "wednesday": "",
       "thursday": "",
-      "friday": "",
-      "saturday": "1st and 3rd",
+      "friday": "1st and 3rd",
+      "saturday": "",
       "sunday": ""
     },
     "hours": {
@@ -2616,7 +2616,7 @@
       "tuesday": "",
       "wednesday": "",
       "thursday": "",
-      "friday": "4:00 - 5:00 PM",
+      "friday": "4:00 - 5:00 p.m.",
       "saturday": "",
       "sunday": ""
     }
@@ -2630,7 +2630,7 @@
     "lng": -117.3000487,
     "phone": "858-283-8998",
     "type": "Walk-up",
-    "schedule": "2nd and 4th Wednesday of the month from 12:00 PM until food runs out",
+    "schedule": "2nd and 4th Wednesday of the month from 12:00 p.m. until food runs out",
     "eligibility": "",
     "notes": "",
     "monday": false,
@@ -2650,9 +2650,9 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "12:00 PM until food runs out",
+      "monday": "",
       "tuesday": "",
-      "wednesday": "",
+      "wednesday": "12:00 p.m. until food runs out",
       "thursday": "",
       "friday": "",
       "saturday": "",
@@ -2684,16 +2684,16 @@
       "wednesday": "",
       "thursday": "",
       "friday": "",
-      "saturday": "",
-      "sunday": "weekly"
+      "saturday": "weekly",
+      "sunday": ""
     },
     "hours": {
       "monday": "",
       "tuesday": "",
       "wednesday": "",
-      "thursday": "9:00 AM - 10:30 AM",
+      "thursday": "",
       "friday": "",
-      "saturday": "",
+      "saturday": "9:00 AM - 10:30 AM",
       "sunday": ""
     }
   },
@@ -2706,7 +2706,7 @@
     "lng": -117.1182335,
     "phone": "619-266-6517",
     "type": "Walk-up",
-    "schedule": "2nd and 4th Friday of the month from 2:50 - 4:30 PM",
+    "schedule": "2nd and 4th Friday of the month from 2:50 - 4:30 p.m.",
     "eligibility": "",
     "notes": "",
     "monday": false,
@@ -2721,8 +2721,8 @@
       "tuesday": "",
       "wednesday": "",
       "thursday": "",
-      "friday": "",
-      "saturday": "2nd and 4th",
+      "friday": "2nd and 4th",
+      "saturday": "",
       "sunday": ""
     },
     "hours": {
@@ -2730,7 +2730,7 @@
       "tuesday": "",
       "wednesday": "",
       "thursday": "",
-      "friday": "2:50 - 4:30 PM",
+      "friday": "2:50 - 4:30 p.m.",
       "saturday": "",
       "sunday": ""
     }
@@ -2744,7 +2744,7 @@
     "lng": -117.3787411,
     "phone": "858-283-8998",
     "type": "Walk-up",
-    "schedule": "2nd and 4th Wednesday of the month from 11:00 AM - 12:00 PM",
+    "schedule": "2nd and 4th Wednesday of the month from 11:00 a.m. - 12:00 p.m.",
     "eligibility": "",
     "notes": "",
     "monday": false,
@@ -2764,9 +2764,9 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "11:00 AM - 12:00 PM",
+      "monday": "",
       "tuesday": "",
-      "wednesday": "",
+      "wednesday": "11:00 a.m. - 12:00 p.m.",
       "thursday": "",
       "friday": "",
       "saturday": "",
@@ -2782,7 +2782,7 @@
     "lng": -116.9222489,
     "phone": "",
     "type": "Walk-up",
-    "schedule": "1st and 3rd Wednesday of the month from 3:00 - 5:00 PM",
+    "schedule": "1st and 3rd Wednesday of the month from 3:00 - 5:00 p.m.",
     "eligibility": "",
     "notes": "",
     "monday": false,
@@ -2802,9 +2802,9 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "3:00 - 5:00 PM",
+      "monday": "",
       "tuesday": "",
-      "wednesday": "",
+      "wednesday": "3:00 - 5:00 p.m.",
       "thursday": "",
       "friday": "",
       "saturday": "",
@@ -2820,7 +2820,7 @@
     "lng": -116.97138,
     "phone": "",
     "type": "Walk-up; Drive-through",
-    "schedule": "1st and 3rd Thursday of the month from 10:30 AM - 12:00 PM",
+    "schedule": "1st and 3rd Thursday of the month from 10:30 a.m. - 12:00 p.m.",
     "eligibility": "",
     "notes": "",
     "monday": false,
@@ -2841,9 +2841,9 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "10:30 AM - 12:00 PM",
+      "tuesday": "",
       "wednesday": "",
-      "thursday": "",
+      "thursday": "10:30 a.m. - 12:00 p.m.",
       "friday": "",
       "saturday": "",
       "sunday": ""
@@ -2858,7 +2858,7 @@
     "lng": -117.119144,
     "phone": "619-858-0563",
     "type": "Walk-up; Drive-through",
-    "schedule": "3rd Friday of the month from 10:00 AM - 12:00 PM",
+    "schedule": "3rd Friday of the month from 10:00 a.m. - 12:00 p.m.",
     "eligibility": "",
     "notes": "",
     "monday": false,
@@ -2873,8 +2873,8 @@
       "tuesday": "",
       "wednesday": "",
       "thursday": "",
-      "friday": "",
-      "saturday": "3rd",
+      "friday": "3rd",
+      "saturday": "",
       "sunday": ""
     },
     "hours": {
@@ -2882,7 +2882,7 @@
       "tuesday": "",
       "wednesday": "",
       "thursday": "",
-      "friday": "10:00 AM - 12:00 PM",
+      "friday": "10:00 a.m. - 12:00 p.m.",
       "saturday": "",
       "sunday": ""
     }
@@ -2896,7 +2896,7 @@
     "lng": -117.0699983,
     "phone": "",
     "type": "Walk-up",
-    "schedule": "2nd Thursday of the month from 2:26 - 3:30 PM",
+    "schedule": "2nd Thursday of the month from 2:26 - 3:30 p.m.",
     "eligibility": "",
     "notes": "",
     "monday": false,
@@ -2917,9 +2917,9 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "2:26 - 3:30 PM",
+      "tuesday": "",
       "wednesday": "",
-      "thursday": "",
+      "thursday": "2:26 - 3:30 p.m.",
       "friday": "",
       "saturday": "",
       "sunday": ""
@@ -2934,7 +2934,7 @@
     "lng": -117.119144,
     "phone": "619-239-6738",
     "type": "Walk-up",
-    "schedule": "2nd and 4th Saturday of the month from 10:00 AM - 12:00 PM",
+    "schedule": "2nd and 4th Saturday of the month from 10:00 a.m. - 12:00 p.m.",
     "eligibility": "",
     "notes": "",
     "monday": false,
@@ -2950,16 +2950,16 @@
       "wednesday": "",
       "thursday": "",
       "friday": "",
-      "saturday": "",
-      "sunday": "2nd and 4th"
+      "saturday": "2nd and 4th",
+      "sunday": ""
     },
     "hours": {
       "monday": "",
       "tuesday": "",
       "wednesday": "",
-      "thursday": "10:00 AM - 12:00 PM",
+      "thursday": "",
       "friday": "",
-      "saturday": "",
+      "saturday": "10:00 a.m. - 12:00 p.m.",
       "sunday": ""
     }
   },
@@ -3006,11 +3006,11 @@
     "location": "7250 Mesa College Drive",
     "city": "San Diego",
     "zip": "92111",
-    "lat": null,
-    "lng": null,
+    "lat": 32.8001535,
+    "lng": -117.1720663,
     "phone": "",
     "type": "Walk-up",
-    "schedule": "3rd Thursday from 11:00 AM - 1:00 PM",
+    "schedule": "3rd Thursday from 11:00 a.m. - 1:00 p.m.",
     "eligibility": "",
     "notes": "Bring your own bags",
     "monday": false,
@@ -3031,9 +3031,9 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "11:00 AM - 1:00 PM",
+      "tuesday": "",
       "wednesday": "",
-      "thursday": "",
+      "thursday": "11:00 a.m. - 1:00 p.m.",
       "friday": "",
       "saturday": "",
       "sunday": ""
@@ -3048,7 +3048,7 @@
     "lng": -116.673076,
     "phone": "",
     "type": "Walk-up",
-    "schedule": "1st and 3rd Tuesday of the month from 1:00 - 3:00 PM",
+    "schedule": "1st and 3rd Tuesday of the month from 1:00 - 3:00 p.m.",
     "eligibility": "",
     "notes": "",
     "monday": false,
@@ -3069,7 +3069,7 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "1:00 - 3:00 PM",
+      "tuesday": "1:00 - 3:00 p.m.",
       "wednesday": "",
       "thursday": "",
       "friday": "",
@@ -3086,7 +3086,7 @@
     "lng": -117.119144,
     "phone": "619-362-4650",
     "type": "Walk-up; Drive-through",
-    "schedule": "2nd and 4th Thursday of the month from 2:45 - 3:30 PM",
+    "schedule": "2nd and 4th Thursday of the month from 2:45 - 3:30 p.m.",
     "eligibility": "",
     "notes": "",
     "monday": false,
@@ -3107,9 +3107,9 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "2:45 - 3:30 PM",
+      "tuesday": "",
       "wednesday": "",
-      "thursday": "",
+      "thursday": "2:45 - 3:30 p.m.",
       "friday": "",
       "saturday": "",
       "sunday": ""
@@ -3124,7 +3124,7 @@
     "lng": -117.3787411,
     "phone": "760-757-2121",
     "type": "",
-    "schedule": "3rd Monday and Tuesday of the month from 8:00 AM - 7:00 PM 3rd Friday of the month from 8:00 AM - 3:00 PM",
+    "schedule": "3rd Monday and Tuesday of the month from 8:00 a.m. - 7:00 p.m. 3rd Friday of the month from 8:00 a.m. - 3:00 p.m.",
     "eligibility": "Call first",
     "notes": "",
     "monday": true,
@@ -3144,11 +3144,11 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "8:00 AM - 7:00 PM",
-      "tuesday": "8:00 AM - 7:00 PM",
+      "monday": "8:00 a.m. - 7:00 p.m.",
+      "tuesday": "8:00 a.m. - 7:00 p.m.",
       "wednesday": "",
       "thursday": "",
-      "friday": "8:00 AM - 3:00 PM",
+      "friday": "8:00 a.m. - 3:00 p.m.",
       "saturday": "",
       "sunday": ""
     }
@@ -3238,7 +3238,7 @@
     "lng": -116.97138,
     "phone": "",
     "type": "Walk-up",
-    "schedule": "2nd and 4th Tuesday of the month at 1:00 PM",
+    "schedule": "2nd and 4th Tuesday of the month at 1:00 p.m.",
     "eligibility": "",
     "notes": "Open until food runs out",
     "monday": false,
@@ -3259,7 +3259,7 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "1:00 PM",
+      "tuesday": "1:00 p.m.",
       "wednesday": "",
       "thursday": "",
       "friday": "",
@@ -3272,8 +3272,8 @@
     "location": "1245 4th Avenue",
     "city": "Chula Vista",
     "zip": "91911",
-    "lat": 32.6103821,
-    "lng": -117.0489796,
+    "lat": 32.6103815,
+    "lng": -117.0489816,
     "phone": "619-420-7096",
     "type": "Walk-up",
     "schedule": "weekly",
@@ -3297,11 +3297,11 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "",
-      "wednesday": "11:00 AM - 1:00 PM",
+      "tuesday": "11:00 AM - 1:00 PM",
+      "wednesday": "",
       "thursday": "",
-      "friday": "",
-      "saturday": "11:00 AM - 1:00 PM",
+      "friday": "11:00 AM - 1:00 PM",
+      "saturday": "",
       "sunday": ""
     }
   },
@@ -3352,7 +3352,7 @@
     "lng": -116.6023154,
     "phone": "760-765-0114",
     "type": "Walk-up; Drive-through",
-    "schedule": "4th Saturday of the month from 8:00 - 10:30 AM",
+    "schedule": "4th Saturday of the month from 8:00 - 10:30 a.m.",
     "eligibility": "",
     "notes": "",
     "monday": false,
@@ -3368,16 +3368,16 @@
       "wednesday": "",
       "thursday": "",
       "friday": "",
-      "saturday": "",
-      "sunday": "4th"
+      "saturday": "4th",
+      "sunday": ""
     },
     "hours": {
       "monday": "",
       "tuesday": "",
       "wednesday": "",
-      "thursday": "8:00 - 10:30 AM",
+      "thursday": "",
       "friday": "",
-      "saturday": "",
+      "saturday": "8:00 - 10:30 a.m.",
       "sunday": ""
     }
   },
@@ -3390,7 +3390,7 @@
     "lng": -117.0689696,
     "phone": "833-867-4642",
     "type": "Drive-through",
-    "schedule": "3rd Saturday of the month from 10:00 AM until supplies last",
+    "schedule": "3rd Saturday of the month from 10:00 a.m. until supplies last",
     "eligibility": "",
     "notes": "",
     "monday": false,
@@ -3406,16 +3406,16 @@
       "wednesday": "",
       "thursday": "",
       "friday": "",
-      "saturday": "",
-      "sunday": "3rd"
+      "saturday": "3rd",
+      "sunday": ""
     },
     "hours": {
       "monday": "",
       "tuesday": "",
       "wednesday": "",
-      "thursday": "10:00 AM until supplies last",
+      "thursday": "",
       "friday": "",
-      "saturday": "",
+      "saturday": "10:00 a.m. until supplies last",
       "sunday": ""
     }
   },
@@ -3428,7 +3428,7 @@
     "lng": -117.095528,
     "phone": "808-409-3165",
     "type": "Walk-up",
-    "schedule": "2nd Thursday of the month from 8:00 -11:00 AM",
+    "schedule": "2nd Thursday of the month from 8:00 -11:00 a.m.",
     "eligibility": "",
     "notes": "",
     "monday": false,
@@ -3449,9 +3449,9 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "8:00 -11:00 AM",
+      "tuesday": "",
       "wednesday": "",
-      "thursday": "",
+      "thursday": "8:00 -11:00 a.m.",
       "friday": "",
       "saturday": "",
       "sunday": ""
@@ -3466,7 +3466,7 @@
     "lng": -117.095528,
     "phone": "",
     "type": "Walk-up",
-    "schedule": "3rd Wednesday of the month from 12:45 - 1:30 PM",
+    "schedule": "3rd Wednesday of the month from 12:45 - 1:30 p.m.",
     "eligibility": "",
     "notes": "",
     "monday": false,
@@ -3486,9 +3486,9 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "12:45 - 1:30 PM",
+      "monday": "",
       "tuesday": "",
-      "wednesday": "",
+      "wednesday": "12:45 - 1:30 p.m.",
       "thursday": "",
       "friday": "",
       "saturday": "",
@@ -3519,8 +3519,8 @@
       "tuesday": "",
       "wednesday": "",
       "thursday": "",
-      "friday": "",
-      "saturday": "weekly",
+      "friday": "weekly",
+      "saturday": "",
       "sunday": ""
     },
     "hours": {
@@ -3564,9 +3564,9 @@
     "hours": {
       "monday": "",
       "tuesday": "",
-      "wednesday": "",
+      "wednesday": "12:00 PM - 2:00 PM",
       "thursday": "12:00 PM - 2:00 PM",
-      "friday": "12:00 PM - 2:00 PM",
+      "friday": "",
       "saturday": "",
       "sunday": ""
     }
@@ -3576,11 +3576,11 @@
     "location": "141 Santa Rosa Dr.",
     "city": "Oceanside",
     "zip": "92058",
-    "lat": 33.2259886,
-    "lng": -117.34832,
+    "lat": 33.2259835,
+    "lng": -117.3483268,
     "phone": "858-283-8998",
     "type": "Walk-up",
-    "schedule": "2nd Thursday of the month from 2:00 - 3:00 PM",
+    "schedule": "2nd Thursday of the month from 2:00 - 3:00 p.m.",
     "eligibility": "",
     "notes": "",
     "monday": false,
@@ -3601,9 +3601,9 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "2:00 - 3:00 PM",
+      "tuesday": "",
       "wednesday": "",
-      "thursday": "",
+      "thursday": "2:00 - 3:00 p.m.",
       "friday": "",
       "saturday": "",
       "sunday": ""
@@ -3638,8 +3638,8 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "",
-      "tuesday": "9:30 AM - 12:00 PM",
+      "monday": "9:30 AM - 12:00 PM",
+      "tuesday": "",
       "wednesday": "",
       "thursday": "",
       "friday": "",
@@ -3671,8 +3671,8 @@
       "tuesday": "",
       "wednesday": "",
       "thursday": "",
-      "friday": "",
-      "saturday": "1st and 3rd",
+      "friday": "1st and 3rd",
+      "saturday": "",
       "sunday": ""
     },
     "hours": {
@@ -3694,7 +3694,7 @@
     "lng": -117.0545038,
     "phone": "619-424-7870",
     "type": "Walk-up; Drive-through",
-    "schedule": "3rd Saturday of the month at 8:00 AM",
+    "schedule": "3rd Saturday of the month at 8:00 a.m.",
     "eligibility": "",
     "notes": "",
     "monday": false,
@@ -3710,16 +3710,16 @@
       "wednesday": "",
       "thursday": "",
       "friday": "",
-      "saturday": "",
-      "sunday": "3rd"
+      "saturday": "3rd",
+      "sunday": ""
     },
     "hours": {
       "monday": "",
       "tuesday": "",
       "wednesday": "",
-      "thursday": "8:00 AM",
+      "thursday": "",
       "friday": "",
-      "saturday": "",
+      "saturday": "8:00 a.m.",
       "sunday": ""
     }
   },
@@ -3732,7 +3732,7 @@
     "lng": -117.3000487,
     "phone": "858-283-8998",
     "type": "Walk-up",
-    "schedule": "2nd and 4th Tuesday of the month from 11:00 AM - 12:00 PM",
+    "schedule": "2nd and 4th Tuesday of the month from 11:00 a.m. - 12:00 p.m.",
     "eligibility": "",
     "notes": "",
     "monday": false,
@@ -3753,7 +3753,7 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "11:00 AM - 12:00 PM",
+      "tuesday": "11:00 a.m. - 12:00 p.m.",
       "wednesday": "",
       "thursday": "",
       "friday": "",
@@ -3770,7 +3770,7 @@
     "lng": -117.3787411,
     "phone": "760-470-6992",
     "type": "Drive-through",
-    "schedule": "1st and 3rd Friday from 4:30 - 5:30 PM Seniors served 1st and 3rd Monday",
+    "schedule": "1st and 3rd Friday from 4:30 - 5:30 p.m. Seniors served 1st and 3rd Monday",
     "eligibility": "Call first",
     "notes": "",
     "monday": true,
@@ -3794,7 +3794,7 @@
       "tuesday": "",
       "wednesday": "",
       "thursday": "",
-      "friday": "4:30 - 5:30 PM",
+      "friday": "4:30 - 5:30 p.m.",
       "saturday": "",
       "sunday": ""
     }
@@ -3846,7 +3846,7 @@
     "lng": -117.0513654,
     "phone": "858-283-8998",
     "type": "Drive-through",
-    "schedule": "3:00 - 4:00 PM Jan 26; Feb 9; Feb 23; March 9; March 23; March 30; April 20; May 4; May 18; June 1",
+    "schedule": "3:00 - 4:00 p.m. Jan 26; Feb 9; Feb 23; March 9; March 23; March 30; April 20; May 4; May 18; June 1",
     "eligibility": "",
     "notes": "",
     "monday": false,
@@ -3884,7 +3884,7 @@
     "lng": -117.1317801,
     "phone": "858-324-0490",
     "type": "Drive-through",
-    "schedule": "3rd Saturday of the month from 7:30 - 9:30 AM",
+    "schedule": "3rd Saturday of the month from 7:30 - 9:30 a.m.",
     "eligibility": "ID is required",
     "notes": "",
     "monday": false,
@@ -3900,16 +3900,16 @@
       "wednesday": "",
       "thursday": "",
       "friday": "",
-      "saturday": "",
-      "sunday": "3rd"
+      "saturday": "3rd",
+      "sunday": ""
     },
     "hours": {
       "monday": "",
       "tuesday": "",
       "wednesday": "",
-      "thursday": "7:30 - 9:30 AM",
+      "thursday": "",
       "friday": "",
-      "saturday": "",
+      "saturday": "7:30 - 9:30 a.m.",
       "sunday": ""
     }
   },
@@ -3922,7 +3922,7 @@
     "lng": -117.3787411,
     "phone": "858-283-8998",
     "type": "Walk-up",
-    "schedule": "1st and 3rd Thursday of the month from 2:00 - 3:30 PM",
+    "schedule": "1st and 3rd Thursday of the month from 2:00 - 3:30 p.m.",
     "eligibility": "",
     "notes": "",
     "monday": false,
@@ -3943,9 +3943,9 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "2:00 - 3:30 PM",
+      "tuesday": "",
       "wednesday": "",
-      "thursday": "",
+      "thursday": "2:00 - 3:30 p.m.",
       "friday": "",
       "saturday": "",
       "sunday": ""
@@ -3998,7 +3998,7 @@
     "lng": -117.0471153,
     "phone": "",
     "type": "Walk-up",
-    "schedule": "2nd and 4th Wednesday of the month from 11:30 AM - 12:30 PM",
+    "schedule": "2nd and 4th Wednesday of the month from 11:30 a.m. - 12:30 p.m.",
     "eligibility": "",
     "notes": "",
     "monday": false,
@@ -4018,9 +4018,9 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "11:30 AM - 12:30 PM",
+      "monday": "",
       "tuesday": "",
-      "wednesday": "",
+      "wednesday": "11:30 a.m. - 12:30 p.m.",
       "thursday": "",
       "friday": "",
       "saturday": "",
@@ -4036,7 +4036,7 @@
     "lng": -116.97138,
     "phone": "760-755-5325",
     "type": "Drive-through",
-    "schedule": "1st Saturday of the month at 4:00 PM",
+    "schedule": "1st Saturday of the month at 4:00 p.m.",
     "eligibility": "",
     "notes": "",
     "monday": false,
@@ -4052,16 +4052,16 @@
       "wednesday": "",
       "thursday": "",
       "friday": "",
-      "saturday": "",
-      "sunday": "1st"
+      "saturday": "1st",
+      "sunday": ""
     },
     "hours": {
       "monday": "",
       "tuesday": "",
       "wednesday": "",
-      "thursday": "4:00 PM",
+      "thursday": "",
       "friday": "",
-      "saturday": "",
+      "saturday": "4:00 p.m.",
       "sunday": ""
     }
   },
@@ -4094,11 +4094,11 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "",
-      "tuesday": "12:00 PM - 3:00 PM",
+      "monday": "12:00 PM - 3:00 PM",
+      "tuesday": "",
       "wednesday": "",
-      "thursday": "",
-      "friday": "8:00 AM - 11:00 AM",
+      "thursday": "8:00 AM - 11:00 AM",
+      "friday": "",
       "saturday": "",
       "sunday": ""
     }
@@ -4112,7 +4112,7 @@
     "lng": -116.9872425,
     "phone": "",
     "type": "Drive-through",
-    "schedule": "1st, 2nd, 3rd, 4th Tuesday of the month from 12:00 - 1:00 PM",
+    "schedule": "1st, 2nd, 3rd, 4th Tuesday of the month from 12:00 - 1:00 p.m.",
     "eligibility": "",
     "notes": "1st/3rd: Mobile Pantry (produce + dry goods) | 2nd/4th: Produce only",
     "monday": false,
@@ -4133,7 +4133,7 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "12:00 - 1:00 PM",
+      "tuesday": "12:00 - 1:00 p.m.",
       "wednesday": "",
       "thursday": "",
       "friday": "",
@@ -4150,7 +4150,7 @@
     "lng": -116.9814167,
     "phone": "",
     "type": "Drive-through",
-    "schedule": "1st and 3rd Wednesday of the month from 2:00 - 5:00 PM",
+    "schedule": "1st and 3rd Wednesday of the month from 2:00 - 5:00 p.m.",
     "eligibility": "",
     "notes": "",
     "monday": false,
@@ -4170,9 +4170,9 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "2:00 - 5:00 PM",
+      "monday": "",
       "tuesday": "",
-      "wednesday": "",
+      "wednesday": "2:00 - 5:00 p.m.",
       "thursday": "",
       "friday": "",
       "saturday": "",
@@ -4188,7 +4188,7 @@
     "lng": -117.1182335,
     "phone": "619-794-9558",
     "type": "Drive-through",
-    "schedule": "1st and 3rd Wednesday of the month at 7:30 AM",
+    "schedule": "1st and 3rd Wednesday of the month at 7:30 a.m.",
     "eligibility": "",
     "notes": "Open until food runs out",
     "monday": false,
@@ -4208,9 +4208,9 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "7:30 AM",
+      "monday": "",
       "tuesday": "",
-      "wednesday": "",
+      "wednesday": "7:30 a.m.",
       "thursday": "",
       "friday": "",
       "saturday": "",
@@ -4226,7 +4226,7 @@
     "lng": -116.6130731,
     "phone": "",
     "type": "Walk-up",
-    "schedule": "1st and 3rd Thursdays of the month from 12:00 - 1:00 PM",
+    "schedule": "1st and 3rd Thursdays of the month from 12:00 - 1:00 p.m.",
     "eligibility": "",
     "notes": "",
     "monday": false,
@@ -4247,9 +4247,9 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "12:00 - 1:00 PM",
+      "tuesday": "",
       "wednesday": "",
-      "thursday": "",
+      "thursday": "12:00 - 1:00 p.m.",
       "friday": "",
       "saturday": "",
       "sunday": ""
@@ -4340,7 +4340,7 @@
     "lng": -116.8680821,
     "phone": "",
     "type": "Walk-up",
-    "schedule": "4th Tuesday of the month from 4:00 - 5:30 PM",
+    "schedule": "4th Tuesday of the month from 4:00 - 5:30 p.m.",
     "eligibility": "",
     "notes": "",
     "monday": false,
@@ -4361,7 +4361,7 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "4:00 - 5:30 PM",
+      "tuesday": "4:00 - 5:30 p.m.",
       "wednesday": "",
       "thursday": "",
       "friday": "",
@@ -4378,7 +4378,7 @@
     "lng": -116.5166835,
     "phone": "",
     "type": "Drive-through",
-    "schedule": "2nd and 4th Tuesday of the month from 12:30 - 1:30 PM",
+    "schedule": "2nd and 4th Tuesday of the month from 12:30 - 1:30 p.m.",
     "eligibility": "",
     "notes": "",
     "monday": false,
@@ -4399,7 +4399,7 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "12:30 - 1:30 PM",
+      "tuesday": "12:30 - 1:30 p.m.",
       "wednesday": "",
       "thursday": "",
       "friday": "",
@@ -4416,7 +4416,7 @@
     "lng": -117.1317801,
     "phone": "",
     "type": "Walk-up",
-    "schedule": "2nd and 4th Monday of the month from 11:15 AM - 12:15 PM",
+    "schedule": "2nd and 4th Monday of the month from 11:15 a.m. - 12:15 p.m.",
     "eligibility": "",
     "notes": "",
     "monday": true,
@@ -4436,7 +4436,7 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "11:15 AM - 12:15 PM",
+      "monday": "11:15 a.m. - 12:15 p.m.",
       "tuesday": "",
       "wednesday": "",
       "thursday": "",
@@ -4454,7 +4454,7 @@
     "lng": -117.0341967,
     "phone": "",
     "type": "Walk-up",
-    "schedule": "1st, 2nd, 3rd, 4th Wednesdays of the month from 12:00 - 2:00 PM",
+    "schedule": "1st, 2nd, 3rd, 4th Wednesdays of the month from 12:00 - 2:00 p.m.",
     "eligibility": "",
     "notes": "1st/3rd: Produce only | 2nd/4th: Mobile Pantry (produce + dry goods)",
     "monday": false,
@@ -4474,9 +4474,9 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "12:00 - 2:00 PM",
+      "monday": "",
       "tuesday": "",
-      "wednesday": "",
+      "wednesday": "12:00 - 2:00 p.m.",
       "thursday": "",
       "friday": "",
       "saturday": "",
@@ -4492,7 +4492,7 @@
     "lng": -116.9539491,
     "phone": "619-226-7625",
     "type": "Drive-through",
-    "schedule": "4th Thursday of the month from 10:00 AM - 12:00 PM",
+    "schedule": "4th Thursday of the month from 10:00 a.m. - 12:00 p.m.",
     "eligibility": "",
     "notes": "Parking lot West of AMC theaters",
     "monday": false,
@@ -4513,9 +4513,9 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "10:00 AM - 12:00 PM",
+      "tuesday": "",
       "wednesday": "",
-      "thursday": "",
+      "thursday": "10:00 a.m. - 12:00 p.m.",
       "friday": "",
       "saturday": "",
       "sunday": ""
@@ -4530,7 +4530,7 @@
     "lng": -117.095528,
     "phone": "619-226-7625",
     "type": "Walk-up; Drive-through",
-    "schedule": "3rd Thursday of the month at 10:00 AM",
+    "schedule": "3rd Thursday of the month at 10:00 a.m.",
     "eligibility": "",
     "notes": "",
     "monday": false,
@@ -4551,9 +4551,9 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "10:00 AM",
+      "tuesday": "",
       "wednesday": "",
-      "thursday": "",
+      "thursday": "10:00 a.m.",
       "friday": "",
       "saturday": "",
       "sunday": ""
@@ -4568,7 +4568,7 @@
     "lng": -116.97607,
     "phone": "619-226-7625",
     "type": "Drive-through",
-    "schedule": "3rd Tuesday of the month from 10:00 AM - 12:00 PM",
+    "schedule": "3rd Tuesday of the month from 10:00 a.m. - 12:00 p.m.",
     "eligibility": "",
     "notes": "",
     "monday": false,
@@ -4589,7 +4589,7 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "10:00 AM - 12:00 PM",
+      "tuesday": "10:00 a.m. - 12:00 p.m.",
       "wednesday": "",
       "thursday": "",
       "friday": "",
@@ -4602,11 +4602,11 @@
     "location": "1370 W San Marcos Blvd",
     "city": "San Marcos",
     "zip": "92078",
-    "lat": null,
-    "lng": null,
+    "lat": 33.1216488,
+    "lng": -117.1944885,
     "phone": "619-226-7625",
     "type": "Walk-up",
-    "schedule": "1st Thursday of the month at 12:00 PM",
+    "schedule": "1st Thursday of the month at 12:00 p.m.",
     "eligibility": "",
     "notes": "",
     "monday": false,
@@ -4627,9 +4627,9 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "12:00 PM",
+      "tuesday": "",
       "wednesday": "",
-      "thursday": "",
+      "thursday": "12:00 p.m.",
       "friday": "",
       "saturday": "",
       "sunday": ""
@@ -4644,7 +4644,7 @@
     "lng": -117.2314713,
     "phone": "619-226-7625",
     "type": "Drive-through",
-    "schedule": "3rd Thursday of the month at 10:00 AM until supplies run out",
+    "schedule": "3rd Thursday of the month at 10:00 a.m. until supplies run out",
     "eligibility": "",
     "notes": "At Vons Parking Lot",
     "monday": false,
@@ -4665,9 +4665,9 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "10:00 AM until supplies run out",
+      "tuesday": "",
       "wednesday": "",
-      "thursday": "",
+      "thursday": "10:00 a.m. until supplies run out",
       "friday": "",
       "saturday": "",
       "sunday": ""
@@ -4720,7 +4720,7 @@
     "lng": -117.2444755,
     "phone": "619-224-2746",
     "type": "Walk-up",
-    "schedule": "Every other Tuesday from 5:00 - 7:00 PM",
+    "schedule": "Every other Tuesday from 5:00 - 7:00 p.m.",
     "eligibility": "Call first",
     "notes": "",
     "monday": false,
@@ -4741,7 +4741,7 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "5:00 - 7:00 PM",
+      "tuesday": "5:00 - 7:00 p.m.",
       "wednesday": "",
       "thursday": "",
       "friday": "",
@@ -4782,8 +4782,8 @@
       "tuesday": "",
       "wednesday": "9:00 AM - 10:30 AM",
       "thursday": "",
-      "friday": "",
-      "saturday": "9:00 AM - 10:30 AM",
+      "friday": "9:00 AM - 10:30 AM",
+      "saturday": "",
       "sunday": ""
     }
   },
@@ -4896,8 +4896,8 @@
       "tuesday": "",
       "wednesday": "10:00 AM - 12:00 PM",
       "thursday": "",
-      "friday": "",
-      "saturday": "10:00 AM - 12:00 PM",
+      "friday": "10:00 AM - 12:00 PM",
+      "saturday": "",
       "sunday": ""
     }
   },
@@ -4910,7 +4910,7 @@
     "lng": -117.0314172,
     "phone": "619-251-6834",
     "type": "",
-    "schedule": "1st and last Friday of the month from 9:00 - 10:30 AM",
+    "schedule": "1st and last Friday of the month from 9:00 - 10:30 a.m.",
     "eligibility": "",
     "notes": "",
     "monday": false,
@@ -4925,8 +4925,8 @@
       "tuesday": "",
       "wednesday": "",
       "thursday": "",
-      "friday": "",
-      "saturday": "1st and last",
+      "friday": "1st and last",
+      "saturday": "",
       "sunday": ""
     },
     "hours": {
@@ -4934,7 +4934,7 @@
       "tuesday": "",
       "wednesday": "",
       "thursday": "",
-      "friday": "9:00 - 10:30 AM",
+      "friday": "9:00 - 10:30 a.m.",
       "saturday": "",
       "sunday": ""
     }
@@ -4986,7 +4986,7 @@
     "lng": -117.0371437,
     "phone": "858-603-4737",
     "type": "Walk-up",
-    "schedule": "1st Thursday of the month from 10:00 AM - 12:00 PM (open to the public) 2nd Thursday of the month from 10:00 AM - 12:00 PM (for unsheltered neighbors only)",
+    "schedule": "1st Thursday of the month from 10:00 a.m. - 12:00 p.m. (open to the public) 2nd Thursday of the month from 10:00 a.m. - 12:00 p.m. (for unsheltered neighbors only)",
     "eligibility": "",
     "notes": "",
     "monday": false,
@@ -5007,9 +5007,9 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "10:00 AM - 12:00 PM",
+      "tuesday": "",
       "wednesday": "",
-      "thursday": "",
+      "thursday": "10:00 a.m. - 12:00 p.m.",
       "friday": "",
       "saturday": "",
       "sunday": ""
@@ -5024,7 +5024,7 @@
     "lng": -117.0536726,
     "phone": "",
     "type": "Walk-up; Drive-through",
-    "schedule": "4th Saturday of the month from 2:00 - 4:00 PM",
+    "schedule": "4th Saturday of the month from 2:00 - 4:00 p.m.",
     "eligibility": "",
     "notes": "",
     "monday": false,
@@ -5040,16 +5040,16 @@
       "wednesday": "",
       "thursday": "",
       "friday": "",
-      "saturday": "",
-      "sunday": "4th"
+      "saturday": "4th",
+      "sunday": ""
     },
     "hours": {
       "monday": "",
       "tuesday": "",
       "wednesday": "",
-      "thursday": "2:00 - 4:00 PM",
+      "thursday": "",
       "friday": "",
-      "saturday": "",
+      "saturday": "2:00 - 4:00 p.m.",
       "sunday": ""
     }
   },
@@ -5062,7 +5062,7 @@
     "lng": -117.084195,
     "phone": "",
     "type": "Walk-up; Drive-through",
-    "schedule": "1st and 3rd Thursday of the month from 10:00 AM - 12:00 PM",
+    "schedule": "1st and 3rd Thursday of the month from 10:00 a.m. - 12:00 p.m.",
     "eligibility": "",
     "notes": "",
     "monday": false,
@@ -5083,9 +5083,9 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "10:00 AM - 12:00 PM",
+      "tuesday": "",
       "wednesday": "",
-      "thursday": "",
+      "thursday": "10:00 a.m. - 12:00 p.m.",
       "friday": "",
       "saturday": "",
       "sunday": ""
@@ -5100,7 +5100,7 @@
     "lng": -117.1500033,
     "phone": "858-283-8998",
     "type": "Walk-up",
-    "schedule": "2nd and 4th Wednesdays of the month from 12:00 - 1:30 PM",
+    "schedule": "2nd and 4th Wednesdays of the month from 12:00 - 1:30 p.m.",
     "eligibility": "",
     "notes": "",
     "monday": false,
@@ -5120,9 +5120,9 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "12:00 - 1:30 PM",
+      "monday": "",
       "tuesday": "",
-      "wednesday": "",
+      "wednesday": "12:00 - 1:30 p.m.",
       "thursday": "",
       "friday": "",
       "saturday": "",
@@ -5138,7 +5138,7 @@
     "lng": -117.1500033,
     "phone": "858-283-8998",
     "type": "Walk-up",
-    "schedule": "1st and 3rd Wednesday of the month from 11:00 AM - 12:30 PM",
+    "schedule": "1st and 3rd Wednesday of the month from 11:00 a.m. - 12:30 p.m.",
     "eligibility": "",
     "notes": "Enter parking lot through turn-off from main street. Bring your own bags.",
     "monday": false,
@@ -5158,9 +5158,9 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "11:00 AM - 12:30 PM",
+      "monday": "",
       "tuesday": "",
-      "wednesday": "",
+      "wednesday": "11:00 a.m. - 12:30 p.m.",
       "thursday": "",
       "friday": "",
       "saturday": "",
@@ -5176,7 +5176,7 @@
     "lng": -117.1500033,
     "phone": "760-277-8819",
     "type": "Walk-up",
-    "schedule": "1st and 3rd Tuesday of the month from 3:00 - 5:00 PM",
+    "schedule": "1st and 3rd Tuesday of the month from 3:00 - 5:00 p.m.",
     "eligibility": "",
     "notes": "",
     "monday": false,
@@ -5197,7 +5197,7 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "3:00 - 5:00 PM",
+      "tuesday": "3:00 - 5:00 p.m.",
       "wednesday": "",
       "thursday": "",
       "friday": "",
@@ -5214,7 +5214,7 @@
     "lng": -117.0689696,
     "phone": "858-283-8998",
     "type": "Walk-up",
-    "schedule": "2nd and 4th Monday of the month from 2:30 - 3:30 PM",
+    "schedule": "2nd and 4th Monday of the month from 2:30 - 3:30 p.m.",
     "eligibility": "",
     "notes": "",
     "monday": true,
@@ -5234,7 +5234,7 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "2:30 - 3:30 PM",
+      "monday": "2:30 - 3:30 p.m.",
       "tuesday": "",
       "wednesday": "",
       "thursday": "",
@@ -5252,7 +5252,7 @@
     "lng": -117.0341967,
     "phone": "",
     "type": "Walk-up",
-    "schedule": "1st, 2nd, 3rd, 4th Wednesday of the month from 1:30 - 4:00 PM",
+    "schedule": "1st, 2nd, 3rd, 4th Wednesday of the month from 1:30 - 4:00 p.m.",
     "eligibility": "",
     "notes": "1st/3rd: Produce only | 2nd/4th: Mobile Pantry (produce + dry goods)",
     "monday": false,
@@ -5272,9 +5272,9 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "1:30 - 4:00 PM",
+      "monday": "",
       "tuesday": "",
-      "wednesday": "",
+      "wednesday": "1:30 - 4:00 p.m.",
       "thursday": "",
       "friday": "",
       "saturday": "",
@@ -5366,7 +5366,7 @@
     "lng": -116.673076,
     "phone": "",
     "type": "Drive-through",
-    "schedule": "4th Tuesday of the month from 10:00 - 11:00 AM",
+    "schedule": "4th Tuesday of the month from 10:00 - 11:00 a.m.",
     "eligibility": "",
     "notes": "",
     "monday": false,
@@ -5387,7 +5387,7 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "10:00 - 11:00 AM",
+      "tuesday": "10:00 - 11:00 a.m.",
       "wednesday": "",
       "thursday": "",
       "friday": "",
@@ -5426,11 +5426,11 @@
     "hours": {
       "monday": "",
       "tuesday": "",
-      "wednesday": "",
-      "thursday": "8:00 AM - 11:00 AM",
-      "friday": "",
+      "wednesday": "8:00 AM - 11:00 AM",
+      "thursday": "",
+      "friday": "8:00 AM - 11:00 AM",
       "saturday": "8:00 AM - 11:00 AM",
-      "sunday": "8:00 AM - 11:00 AM"
+      "sunday": ""
     }
   },
   {
@@ -5518,7 +5518,7 @@
     "lng": -116.6023154,
     "phone": "",
     "type": "Drive-through",
-    "schedule": "2nd and 4th Wednesday of the month from 8:00 - 9:00 AM",
+    "schedule": "2nd and 4th Wednesday of the month from 8:00 - 9:00 a.m.",
     "eligibility": "",
     "notes": "",
     "monday": false,
@@ -5538,9 +5538,9 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "8:00 - 9:00 AM",
+      "monday": "",
       "tuesday": "",
-      "wednesday": "",
+      "wednesday": "8:00 - 9:00 a.m.",
       "thursday": "",
       "friday": "",
       "saturday": "",
@@ -5572,16 +5572,16 @@
       "wednesday": "",
       "thursday": "",
       "friday": "",
-      "saturday": "",
-      "sunday": "weekly"
+      "saturday": "weekly",
+      "sunday": ""
     },
     "hours": {
       "monday": "",
       "tuesday": "",
       "wednesday": "",
-      "thursday": "8:00 AM - 10:00 AM",
+      "thursday": "",
       "friday": "",
-      "saturday": "",
+      "saturday": "8:00 AM - 10:00 AM",
       "sunday": ""
     }
   },
@@ -5594,7 +5594,7 @@
     "lng": -117.119144,
     "phone": "619-232-5181",
     "type": "Walk-up",
-    "schedule": "2nd and 4th Wednesday of the month from 9:00 AM - 12:00 PM for seniors only",
+    "schedule": "2nd and 4th Wednesday of the month from 9:00 a.m. - 12:00 p.m. for seniors only",
     "eligibility": "",
     "notes": "",
     "monday": false,
@@ -5614,9 +5614,9 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "9:00 AM - 12:00 PM",
+      "monday": "",
       "tuesday": "",
-      "wednesday": "",
+      "wednesday": "9:00 a.m. - 12:00 p.m.",
       "thursday": "",
       "friday": "",
       "saturday": "",
@@ -5648,16 +5648,16 @@
       "wednesday": "",
       "thursday": "",
       "friday": "",
-      "saturday": "",
-      "sunday": "weekly"
+      "saturday": "weekly",
+      "sunday": ""
     },
     "hours": {
       "monday": "",
       "tuesday": "",
       "wednesday": "",
-      "thursday": "11:00 AM - 12:30 PM",
+      "thursday": "",
       "friday": "",
-      "saturday": "",
+      "saturday": "11:00 AM - 12:30 PM",
       "sunday": ""
     }
   },
@@ -5685,8 +5685,8 @@
       "tuesday": "",
       "wednesday": "",
       "thursday": "",
-      "friday": "",
-      "saturday": "weekly",
+      "friday": "weekly",
+      "saturday": "",
       "sunday": ""
     },
     "hours": {
@@ -5708,7 +5708,7 @@
     "lng": -116.97138,
     "phone": "",
     "type": "Walk-up",
-    "schedule": "1st Monday of the month from 10:00 - 11:00 AM",
+    "schedule": "1st Monday of the month from 10:00 - 11:00 a.m.",
     "eligibility": "",
     "notes": "",
     "monday": true,
@@ -5728,7 +5728,7 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "10:00 - 11:00 AM",
+      "monday": "10:00 - 11:00 a.m.",
       "tuesday": "",
       "wednesday": "",
       "thursday": "",
@@ -5762,16 +5762,16 @@
       "wednesday": "",
       "thursday": "",
       "friday": "",
-      "saturday": "",
-      "sunday": "weekly"
+      "saturday": "weekly",
+      "sunday": ""
     },
     "hours": {
       "monday": "",
       "tuesday": "",
       "wednesday": "",
-      "thursday": "8:30 AM - 9:30 AM",
+      "thursday": "",
       "friday": "",
-      "saturday": "",
+      "saturday": "8:30 AM - 9:30 AM",
       "sunday": ""
     }
   },
@@ -5784,7 +5784,7 @@
     "lng": -117.2695297,
     "phone": "760-753-3017",
     "type": "Walk-up",
-    "schedule": "3rd, 4th, and 5th Thursday of the month from 2:00 - 4:00 PM",
+    "schedule": "3rd, 4th, and 5th Thursday of the month from 2:00 - 4:00 p.m.",
     "eligibility": "",
     "notes": "",
     "monday": false,
@@ -5805,9 +5805,9 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "2:00 - 4:00 PM",
+      "tuesday": "",
       "wednesday": "",
-      "thursday": "",
+      "thursday": "2:00 - 4:00 p.m.",
       "friday": "",
       "saturday": "",
       "sunday": ""
@@ -5898,7 +5898,7 @@
     "lng": -117.095528,
     "phone": "619-484-7557",
     "type": "Walk-up",
-    "schedule": "2nd Tuesday of the month from 9:00 AM - 11:00 AM or until supplies lasts",
+    "schedule": "2nd Tuesday of the month from 9:00 a.m. - 11:00 a.m. or until supplies lasts",
     "eligibility": "",
     "notes": "",
     "monday": false,
@@ -5919,7 +5919,7 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "9:00 AM - 11:00 AM",
+      "tuesday": "9:00 a.m. - 11:00 a.m.",
       "wednesday": "",
       "thursday": "",
       "friday": "",
@@ -5936,7 +5936,7 @@
     "lng": -117.1182335,
     "phone": "619-484-7557",
     "type": "Walk-up",
-    "schedule": "3rd Thursday of the month from 2:00 - 4:00 PM or until supplies last",
+    "schedule": "3rd Thursday of the month from 2:00 - 4:00 p.m. or until supplies last",
     "eligibility": "",
     "notes": "",
     "monday": false,
@@ -5957,9 +5957,9 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "2:00 - 4:00 PM",
+      "tuesday": "",
       "wednesday": "",
-      "thursday": "",
+      "thursday": "2:00 - 4:00 p.m.",
       "friday": "",
       "saturday": "",
       "sunday": ""
@@ -6014,7 +6014,7 @@
     "type": "Walk-up",
     "schedule": "weekly",
     "eligibility": "Call first; by appointment only",
-    "notes": "Call before 6:00 PM on the Tuesday prior",
+    "notes": "Call before 6:00 p.m. on the Tuesday prior",
     "monday": false,
     "tuesday": false,
     "wednesday": true,
@@ -6088,7 +6088,7 @@
     "lng": -117.2740777,
     "phone": "",
     "type": "Walk-up",
-    "schedule": "1st and 3rd Friday of the month from 3:00 - 4:30 PM",
+    "schedule": "1st and 3rd Friday of the month from 3:00 - 4:30 p.m.",
     "eligibility": "",
     "notes": "",
     "monday": false,
@@ -6103,8 +6103,8 @@
       "tuesday": "",
       "wednesday": "",
       "thursday": "",
-      "friday": "",
-      "saturday": "1st and 3rd",
+      "friday": "1st and 3rd",
+      "saturday": "",
       "sunday": ""
     },
     "hours": {
@@ -6112,7 +6112,7 @@
       "tuesday": "",
       "wednesday": "",
       "thursday": "",
-      "friday": "3:00 - 4:30 PM",
+      "friday": "3:00 - 4:30 p.m.",
       "saturday": "",
       "sunday": ""
     }
@@ -6164,7 +6164,7 @@
     "lng": -117.0991967,
     "phone": "858-412-7012",
     "type": "Walk-up",
-    "schedule": "3rd Wednesday of the month from 12:00 - 2:00 PM",
+    "schedule": "3rd Wednesday of the month from 12:00 - 2:00 p.m.",
     "eligibility": "Call first",
     "notes": "",
     "monday": false,
@@ -6184,9 +6184,9 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "12:00 - 2:00 PM",
+      "monday": "",
       "tuesday": "",
-      "wednesday": "",
+      "wednesday": "12:00 - 2:00 p.m.",
       "thursday": "",
       "friday": "",
       "saturday": "",
@@ -6198,8 +6198,8 @@
     "location": "1690 W. Frontage Road Suite 201",
     "city": "Chula Vista",
     "zip": "91911",
-    "lat": 32.6103821,
-    "lng": -117.0489796,
+    "lat": 32.6103815,
+    "lng": -117.0489816,
     "phone": "888-444-1415",
     "type": "",
     "schedule": "weekly",
@@ -6222,11 +6222,11 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "",
+      "monday": "11:00 AM - 1:00 PM",
       "tuesday": "11:00 AM - 1:00 PM",
       "wednesday": "11:00 AM - 1:00 PM",
       "thursday": "11:00 AM - 1:00 PM",
-      "friday": "11:00 AM - 1:00 PM",
+      "friday": "",
       "saturday": "",
       "sunday": ""
     }
@@ -6240,7 +6240,7 @@
     "lng": -117.0341967,
     "phone": "",
     "type": "Walk-up",
-    "schedule": "1st and 3rd Wednesdays of the month from 2:00 - 4:00 PM",
+    "schedule": "1st and 3rd Wednesdays of the month from 2:00 - 4:00 p.m.",
     "eligibility": "",
     "notes": "",
     "monday": false,
@@ -6260,9 +6260,9 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "2:00 - 4:00 PM",
+      "monday": "",
       "tuesday": "",
-      "wednesday": "",
+      "wednesday": "2:00 - 4:00 p.m.",
       "thursday": "",
       "friday": "",
       "saturday": "",
@@ -6278,7 +6278,7 @@
     "lng": -117.0513654,
     "phone": "858-283-8998",
     "type": "Walk-up",
-    "schedule": "1st and 3rd Thursday of the month from 2:00 - 3:00 PM",
+    "schedule": "1st and 3rd Thursday of the month from 2:00 - 3:00 p.m.",
     "eligibility": "",
     "notes": "",
     "monday": false,
@@ -6299,9 +6299,9 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "2:00 - 3:00 PM",
+      "tuesday": "",
       "wednesday": "",
-      "thursday": "",
+      "thursday": "2:00 - 3:00 p.m.",
       "friday": "",
       "saturday": "",
       "sunday": ""
@@ -6354,7 +6354,7 @@
     "lng": -117.2219927,
     "phone": "858-283-8998",
     "type": "Walk-up",
-    "schedule": "4th Tuesday of the month from 1:00 PM - 3:00 PM",
+    "schedule": "4th Tuesday of the month from 1:00 p.m. - 3:00 p.m.",
     "eligibility": "",
     "notes": "Pick up for your family + two more neighbors/families! Bring your own bags.",
     "monday": false,
@@ -6375,7 +6375,7 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "1:00 PM - 3:00 PM",
+      "tuesday": "1:00 p.m. - 3:00 p.m.",
       "wednesday": "",
       "thursday": "",
       "friday": "",
@@ -6392,7 +6392,7 @@
     "lng": -117.2219927,
     "phone": "858-283-8998",
     "type": "Walk-up",
-    "schedule": "1st and 3rd Tuesday of the month from 11:00 AM - 12:00 PM",
+    "schedule": "1st and 3rd Tuesday of the month from 11:00 a.m. - 12:00 p.m.",
     "eligibility": "",
     "notes": "Tennis Club of Vista",
     "monday": false,
@@ -6413,7 +6413,7 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "11:00 AM - 12:00 PM",
+      "tuesday": "11:00 a.m. - 12:00 p.m.",
       "wednesday": "",
       "thursday": "",
       "friday": "",
@@ -6430,7 +6430,7 @@
     "lng": -116.6336303,
     "phone": "",
     "type": "Walk-up",
-    "schedule": "2nd and 4th Tuesdays of the month from 12:00 - 2:00 PM",
+    "schedule": "2nd and 4th Tuesdays of the month from 12:00 - 2:00 p.m.",
     "eligibility": "",
     "notes": "",
     "monday": false,
@@ -6451,7 +6451,7 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "12:00 - 2:00 PM",
+      "tuesday": "12:00 - 2:00 p.m.",
       "wednesday": "",
       "thursday": "",
       "friday": "",
@@ -6527,8 +6527,8 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "9:00 AM - 11:00 AM",
-      "wednesday": "",
+      "tuesday": "",
+      "wednesday": "9:00 AM - 11:00 AM",
       "thursday": "",
       "friday": "",
       "saturday": "",
@@ -6678,11 +6678,11 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "9:00 AM - 12:00 PM",
+      "monday": "",
       "tuesday": "9:00 AM - 12:00 PM",
       "wednesday": "9:00 AM - 12:00 PM",
       "thursday": "9:00 AM - 12:00 PM",
-      "friday": "",
+      "friday": "9:00 AM - 12:00 PM",
       "saturday": "",
       "sunday": ""
     }
@@ -6716,10 +6716,10 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "9:00 AM - until food is gone",
+      "monday": "",
       "tuesday": "",
       "wednesday": "",
-      "thursday": "",
+      "thursday": "9:00 AM - until food is gone",
       "friday": "",
       "saturday": "",
       "sunday": ""
@@ -6792,9 +6792,9 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "1:30 PM - 3:00 PM",
+      "monday": "",
       "tuesday": "",
-      "wednesday": "",
+      "wednesday": "1:30 PM - 3:00 PM",
       "thursday": "",
       "friday": "",
       "saturday": "",
@@ -6830,9 +6830,9 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "12:00 PM - until food is gone",
+      "monday": "",
       "tuesday": "",
-      "wednesday": "",
+      "wednesday": "12:00 PM - until food is gone",
       "thursday": "",
       "friday": "",
       "saturday": "",
@@ -6945,8 +6945,8 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "1:30 PM - 2:30 PM",
-      "wednesday": "",
+      "tuesday": "",
+      "wednesday": "1:30 PM - 2:30 PM",
       "thursday": "",
       "friday": "",
       "saturday": "",
@@ -7021,8 +7021,8 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "9:00 AM - 10:30 AM",
-      "wednesday": "",
+      "tuesday": "",
+      "wednesday": "9:00 AM - 10:30 AM",
       "thursday": "",
       "friday": "",
       "saturday": "",
@@ -7058,9 +7058,9 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "11:00 AM - 12:30 PM",
+      "monday": "",
       "tuesday": "",
-      "wednesday": "",
+      "wednesday": "11:00 AM - 12:30 PM",
       "thursday": "",
       "friday": "",
       "saturday": "",
@@ -7172,12 +7172,12 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "9:00 AM - 10:00 AM",
+      "monday": "",
       "tuesday": "",
       "wednesday": "",
       "thursday": "",
       "friday": "",
-      "saturday": "",
+      "saturday": "9:00 AM - 10:00 AM",
       "sunday": ""
     }
   },
@@ -7248,9 +7248,9 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "10:00 AM - until food runs out",
+      "monday": "",
       "tuesday": "",
-      "wednesday": "",
+      "wednesday": "10:00 AM - until food runs out",
       "thursday": "",
       "friday": "",
       "saturday": "",
@@ -7286,9 +7286,9 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "9:00 AM - 11:00 AM",
+      "monday": "",
       "tuesday": "",
-      "wednesday": "",
+      "wednesday": "9:00 AM - 11:00 AM",
       "thursday": "",
       "friday": "",
       "saturday": "",
@@ -7325,8 +7325,8 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "1:00 PM - 3:00 PM",
-      "wednesday": "",
+      "tuesday": "",
+      "wednesday": "1:00 PM - 3:00 PM",
       "thursday": "",
       "friday": "",
       "saturday": "",
@@ -7363,8 +7363,8 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "11:00 AM - 5:00 PM",
-      "wednesday": "",
+      "tuesday": "",
+      "wednesday": "11:00 AM - 5:00 PM",
       "thursday": "",
       "friday": "",
       "saturday": "",
@@ -7400,12 +7400,12 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "10:00 AM - 12:00 PM",
+      "monday": "",
       "tuesday": "",
       "wednesday": "",
       "thursday": "",
       "friday": "",
-      "saturday": "",
+      "saturday": "10:00 AM - 12:00 PM",
       "sunday": ""
     }
   },
@@ -7439,8 +7439,8 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "9:00 AM - 12:00 PM",
-      "wednesday": "",
+      "tuesday": "",
+      "wednesday": "9:00 AM - 12:00 PM",
       "thursday": "",
       "friday": "",
       "saturday": "",
@@ -7590,9 +7590,9 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "9:30 AM - 12:00 PM",
+      "monday": "",
       "tuesday": "",
-      "wednesday": "",
+      "wednesday": "9:30 AM - 12:00 PM",
       "thursday": "",
       "friday": "",
       "saturday": "",
@@ -7628,9 +7628,9 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "9:00 AM - 11:00 AM",
+      "monday": "",
       "tuesday": "",
-      "wednesday": "",
+      "wednesday": "9:00 AM - 11:00 AM",
       "thursday": "",
       "friday": "",
       "saturday": "",
@@ -7742,9 +7742,9 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "1:30 PM - 3:00 PM",
-      "tuesday": "",
-      "wednesday": "",
+      "monday": "",
+      "tuesday": "1:30 PM - 3:00 PM",
+      "wednesday": "1:30 PM - 3:00 PM",
       "thursday": "",
       "friday": "",
       "saturday": "",
@@ -7783,9 +7783,9 @@
       "monday": "",
       "tuesday": "",
       "wednesday": "",
-      "thursday": "9:00 AM - 11:00 AM",
+      "thursday": "",
       "friday": "",
-      "saturday": "",
+      "saturday": "9:00 AM - 11:00 AM",
       "sunday": ""
     }
   },
@@ -7934,8 +7934,8 @@
     "hours": {
       "monday": "",
       "tuesday": "",
-      "wednesday": "8:30 AM - 10:30 AM",
-      "thursday": "",
+      "wednesday": "",
+      "thursday": "8:30 AM - 10:30 AM",
       "friday": "",
       "saturday": "",
       "sunday": ""
@@ -8048,8 +8048,8 @@
     "hours": {
       "monday": "",
       "tuesday": "",
-      "wednesday": "9:00 AM - until gone",
-      "thursday": "",
+      "wednesday": "",
+      "thursday": "9:00 AM - until gone",
       "friday": "",
       "saturday": "",
       "sunday": ""
@@ -8086,8 +8086,8 @@
     "hours": {
       "monday": "",
       "tuesday": "",
-      "wednesday": "8:00 AM - 11:00 AM",
-      "thursday": "",
+      "wednesday": "",
+      "thursday": "8:00 AM - 11:00 AM",
       "friday": "",
       "saturday": "",
       "sunday": ""
@@ -8124,8 +8124,8 @@
     "hours": {
       "monday": "",
       "tuesday": "",
-      "wednesday": "10:00 AM - 12:00 PM",
-      "thursday": "",
+      "wednesday": "",
+      "thursday": "10:00 AM - 12:00 PM",
       "friday": "",
       "saturday": "",
       "sunday": ""
@@ -8162,8 +8162,8 @@
     "hours": {
       "monday": "",
       "tuesday": "",
-      "wednesday": "12:00 PM - 2:00 PM",
-      "thursday": "",
+      "wednesday": "",
+      "thursday": "12:00 PM - 2:00 PM",
       "friday": "",
       "saturday": "",
       "sunday": ""
@@ -8200,8 +8200,8 @@
     "hours": {
       "monday": "",
       "tuesday": "",
-      "wednesday": "9:00 AM - until gone",
-      "thursday": "",
+      "wednesday": "",
+      "thursday": "9:00 AM - until gone",
       "friday": "",
       "saturday": "",
       "sunday": ""
@@ -8250,8 +8250,8 @@
     "location": "4106 Swift Avenue",
     "city": "San Diego",
     "zip": "92104",
-    "lat": null,
-    "lng": null,
+    "lat": 32.743726,
+    "lng": -117.1285244,
     "phone": "",
     "type": "walk-up",
     "schedule": "1st Friday 9:00 AM",
@@ -8274,11 +8274,11 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "9:00 AM - 11:00 AM",
+      "monday": "",
       "tuesday": "",
       "wednesday": "",
       "thursday": "",
-      "friday": "",
+      "friday": "9:00 AM - 11:00 AM",
       "saturday": "",
       "sunday": ""
     }
@@ -8312,9 +8312,9 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "1:30 PM - 2:30 PM",
+      "monday": "",
       "tuesday": "",
-      "wednesday": "",
+      "wednesday": "1:30 PM - 2:30 PM",
       "thursday": "",
       "friday": "",
       "saturday": "",
@@ -8350,8 +8350,8 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "9:00 AM - 10:00 AM",
-      "tuesday": "",
+      "monday": "",
+      "tuesday": "9:00 AM - 10:00 AM",
       "wednesday": "",
       "thursday": "",
       "friday": "",
@@ -8389,9 +8389,9 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "12:00 PM - 2:00 PM; 3:30 PM - 5:30 PM",
+      "tuesday": "",
       "wednesday": "",
-      "thursday": "",
+      "thursday": "12:00 PM - 2:00 PM; 3:30 PM - 5:30 PM",
       "friday": "",
       "saturday": "",
       "sunday": ""
@@ -8426,9 +8426,9 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "10:00 AM - 12:00 PM",
+      "monday": "",
       "tuesday": "",
-      "wednesday": "",
+      "wednesday": "10:00 AM - 12:00 PM",
       "thursday": "",
       "friday": "",
       "saturday": "",
@@ -8540,12 +8540,12 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "2:30 PM - 4:30 PM",
+      "monday": "",
       "tuesday": "",
       "wednesday": "",
       "thursday": "",
       "friday": "",
-      "saturday": "",
+      "saturday": "2:30 PM - 4:30 PM",
       "sunday": ""
     }
   },
@@ -8579,9 +8579,9 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "9:00 AM - 12:00 PM",
+      "tuesday": "",
       "wednesday": "",
-      "thursday": "",
+      "thursday": "9:00 AM - 12:00 PM",
       "friday": "",
       "saturday": "",
       "sunday": ""
@@ -8616,9 +8616,9 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "9:00 AM - 11:00 AM",
+      "monday": "",
       "tuesday": "",
-      "wednesday": "",
+      "wednesday": "9:00 AM - 11:00 AM",
       "thursday": "",
       "friday": "",
       "saturday": "",
@@ -8655,9 +8655,9 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "9:00 AM - 11:00 AM",
+      "tuesday": "",
       "wednesday": "",
-      "thursday": "",
+      "thursday": "9:00 AM - 11:00 AM",
       "friday": "",
       "saturday": "",
       "sunday": ""
@@ -8668,8 +8668,8 @@
     "location": "1220 Third Avenue, Suite 1",
     "city": "Chula Vista",
     "zip": "91911",
-    "lat": 32.6103821,
-    "lng": -117.0489796,
+    "lat": 32.6103815,
+    "lng": -117.0489816,
     "phone": "",
     "type": "not mentioned",
     "schedule": "Mondays, Wednesdays, Fridays 10:00 AM",
@@ -8706,8 +8706,8 @@
     "location": "3909 Centre Street",
     "city": "San Diego",
     "zip": "92103",
-    "lat": 32.7469563,
-    "lng": -117.1663202,
+    "lat": 32.7469565,
+    "lng": -117.1663205,
     "phone": "",
     "type": "drive through & walk-up",
     "schedule": "4th Tuesday 1:00 PM",
@@ -8730,8 +8730,8 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "1:00 PM - 3:00 PM",
-      "tuesday": "",
+      "monday": "",
+      "tuesday": "1:00 PM - 3:00 PM",
       "wednesday": "",
       "thursday": "",
       "friday": "",
@@ -8744,8 +8744,8 @@
     "location": "3909 Centre Street",
     "city": "San Diego",
     "zip": "92103",
-    "lat": 32.7469563,
-    "lng": -117.1663202,
+    "lat": 32.7469565,
+    "lng": -117.1663205,
     "phone": "",
     "type": "drive through & walk-up",
     "schedule": "1st Tuesday 8:00 AM",
@@ -8768,8 +8768,8 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "8:00 AM - 10:00 AM",
-      "tuesday": "",
+      "monday": "",
+      "tuesday": "8:00 AM - 10:00 AM",
       "wednesday": "",
       "thursday": "",
       "friday": "",
@@ -8782,8 +8782,8 @@
     "location": "1385 Third Avenue",
     "city": "Chula Vista",
     "zip": "91911",
-    "lat": 32.6103821,
-    "lng": -117.0489796,
+    "lat": 32.6103815,
+    "lng": -117.0489816,
     "phone": "",
     "type": "drive through & walk-up",
     "schedule": "3rd Thursday 8:30 AM",
@@ -8807,9 +8807,9 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "8:30 AM - 10:30 AM",
+      "tuesday": "",
       "wednesday": "",
-      "thursday": "",
+      "thursday": "8:30 AM - 10:30 AM",
       "friday": "",
       "saturday": "",
       "sunday": ""
@@ -8820,8 +8820,8 @@
     "location": "1387 3rd Avenue",
     "city": "Chula Vista",
     "zip": "91911",
-    "lat": 32.6103821,
-    "lng": -117.0489796,
+    "lat": 32.6103815,
+    "lng": -117.0489816,
     "phone": "",
     "type": "drive through & walk-up",
     "schedule": "4th Friday 9:00 AM",
@@ -8844,11 +8844,11 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "9:00 AM - 3:00 PM",
+      "monday": "",
       "tuesday": "",
       "wednesday": "",
       "thursday": "",
-      "friday": "",
+      "friday": "9:00 AM - 3:00 PM",
       "saturday": "",
       "sunday": ""
     }
@@ -8883,9 +8883,9 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "8:00 AM - 8:30 AM",
+      "tuesday": "",
       "wednesday": "",
-      "thursday": "",
+      "thursday": "8:00 AM - 8:30 AM",
       "friday": "",
       "saturday": "",
       "sunday": ""
@@ -8959,9 +8959,9 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "10:00 AM - 12:00 PM",
+      "tuesday": "",
       "wednesday": "",
-      "thursday": "",
+      "thursday": "10:00 AM - 12:00 PM",
       "friday": "",
       "saturday": "",
       "sunday": ""
@@ -8972,8 +8972,8 @@
     "location": "555 Oxford Street",
     "city": "Chula Vista",
     "zip": "91911",
-    "lat": 32.6103821,
-    "lng": -117.0489796,
+    "lat": 32.6103815,
+    "lng": -117.0489816,
     "phone": "",
     "type": "walk-up",
     "schedule": "2nd Wednesday 9:00 AM",
@@ -8996,9 +8996,9 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "9:00 AM - 1:00 PM",
+      "monday": "",
       "tuesday": "",
-      "wednesday": "",
+      "wednesday": "9:00 AM - 1:00 PM",
       "thursday": "",
       "friday": "",
       "saturday": "",
@@ -9034,8 +9034,8 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "8:00 AM - 11:00 AM",
-      "tuesday": "",
+      "monday": "",
+      "tuesday": "8:00 AM - 11:00 AM",
       "wednesday": "",
       "thursday": "",
       "friday": "",
@@ -9072,8 +9072,8 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "9:00 AM - 11:30 AM",
-      "tuesday": "",
+      "monday": "",
+      "tuesday": "9:00 AM - 11:30 AM",
       "wednesday": "",
       "thursday": "",
       "friday": "",
@@ -9110,11 +9110,11 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "9:00 AM - 11:00 AM",
+      "monday": "",
       "tuesday": "",
       "wednesday": "",
       "thursday": "",
-      "friday": "",
+      "friday": "9:00 AM - 11:00 AM",
       "saturday": "",
       "sunday": ""
     }
@@ -9200,8 +9200,8 @@
     "location": "4021 Goldfinch Street",
     "city": "San Diego",
     "zip": "92103",
-    "lat": 32.7469563,
-    "lng": -117.1663202,
+    "lat": 32.7469565,
+    "lng": -117.1663205,
     "phone": "",
     "type": "walk-up",
     "schedule": "Monday–Thursday 11:30 AM",
@@ -9262,8 +9262,8 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "9:00 AM - until gone",
-      "tuesday": "",
+      "monday": "",
+      "tuesday": "9:00 AM - until gone",
       "wednesday": "",
       "thursday": "",
       "friday": "",
@@ -9301,12 +9301,12 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "4:00 PM - 5:30 PM",
+      "tuesday": "",
       "wednesday": "",
       "thursday": "",
       "friday": "",
       "saturday": "",
-      "sunday": ""
+      "sunday": "4:00 PM - 5:30 PM"
     }
   },
   {
@@ -9338,9 +9338,9 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "10:00 AM - 12:00 PM",
+      "monday": "",
       "tuesday": "",
-      "wednesday": "",
+      "wednesday": "10:00 AM - 12:00 PM",
       "thursday": "",
       "friday": "",
       "saturday": "",
@@ -9376,8 +9376,8 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "8:30 AM - 10:30 AM",
-      "tuesday": "",
+      "monday": "",
+      "tuesday": "8:30 AM - 10:30 AM",
       "wednesday": "",
       "thursday": "",
       "friday": "",
@@ -9414,11 +9414,11 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "8:00 AM - 10:00 AM",
+      "monday": "",
       "tuesday": "",
       "wednesday": "",
       "thursday": "",
-      "friday": "",
+      "friday": "8:00 AM - 10:00 AM",
       "saturday": "",
       "sunday": ""
     }
@@ -9452,12 +9452,12 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "9:00 AM - 11:00 AM",
+      "monday": "",
       "tuesday": "",
       "wednesday": "",
       "thursday": "",
       "friday": "",
-      "saturday": "",
+      "saturday": "9:00 AM - 11:00 AM",
       "sunday": ""
     }
   },
@@ -9490,8 +9490,8 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "8:00 AM - until gone",
-      "tuesday": "",
+      "monday": "",
+      "tuesday": "8:00 AM - until gone",
       "wednesday": "",
       "thursday": "",
       "friday": "",
@@ -9542,8 +9542,8 @@
     "location": "2444 Congress Street",
     "city": "San Diego",
     "zip": "92110",
-    "lat": 32.7736046,
-    "lng": -117.1975596,
+    "lat": 32.7736069,
+    "lng": -117.1975587,
     "phone": "",
     "type": "drive through & walk-up",
     "schedule": "Wednesdays 9:00 AM",
@@ -9566,9 +9566,9 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "9:00 AM - 3:00 PM",
+      "monday": "",
       "tuesday": "",
-      "wednesday": "",
+      "wednesday": "9:00 AM - 3:00 PM",
       "thursday": "",
       "friday": "",
       "saturday": "",
@@ -9605,9 +9605,9 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "9:00 AM - 10:30 AM",
+      "tuesday": "",
       "wednesday": "",
-      "thursday": "",
+      "thursday": "9:00 AM - 10:30 AM",
       "friday": "",
       "saturday": "",
       "sunday": ""
@@ -9643,11 +9643,11 @@
     },
     "hours": {
       "monday": "",
-      "tuesday": "9:00 AM - 12:00 PM",
+      "tuesday": "",
       "wednesday": "",
       "thursday": "",
       "friday": "",
-      "saturday": "",
+      "saturday": "9:00 AM - 12:00 PM",
       "sunday": ""
     }
   },
@@ -9680,9 +9680,9 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "9:00 AM - 11:30 AM",
+      "monday": "",
       "tuesday": "",
-      "wednesday": "",
+      "wednesday": "9:00 AM - 11:30 AM",
       "thursday": "",
       "friday": "",
       "saturday": "",
@@ -9718,9 +9718,9 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "10:00 AM - 12:00 PM",
+      "monday": "",
       "tuesday": "",
-      "wednesday": "",
+      "wednesday": "10:00 AM - 12:00 PM",
       "thursday": "",
       "friday": "",
       "saturday": "",
@@ -9756,12 +9756,12 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "",
+      "monday": "8:00 AM - 12:00 PM",
       "tuesday": "8:00 AM - 12:00 PM",
       "wednesday": "8:00 AM - 12:00 PM",
       "thursday": "8:00 AM - 12:00 PM",
       "friday": "8:00 AM - 12:00 PM",
-      "saturday": "8:00 AM - 12:00 PM",
+      "saturday": "",
       "sunday": ""
     }
   },
@@ -9832,9 +9832,9 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "10:00 AM - 12:00 PM",
+      "monday": "",
       "tuesday": "",
-      "wednesday": "",
+      "wednesday": "10:00 AM - 12:00 PM",
       "thursday": "",
       "friday": "",
       "saturday": "",
@@ -9870,9 +9870,9 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "8:30 AM - 11:00 AM",
+      "monday": "",
       "tuesday": "",
-      "wednesday": "",
+      "wednesday": "8:30 AM - 11:00 AM",
       "thursday": "",
       "friday": "",
       "saturday": "",
@@ -9908,11 +9908,11 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "9:00 AM - 12:00 PM",
+      "monday": "",
       "tuesday": "",
       "wednesday": "",
       "thursday": "",
-      "friday": "",
+      "friday": "9:00 AM - 12:00 PM",
       "saturday": "",
       "sunday": ""
     }
@@ -9946,12 +9946,12 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "9:00 AM - 12:00 PM",
+      "monday": "",
       "tuesday": "",
       "wednesday": "",
       "thursday": "",
       "friday": "",
-      "saturday": "",
+      "saturday": "9:00 AM - 12:00 PM",
       "sunday": ""
     }
   },
@@ -9984,9 +9984,9 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "10:00 AM - 12:00 PM",
+      "monday": "",
       "tuesday": "",
-      "wednesday": "",
+      "wednesday": "10:00 AM - 12:00 PM",
       "thursday": "",
       "friday": "",
       "saturday": "",
@@ -10022,9 +10022,9 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "9:00 AM - 11:30 AM",
+      "monday": "",
       "tuesday": "",
-      "wednesday": "",
+      "wednesday": "9:00 AM - 11:30 AM",
       "thursday": "",
       "friday": "",
       "saturday": "",
@@ -10036,8 +10036,8 @@
     "location": "225 9th Street",
     "city": "Del Mar",
     "zip": "92014",
-    "lat": 32.9594891,
-    "lng": -117.2653146,
+    "lat": 34.1419849,
+    "lng": -118.1482104,
     "phone": "",
     "type": "walk-up",
     "schedule": "1st Tuesday 10:00 AM",
@@ -10098,9 +10098,9 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "9:00 AM - 11:00 AM",
+      "monday": "",
       "tuesday": "",
-      "wednesday": "",
+      "wednesday": "9:00 AM - 11:00 AM",
       "thursday": "",
       "friday": "",
       "saturday": "",
@@ -10212,9 +10212,9 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "10:00 AM - 12:00 PM",
+      "monday": "",
       "tuesday": "",
-      "wednesday": "",
+      "wednesday": "10:00 AM - 12:00 PM",
       "thursday": "",
       "friday": "",
       "saturday": "",
@@ -10250,619 +10250,11 @@
       "sunday": ""
     },
     "hours": {
-      "monday": "9:00 AM - 11:00 AM",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": "",
-      "sunday": ""
-    }
-  },
-  {
-    "name": "",
-    "location": "",
-    "city": "",
-    "zip": "",
-    "lat": null,
-    "lng": null,
-    "phone": "",
-    "type": "",
-    "schedule": "",
-    "eligibility": "",
-    "notes": "",
-    "monday": false,
-    "tuesday": false,
-    "wednesday": false,
-    "thursday": false,
-    "friday": false,
-    "saturday": false,
-    "sunday": false,
-    "frequency": {
       "monday": "",
       "tuesday": "",
       "wednesday": "",
       "thursday": "",
-      "friday": "",
-      "saturday": "",
-      "sunday": ""
-    },
-    "hours": {
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": "",
-      "sunday": ""
-    }
-  },
-  {
-    "name": "",
-    "location": "",
-    "city": "",
-    "zip": "",
-    "lat": null,
-    "lng": null,
-    "phone": "",
-    "type": "",
-    "schedule": "",
-    "eligibility": "",
-    "notes": "",
-    "monday": false,
-    "tuesday": false,
-    "wednesday": false,
-    "thursday": false,
-    "friday": false,
-    "saturday": false,
-    "sunday": false,
-    "frequency": {
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": "",
-      "sunday": ""
-    },
-    "hours": {
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": "",
-      "sunday": ""
-    }
-  },
-  {
-    "name": "",
-    "location": "",
-    "city": "",
-    "zip": "",
-    "lat": null,
-    "lng": null,
-    "phone": "",
-    "type": "",
-    "schedule": "",
-    "eligibility": "",
-    "notes": "",
-    "monday": false,
-    "tuesday": false,
-    "wednesday": false,
-    "thursday": false,
-    "friday": false,
-    "saturday": false,
-    "sunday": false,
-    "frequency": {
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": "",
-      "sunday": ""
-    },
-    "hours": {
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": "",
-      "sunday": ""
-    }
-  },
-  {
-    "name": "",
-    "location": "",
-    "city": "",
-    "zip": "",
-    "lat": null,
-    "lng": null,
-    "phone": "",
-    "type": "",
-    "schedule": "",
-    "eligibility": "",
-    "notes": "",
-    "monday": false,
-    "tuesday": false,
-    "wednesday": false,
-    "thursday": false,
-    "friday": false,
-    "saturday": false,
-    "sunday": false,
-    "frequency": {
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": "",
-      "sunday": ""
-    },
-    "hours": {
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": "",
-      "sunday": ""
-    }
-  },
-  {
-    "name": "",
-    "location": "",
-    "city": "",
-    "zip": "",
-    "lat": null,
-    "lng": null,
-    "phone": "",
-    "type": "",
-    "schedule": "",
-    "eligibility": "",
-    "notes": "",
-    "monday": false,
-    "tuesday": false,
-    "wednesday": false,
-    "thursday": false,
-    "friday": false,
-    "saturday": false,
-    "sunday": false,
-    "frequency": {
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": "",
-      "sunday": ""
-    },
-    "hours": {
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": "",
-      "sunday": ""
-    }
-  },
-  {
-    "name": "",
-    "location": "",
-    "city": "",
-    "zip": "",
-    "lat": null,
-    "lng": null,
-    "phone": "",
-    "type": "",
-    "schedule": "",
-    "eligibility": "",
-    "notes": "",
-    "monday": false,
-    "tuesday": false,
-    "wednesday": false,
-    "thursday": false,
-    "friday": false,
-    "saturday": false,
-    "sunday": false,
-    "frequency": {
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": "",
-      "sunday": ""
-    },
-    "hours": {
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": "",
-      "sunday": ""
-    }
-  },
-  {
-    "name": "",
-    "location": "",
-    "city": "",
-    "zip": "",
-    "lat": null,
-    "lng": null,
-    "phone": "",
-    "type": "",
-    "schedule": "",
-    "eligibility": "",
-    "notes": "",
-    "monday": false,
-    "tuesday": false,
-    "wednesday": false,
-    "thursday": false,
-    "friday": false,
-    "saturday": false,
-    "sunday": false,
-    "frequency": {
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": "",
-      "sunday": ""
-    },
-    "hours": {
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": "",
-      "sunday": ""
-    }
-  },
-  {
-    "name": "",
-    "location": "",
-    "city": "",
-    "zip": "",
-    "lat": null,
-    "lng": null,
-    "phone": "",
-    "type": "",
-    "schedule": "",
-    "eligibility": "",
-    "notes": "",
-    "monday": false,
-    "tuesday": false,
-    "wednesday": false,
-    "thursday": false,
-    "friday": false,
-    "saturday": false,
-    "sunday": false,
-    "frequency": {
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": "",
-      "sunday": ""
-    },
-    "hours": {
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": "",
-      "sunday": ""
-    }
-  },
-  {
-    "name": "",
-    "location": "",
-    "city": "",
-    "zip": "",
-    "lat": null,
-    "lng": null,
-    "phone": "",
-    "type": "",
-    "schedule": "",
-    "eligibility": "",
-    "notes": "",
-    "monday": false,
-    "tuesday": false,
-    "wednesday": false,
-    "thursday": false,
-    "friday": false,
-    "saturday": false,
-    "sunday": false,
-    "frequency": {
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": "",
-      "sunday": ""
-    },
-    "hours": {
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": "",
-      "sunday": ""
-    }
-  },
-  {
-    "name": "",
-    "location": "",
-    "city": "",
-    "zip": "",
-    "lat": null,
-    "lng": null,
-    "phone": "",
-    "type": "",
-    "schedule": "",
-    "eligibility": "",
-    "notes": "",
-    "monday": false,
-    "tuesday": false,
-    "wednesday": false,
-    "thursday": false,
-    "friday": false,
-    "saturday": false,
-    "sunday": false,
-    "frequency": {
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": "",
-      "sunday": ""
-    },
-    "hours": {
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": "",
-      "sunday": ""
-    }
-  },
-  {
-    "name": "",
-    "location": "",
-    "city": "",
-    "zip": "",
-    "lat": null,
-    "lng": null,
-    "phone": "",
-    "type": "",
-    "schedule": "",
-    "eligibility": "",
-    "notes": "",
-    "monday": false,
-    "tuesday": false,
-    "wednesday": false,
-    "thursday": false,
-    "friday": false,
-    "saturday": false,
-    "sunday": false,
-    "frequency": {
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": "",
-      "sunday": ""
-    },
-    "hours": {
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": "",
-      "sunday": ""
-    }
-  },
-  {
-    "name": "",
-    "location": "",
-    "city": "",
-    "zip": "",
-    "lat": null,
-    "lng": null,
-    "phone": "",
-    "type": "",
-    "schedule": "",
-    "eligibility": "",
-    "notes": "",
-    "monday": false,
-    "tuesday": false,
-    "wednesday": false,
-    "thursday": false,
-    "friday": false,
-    "saturday": false,
-    "sunday": false,
-    "frequency": {
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": "",
-      "sunday": ""
-    },
-    "hours": {
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": "",
-      "sunday": ""
-    }
-  },
-  {
-    "name": "",
-    "location": "",
-    "city": "",
-    "zip": "",
-    "lat": null,
-    "lng": null,
-    "phone": "",
-    "type": "",
-    "schedule": "",
-    "eligibility": "",
-    "notes": "",
-    "monday": false,
-    "tuesday": false,
-    "wednesday": false,
-    "thursday": false,
-    "friday": false,
-    "saturday": false,
-    "sunday": false,
-    "frequency": {
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": "",
-      "sunday": ""
-    },
-    "hours": {
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": "",
-      "sunday": ""
-    }
-  },
-  {
-    "name": "",
-    "location": "",
-    "city": "",
-    "zip": "",
-    "lat": null,
-    "lng": null,
-    "phone": "",
-    "type": "",
-    "schedule": "",
-    "eligibility": "",
-    "notes": "",
-    "monday": false,
-    "tuesday": false,
-    "wednesday": false,
-    "thursday": false,
-    "friday": false,
-    "saturday": false,
-    "sunday": false,
-    "frequency": {
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": "",
-      "sunday": ""
-    },
-    "hours": {
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": "",
-      "sunday": ""
-    }
-  },
-  {
-    "name": "",
-    "location": "",
-    "city": "",
-    "zip": "",
-    "lat": null,
-    "lng": null,
-    "phone": "",
-    "type": "",
-    "schedule": "",
-    "eligibility": "",
-    "notes": "",
-    "monday": false,
-    "tuesday": false,
-    "wednesday": false,
-    "thursday": false,
-    "friday": false,
-    "saturday": false,
-    "sunday": false,
-    "frequency": {
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": "",
-      "sunday": ""
-    },
-    "hours": {
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": "",
-      "sunday": ""
-    }
-  },
-  {
-    "name": "",
-    "location": "",
-    "city": "",
-    "zip": "",
-    "lat": null,
-    "lng": null,
-    "phone": "",
-    "type": "",
-    "schedule": "",
-    "eligibility": "",
-    "notes": "",
-    "monday": false,
-    "tuesday": false,
-    "wednesday": false,
-    "thursday": false,
-    "friday": false,
-    "saturday": false,
-    "sunday": false,
-    "frequency": {
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
-      "saturday": "",
-      "sunday": ""
-    },
-    "hours": {
-      "monday": "",
-      "tuesday": "",
-      "wednesday": "",
-      "thursday": "",
-      "friday": "",
+      "friday": "9:00 AM - 11:00 AM",
       "saturday": "",
       "sunday": ""
     }
