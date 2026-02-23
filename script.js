@@ -5,6 +5,8 @@
         let markers = [];
         let currentView = 'list';
         let todayFilterActive = false;
+        let tomorrowFilterActive = false;
+        let thisWeekFilterActive = false;
 
         const dayNames = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday'];
         const today = dayNames[new Date().getDay()];
@@ -53,6 +55,64 @@
             if (patterns.includes(occurrence.toString())) return true;
             
             return false;
+        }
+
+        // Check if a location is open tomorrow based on frequency
+        function isOpenTomorrow(location) {
+            const tomorrowDate = new Date();
+            tomorrowDate.setDate(tomorrowDate.getDate() + 1);
+            const dayName = dayNames[tomorrowDate.getDay()];
+
+            if (!location[dayName]) return false;
+
+            const frequency = location.frequency && location.frequency[dayName];
+            if (!frequency || frequency === '') return true;
+            if (frequency.toLowerCase() === 'weekly') return true;
+
+            const { occurrence, isLast } = getWeekOfMonth(tomorrowDate);
+
+            if (frequency.toLowerCase().includes('last') && isLast) return true;
+
+            const patterns = frequency.split(',').map(p => p.trim().toLowerCase());
+            const occurrenceStr = ['', '1st', '2nd', '3rd', '4th', '5th'][occurrence];
+            if (patterns.includes(occurrenceStr)) return true;
+            if (patterns.includes(occurrence.toString())) return true;
+
+            return false;
+        }
+
+        // Check if a location is open on any remaining day this week (today through Sunday)
+        function isOpenThisWeek(location) {
+            const todayIndex = new Date().getDay(); // 0=Sun, 1=Mon ... 6=Sat
+
+            // Build day indices from today through Saturday, then append Sunday (0) at the end
+            // unless today is already Sunday, in which case Sunday is already covered
+            const remainingDayIndices = [];
+            for (let i = todayIndex; i <= 6; i++) remainingDayIndices.push(i);
+            if (todayIndex !== 0) remainingDayIndices.push(0); // Sunday comes after Saturday
+
+            return remainingDayIndices.some((dayIndex, offset) => {
+                const checkDate = new Date();
+                checkDate.setDate(checkDate.getDate() + offset);
+                const dayName = dayNames[dayIndex];
+
+                if (!location[dayName]) return false;
+
+                const frequency = location.frequency && location.frequency[dayName];
+                if (!frequency || frequency === '') return true;
+                if (frequency.toLowerCase() === 'weekly') return true;
+
+                const { occurrence, isLast } = getWeekOfMonth(checkDate);
+
+                if (frequency.toLowerCase().includes('last') && isLast) return true;
+
+                const patterns = frequency.split(',').map(p => p.trim().toLowerCase());
+                const occurrenceStr = ['', '1st', '2nd', '3rd', '4th', '5th'][occurrence];
+                if (patterns.includes(occurrenceStr)) return true;
+                if (patterns.includes(occurrence.toString())) return true;
+
+                return false;
+            });
         }
 
         async function loadLocations() {
@@ -217,6 +277,16 @@
                     if (!isOpenToday(loc)) return false;
                 }
 
+                // Filter by "Open Tomorrow" if active
+                if (tomorrowFilterActive) {
+                    if (!isOpenTomorrow(loc)) return false;
+                }
+
+                // Filter by "Open This Week" if active
+                if (thisWeekFilterActive) {
+                    if (!isOpenThisWeek(loc)) return false;
+                }
+
                 // Filter by selected days
                 if (selectedDays.size > 0) {
                     const hasSelectedDay = Array.from(selectedDays).some(day => loc[day]);
@@ -242,6 +312,8 @@
             selectedDays.clear();
             searchQuery = '';
             todayFilterActive = false;
+            tomorrowFilterActive = false;
+            thisWeekFilterActive = false;
             document.getElementById('searchBox').value = '';
             document.querySelectorAll('.day-btn').forEach(btn => btn.classList.remove('active'));
             renderLocations();
@@ -268,6 +340,18 @@
         function selectToday() {
             resetFilters();
             todayFilterActive = true;
+            renderLocations();
+        }
+
+        function selectTomorrow() {
+            resetFilters();
+            tomorrowFilterActive = true;
+            renderLocations();
+        }
+
+        function selectThisWeek() {
+            resetFilters();
+            thisWeekFilterActive = true;
             renderLocations();
         }
 

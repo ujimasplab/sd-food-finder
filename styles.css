@@ -26,9 +26,23 @@
             margin-bottom: 0.3rem;
         }
 
-        .header p {
-            font-size: 1rem;
-            opacity: 0.9;
+        .feedback-btn {
+            display: inline-block;
+            margin-top: 0.75rem;
+            padding: 0.5rem 1.25rem;
+            background: rgba(255, 255, 255, 0.15);
+            color: white;
+            border: 2px solid rgba(255, 255, 255, 0.6);
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.2s ease;
+        }
+
+        .feedback-btn:hover {
+            background: rgba(255, 255, 255, 0.3);
+            border-color: white;
         }
 
         .container {
