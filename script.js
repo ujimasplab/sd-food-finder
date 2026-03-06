@@ -462,31 +462,38 @@ document.getElementById('sortSelect').addEventListener('change', function(e) {
     sortLocations(e.target.value);
 });
 
-// WCAG 4.1.2: view toggle buttons update aria-pressed to reflect state
-document.getElementById('listViewBtn').addEventListener('click', function() {
-    currentView = 'list';
-    document.getElementById('listView').style.display = 'grid';
-    document.getElementById('mapView').style.display = 'none';
-    this.classList.add('active');
-    this.setAttribute('aria-pressed', 'true');
-    document.getElementById('mapViewBtn').classList.remove('active');
-    document.getElementById('mapViewBtn').setAttribute('aria-pressed', 'false');
-    renderLocations();
-});
+// WCAG 4.1.2: view toggle buttons - guarded in case map view is disabled
+const listViewBtn = document.getElementById('listViewBtn');
+const mapViewBtn = document.getElementById('mapViewBtn');
 
-document.getElementById('mapViewBtn').addEventListener('click', function() {
-    currentView = 'map';
-    document.getElementById('listView').style.display = 'none';
-    document.getElementById('mapView').style.display = 'block';
-    this.classList.add('active');
-    this.setAttribute('aria-pressed', 'true');
-    document.getElementById('listViewBtn').classList.remove('active');
-    document.getElementById('listViewBtn').setAttribute('aria-pressed', 'false');
-    renderLocations();
-    if (map) {
-        setTimeout(() => map.invalidateSize(), 100);
-    }
-});
+if (listViewBtn) {
+    listViewBtn.addEventListener('click', function() {
+        currentView = 'list';
+        document.getElementById('listView').style.display = 'grid';
+        document.getElementById('mapView').style.display = 'none';
+        this.classList.add('active');
+        this.setAttribute('aria-pressed', 'true');
+        mapViewBtn.classList.remove('active');
+        mapViewBtn.setAttribute('aria-pressed', 'false');
+        renderLocations();
+    });
+}
+
+if (mapViewBtn) {
+    mapViewBtn.addEventListener('click', function() {
+        currentView = 'map';
+        document.getElementById('listView').style.display = 'none';
+        document.getElementById('mapView').style.display = 'block';
+        this.classList.add('active');
+        this.setAttribute('aria-pressed', 'true');
+        listViewBtn.classList.remove('active');
+        listViewBtn.setAttribute('aria-pressed', 'false');
+        renderLocations();
+        if (map) {
+            setTimeout(() => map.invalidateSize(), 100);
+        }
+    });
+}
 
 // Initialize
 loadLocations();
