@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>San Diego Food Distribution Finder</title>
 
-    <!-- Leaflet CSS -->
+    <!-- Leaflet CSS - commented out, restore to re-enable map
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    -->
 
     <!-- Your CSS -->
     <link rel="stylesheet" href="styles.css">
@@ -20,7 +21,7 @@
         <!-- WCAG 1.1.1: aria-hidden on decorative emoji -->
         <h1><span aria-hidden="true">🍎</span> San Diego Food Distribution Finder</h1>
         <p>Find free food distributions near you, filter by day and location</p>
-        <p>This is maintained by a group of volunteers and not the official website. Send inquiries to designstudyresearchers@gmail.com</p>
+        <p>This is maintained by a group of volunteers and not the official website. Send inquiries to <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="0b6f6e78626c65787f7e6f72796e786e6a7968636e79784b6c666a626725686466">[email&#160;protected]</a></p>
         <!-- WCAG 1.1.1: aria-label describes purpose, hides emoji from screen reader -->
         <a href="https://forms.gle/d1TJ16WVW3A3PTbG9"
            target="_blank"
@@ -97,8 +98,8 @@
             </div>
         </nav>
 
+        <!-- MAP VIEW TOGGLE - commented out, restore to re-enable map
         <div class="view-toggle" role="group" aria-label="View mode">
-            <!-- WCAG 4.1.2: aria-pressed for toggle state, aria-hidden on emoji -->
             <button id="listViewBtn"
                     aria-pressed="true"
                     onclick="switchToList()">
@@ -110,6 +111,7 @@
                 <span aria-hidden="true">🗺️</span> Map View
             </button>
         </div>
+        -->
 
         <div class="results-header">
             <!-- WCAG 4.1.3: aria-live announces dynamic result count to screen readers -->
@@ -132,10 +134,12 @@
             <div class="loading">Loading food distribution locations...</div>
         </div>
 
+        <!-- MAP VIEW DIV - commented out, restore to re-enable map
         <div id="mapView"
              role="application"
              aria-label="Interactive map of food distribution locations">
         </div>
+        -->
 
     </main>
 
@@ -148,8 +152,9 @@
         <p style="margin-top: 1rem; font-size: 0.8rem;">Last updated: <span id="lastUpdated">-</span></p>
     </footer>
 
-    <!-- Leaflet JS -->
+    <!-- Leaflet JS - commented out, restore to re-enable map
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    -->
 
     <!-- Your JS -->
     <script src="script.js"></script>
