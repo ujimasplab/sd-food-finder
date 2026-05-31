@@ -120,7 +120,7 @@ function isOpenThisWeek(location) {
 // (Deploy > New Deployment > Web App in Apps Script editor)
 // Keep the ?cachebust= part — it forces fresh data every load.
 // ============================================================
-const DATA_URL = 'https://script.google.com/macros/s/YOUR_DEPLOYMENT_ID_HERE/exec';
+const DATA_URL = 'https://script.google.com/macros/s/AKfycbzCDXtZIvgv7DUoWlF5INadvVJnf8BiyfF4MFYJ1v6Web6Dla0iOKBVcq6KVo3ZmdEkgQ/exec';
 
 async function loadLocations() {
     // Add cache-busting so browsers don't serve stale data
